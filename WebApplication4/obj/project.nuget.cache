@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1M+jToDtrFj5PkpURkMuNy+gmVQUHW81ghnkTDeMG34V7AmbNYC8fQnOWYjns18C3BvuC6buP7Krcxb+lzTt1Q==",
+  "dgSpecHash": "ec/CIMYukVx+ggNLjqvaWwYonGdy+kDcr4uSf9R+WtjFHGFDms0xHRvLKYoXDkNHJa2JOBIhE5JWKVNbgskmEg==",
   "success": true,
-  "projectFilePath": "G:\\Monambike\\MonambikeWebsite\\WebApplication4\\Monambike.Web.csproj",
+  "projectFilePath": "G:\\monambike.github.io_blazor\\WebApplication4\\Monambike.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.17\\microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.17\\microsoft.aspnetcore.components.5.0.17.nupkg.sha512",

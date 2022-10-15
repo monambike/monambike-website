@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Monambike\\MonambikeWebsite\\WebApplication4\\Monambike.Web.csproj": {}
+    "G:\\monambike.github.io_blazor\\WebApplication4\\Monambike.Web.csproj": {}
   },
   "projects": {
-    "G:\\Monambike\\MonambikeWebsite\\WebApplication4\\Monambike.Web.csproj": {
+    "G:\\monambike.github.io_blazor\\WebApplication4\\Monambike.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Monambike\\MonambikeWebsite\\WebApplication4\\Monambike.Web.csproj",
+        "projectUniqueName": "G:\\monambike.github.io_blazor\\WebApplication4\\Monambike.Web.csproj",
         "projectName": "Monambike.Web",
-        "projectPath": "G:\\Monambike\\MonambikeWebsite\\WebApplication4\\Monambike.Web.csproj",
+        "projectPath": "G:\\monambike.github.io_blazor\\WebApplication4\\Monambike.Web.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "G:\\Monambike\\MonambikeWebsite\\WebApplication4\\obj\\",
+        "outputPath": "G:\\monambike.github.io_blazor\\WebApplication4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

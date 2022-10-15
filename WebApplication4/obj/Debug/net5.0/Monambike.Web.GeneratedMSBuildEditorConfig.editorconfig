@@ -10,4 +10,4 @@ build_property.EnableSingleFileAnalyzer =
 build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Monambike.Web
-build_property.ProjectDir = G:\Monambike\MonambikeWebsite\WebApplication4\
+build_property.ProjectDir = G:\monambike.github.io_blazor\WebApplication4\
