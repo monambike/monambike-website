@@ -1,0 +1,13 @@
+.site-section--values { background-color: $color-dark-blue-purple; }
+.column-title { font-size: $font-size-h3; text-align: center; }
+.myvalues__extern-column { 
+  background-color: $color-blue-purple;
+  color: $color-white;
+  box-shadow: 5px 5px $color-white-blue-purple;
+}
+.myvalues__intern-column { 
+  background-color: $color-white-blue-purple;
+  box-shadow: 5px 5px $color-bright-blue-purple;
+  color: $color-black;
+}
+.topic-body--values { overflow: auto; }
