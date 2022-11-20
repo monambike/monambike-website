@@ -1,6 +1,6 @@
 ﻿namespace Monambike.WebAPI.Data.Media
 {
-    public class Movie
+    public class Movie : Media
     {
     }
 }
