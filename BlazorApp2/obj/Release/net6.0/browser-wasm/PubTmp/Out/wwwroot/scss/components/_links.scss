@@ -1,0 +1,7 @@
+@use '../abstract/variables/colors';
+
+a {
+  color: $color-white; transition: 0.25s;
+  
+  a:hover { color: $color-blue-purple; }
+}

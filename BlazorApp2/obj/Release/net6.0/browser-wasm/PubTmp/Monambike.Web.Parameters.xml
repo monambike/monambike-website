@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="monambike" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^G:\\monambike\.github\.io_blazor\\BlazorApp2\\obj\\Release\\net6\.0\\browser-wasm\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

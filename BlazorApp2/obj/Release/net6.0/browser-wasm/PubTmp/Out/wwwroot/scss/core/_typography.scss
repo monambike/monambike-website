@@ -1,0 +1,10 @@
+@use '../abstract/variables/fonts';
+
+* { font-family: fonts.$font-family-default }
+
+p {
+  font-size: 16pt;
+  text-align: justify;
+  margin: 10px;
+  word-break: break-all;
+}

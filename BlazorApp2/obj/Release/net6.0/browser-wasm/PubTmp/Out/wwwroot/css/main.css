@@ -1,0 +1,279 @@
+@import url("../../../resources/fonts/PermanentMarker-Regular.ttf");
+@import url("../../../resources/fonts/PermanentMarker-Regular.ttf");
+@import url("../../../resources/fonts/PermanentMarker-Regular.ttf");
+.three-columns {
+  float: left;
+  width: 30%;
+}
+.three-columns__extern-columns {
+  margin: 0px 2.5% 0px 2.5%;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  border: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  margin: 0px;
+}
+
+* {
+  font-family: "Permanent Marker", cursive;
+}
+
+p {
+  font-size: 16pt;
+  text-align: justify;
+  margin: 10px;
+  word-break: break-all;
+}
+
+img {
+  max-width: 100%;
+  transition: 0.5s;
+}
+img:hover {
+  transform: scale(1.05);
+}
+
+figcaption {
+  transition: 0.25s;
+}
+
+img:hover + figcaption {
+  opacity: 0;
+}
+
+figure {
+  border-left: 18px double rgb(120, 20, 220);
+  width: auto;
+}
+
+figcaption {
+  color: rgb(120, 20, 220);
+  text-align: center;
+}
+
+a {
+  color: rgb(230, 230, 230);
+  transition: 0.25s;
+}
+a a:hover {
+  color: rgb(95, 50, 155);
+}
+
+select {
+  background-color: rgb(30, 30, 30);
+  color: rgb(230, 230, 230);
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.1s;
+}
+select:hover {
+  background-color: rgb(40, 40, 40);
+}
+select:active {
+  background-color: rgb(30, 30, 30);
+}
+select option {
+  background-color: rgb(77, 18, 161);
+  color: rgb(255, 255, 255);
+  transition: 2s;
+}
+
+.footer {
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  flex-direction: column;
+}
+.footer__links {
+  padding: 40px 0px 40px 0px;
+}
+
+.three-columns__title {
+  margin: 10px;
+}
+
+.three-columns--footer {
+  border-top: 6px solid rgb(40, 40, 40);
+  margin: 0px 10% 0px 10%;
+  padding: 20px;
+}
+
+.three-columns__footer-links-title {
+  color: rgb(144, 100, 202);
+}
+
+.three-columns__footer-links-body {
+  margin-top: 20px;
+}
+
+.three-columns__footer-links-item {
+  margin: 5px 0px 5px 0px;
+}
+
+.footer__description {
+  background-color: rgb(15, 15, 15);
+  padding: 20px;
+  text-align: center;
+}
+
+.small-text {
+  color: rgb(230, 230, 230);
+  margin: 20px 0px 20px 0px;
+}
+
+.site-section--about {
+  background-color: rgb(230, 230, 230);
+}
+
+.karen-kujou-staring-happy {
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 20px;
+}
+
+.site-section--contact {
+  background-color: rgb(230, 230, 230);
+}
+
+.iframe-import-section {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.body-page {
+  background: url(/resources/images/wallpaper_code.jpg) no-repeat fixed center/cover;
+  color: rgb(30, 30, 30);
+}
+
+.site-section {
+  padding: 10px 0px 10px 0px;
+  min-height: 40vh;
+}
+.site-section__title {
+  color: rgb(230, 230, 230);
+  font-size: 34pt;
+  text-shadow: 2px 2px rgb(15, 15, 15);
+  padding: 20px;
+  text-align: center;
+}
+.site-section__body {
+  padding: 20px;
+}
+
+.site-section__name-and-profession {
+  background-color: rgb(77, 18, 161);
+  display: flex;
+  height: 85vh;
+}
+
+.site-section__name-and-profession {
+  padding-left: 20px;
+}
+
+.my-name-and-profession {
+  align-self: center;
+  height: 50%;
+  width: 100%;
+}
+.my-name-and-profession__name {
+  color: rgb(230, 230, 230);
+  font-size: 5vw;
+  text-shadow: 5px 5px rgb(95, 50, 155);
+  align-self: flex-end;
+  text-align: left;
+}
+.my-name-and-profession__profession {
+  color: rgb(230, 230, 230);
+  font-size: 4vw;
+  text-shadow: 2px 2px rgb(95, 50, 155);
+}
+
+.my-name-and-profession--name {
+  display: flex;
+}
+
+.site-section--social-media {
+  background-color: rgb(95, 50, 155);
+}
+
+.social-media {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.social-media--right {
+  color: rgb(15, 15, 15);
+  background-color: rgb(230, 230, 230);
+}
+.social-media--right * {
+  text-align: right;
+}
+.social-media--left {
+  color: rgb(230, 230, 230);
+  background-color: rgb(144, 100, 202);
+}
+.social-media--left * {
+  text-align: left;
+}
+
+.site-section--values {
+  background-color: rgb(77, 18, 161);
+}
+
+.column-title {
+  font-size: 20pt;
+  text-align: center;
+}
+
+.myvalues__extern-column {
+  background-color: rgb(95, 50, 155);
+  color: rgb(230, 230, 230);
+  box-shadow: 5px 5px rgb(227, 222, 236);
+}
+
+.myvalues__intern-column {
+  background-color: rgb(227, 222, 236);
+  box-shadow: 5px 5px rgb(144, 100, 202);
+  color: rgb(15, 15, 15);
+}
+
+.topic-body--values {
+  overflow: auto;
+}
+
+.warning {
+  background-color: rgb(200, 20, 20);
+  color: rgb(230, 230, 230);
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

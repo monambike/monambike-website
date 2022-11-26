@@ -8,12 +8,8 @@
 
         public string Title { get; set; }
 
-        public ConsumeStatus ConsumeStatus { get; set; }
-
-        public string Status => GetConsumeStatus();
-
-        public abstract string GetConsumeStatus();
+        public Status Status { get; set; }
     }
 
-    public enum ConsumeStatus { Already, Current, WantTo }
+    public enum Status { Already, Current, WantTo }
 }
