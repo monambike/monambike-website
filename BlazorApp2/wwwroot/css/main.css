@@ -1,6 +1,3 @@
-@import url("../../../resources/fonts/PermanentMarker-Regular.ttf");
-@import url("../../../resources/fonts/PermanentMarker-Regular.ttf");
-@import url("../../../resources/fonts/PermanentMarker-Regular.ttf");
 .three-columns {
   float: left;
   width: 30%;
@@ -45,7 +42,7 @@ li {
 }
 
 * {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Arial", sans-serif;
 }
 
 p {

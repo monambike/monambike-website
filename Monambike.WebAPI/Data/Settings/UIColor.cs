@@ -1,8 +1,8 @@
 ﻿using System.Drawing;
 
-namespace Monambike.WebAPI
+namespace Monambike.WebAPI.Data
 {
-    public class UI_Color
+    public class UIColor
     {
         public Color Color1 { get; set; }
 

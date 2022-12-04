@@ -15,7 +15,6 @@
     <Content Remove="wwwroot\images\contact\outlook.png" />
     <Content Remove="wwwroot\images\contact\whatsapp.png" />
     <Content Remove="wwwroot\images\favicon.ico" />
-    <Content Remove="wwwroot\images\karen-kujou\announcement.webp" />
     <Content Remove="wwwroot\images\karen-kujou\cat-ears.gif" />
     <Content Remove="wwwroot\images\karen-kujou\determined.gif" />
     <Content Remove="wwwroot\images\karen-kujou\hair-flip.gif" />
@@ -45,7 +44,6 @@
     <None Include="wwwroot\images\contact\outlook.png" />
     <None Include="wwwroot\images\contact\whatsapp.png" />
     <None Include="wwwroot\images\favicon.ico" />
-    <None Include="wwwroot\images\karen-kujou\announcement.webp" />
     <None Include="wwwroot\images\karen-kujou\cat-ears.gif" />
     <None Include="wwwroot\images\karen-kujou\determined.gif" />
     <None Include="wwwroot\images\karen-kujou\hair-flip.gif" />
@@ -72,6 +70,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Update="wwwroot\favicon.ico">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
@@ -80,6 +86,13 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

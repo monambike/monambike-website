@@ -1,4 +1,4 @@
-﻿namespace Monambike.WebAPI.Data.Dictionary
+﻿namespace Monambike.WebAPI.Data
 {
     public class Dictionary
     {

@@ -1,6 +1,6 @@
-@use '../abstract/variables/fonts';
+@import '../abstract/variables/_fonts.scss';
 
-* { font-family: fonts.$font-family-default }
+* { font-family: $font-family-default }
 
 p {
   font-size: 16pt;

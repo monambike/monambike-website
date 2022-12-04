@@ -1,4 +1,4 @@
-﻿namespace Monambike.WebAPI
+﻿namespace Monambike.WebAPI.Data
 {
     public class Game : Media
     {

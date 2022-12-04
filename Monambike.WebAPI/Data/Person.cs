@@ -1,4 +1,4 @@
-﻿namespace Monambike.WebAPI
+﻿namespace Monambike.WebAPI.Data
 {
     public class Person
     {
@@ -41,5 +41,7 @@
         private int CountryCode => Country.CountryCode;
 
         public string PhoneNumber { get; set; }
+
+        public string FullPhoneNumber => $"+{CountryCode} {PhoneNumber}";
     }
 }
