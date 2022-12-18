@@ -1,5 +1,5 @@
-@use '../../abstract/variables/colors';
-@use '../../abstract/variables/fonts';
+@import '../../abstract/variables/_colors.scss';
+@import '../../abstract/variables/_fonts.scss';
 
 .iframe-import-section {
   height: 100%;

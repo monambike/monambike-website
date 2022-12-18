@@ -1,4 +1,6 @@
-﻿namespace Monambike.WebAPI.Data
+﻿using System.Collections.Generic;
+
+namespace Monambike.WebAPI.Data
 {
     public class Dictionary
     {

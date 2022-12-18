@@ -1,27 +1,28 @@
 // Abstract files
-@import "abstract/mixins";
-@import "abstract/variables/colors";
-@import "abstract/variables/fonts";
+@import "abstract/_mixins.scss";
+@import "abstract/variables/_colors.scss";
+@import "abstract/variables/_fonts.scss";
 
 // Core files
-@import "core/reset";
-@import "core/typography";
+@import "core/_reset.scss";
+@import "core/_typography.scss";
 
 // Components
-@import "components/images";
-@import "components/links";
-@import "components/select";
+@import "components/_images.scss";
+@import "components/_links.scss";
+@import "components/_select.scss";
 
 // Layout
-@import "layout/footer";
-@import "layout/header";
-@import "layout/navigation";
+@import "layout/_footer.scss";
+@import "layout/_header.scss";
+@import "layout/_navigation.scss";
 
 // Pages
-@import "pages/index/about-me";
-@import "pages/index/contact";
-@import "pages/index/index";
-@import "pages/index/name-and-profession";
-@import "pages/index/social-media";
-@import "pages/index/values";
-@import "pages/index/warning";
+// Index
+@import "pages/index/_about-me.scss";
+@import "pages/index/_contact.scss";
+@import "pages/index/_index.scss";
+@import "pages/index/_name-and-profession.scss";
+@import "pages/index/_social-media.scss";
+@import "pages/index/_values.scss";
+@import "pages/index/_warning.scss";

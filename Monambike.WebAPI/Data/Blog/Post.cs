@@ -1,4 +1,7 @@
-﻿namespace Monambike.WebAPI.Data
+﻿using System;
+using System.Collections.Generic;
+
+namespace Monambike.WebAPI.Data
 {
     public class Post
     {

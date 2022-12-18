@@ -1,4 +1,6 @@
-﻿namespace Monambike.WebAPI.Data
+﻿using System;
+
+namespace Monambike.WebAPI.Data
 {
     public class Person
     {
