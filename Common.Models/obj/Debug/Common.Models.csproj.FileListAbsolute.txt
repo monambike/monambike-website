@@ -1,6 +1,0 @@
-G:\monambike.github.io_blazor\Common.Models\bin\Debug\ComfyZone.Models.dll
-G:\monambike.github.io_blazor\Common.Models\bin\Debug\ComfyZone.Models.pdb
-G:\monambike.github.io_blazor\Common.Models\obj\Debug\Common.Models.csproj.AssemblyReference.cache
-G:\monambike.github.io_blazor\Common.Models\obj\Debug\Common.Models.csproj.CoreCompileInputs.cache
-G:\monambike.github.io_blazor\Common.Models\obj\Debug\ComfyZone.Models.dll
-G:\monambike.github.io_blazor\Common.Models\obj\Debug\ComfyZone.Models.pdb

@@ -1,4 +1,6 @@
-﻿<header>
+﻿@*@using Monambike.Web
+
+<header>
     <nav>
         <ul class="ul-navigation">
             <li><a href="/" target="_top">Início</a></li>
@@ -18,7 +20,7 @@
         <!-- Language Dropdown -->
         <ul id="ul-dropdown-language" class="@NavMenuCssClass ul-dropdown" style="display: none;">
             
-            @*@foreach (var forecast in forecasts)
+            @foreach (var forecast in forecasts)
             {
                 <tr>
                     <td>@forecast.Date.ToShortDateString()</td>
@@ -29,7 +31,7 @@
             }
             @code{
                 Monambike.Web
-            }*@
+            }
             <li onmousedown="changePageLanguageByLanguageDropdown('pt-BR')"><a href="#">PT&nbsp;(BR)</a></li>
             <li onmousedown="changePageLanguageByLanguageDropdown('en-US')"><a href="#">EN&nbsp;(US)</a></li>
             <li onmousedown="changePageLanguageByLanguageDropdown('es-ES')"><a href="#">ES&nbsp;(ES)</a></li>
@@ -46,3 +48,4 @@
         }
     </nav>
 </header>
+*@

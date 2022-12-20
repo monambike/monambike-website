@@ -1,7 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Monambike.WebAPI.Models.Dictionary;
+using Monambike.WebAPI.Services;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Monambike.WebAPI.Controllers
 {
@@ -11,19 +15,19 @@ namespace Monambike.WebAPI.Controllers
     {
         private readonly ILogger<DictionaryController> _logger;
 
+        private readonly Services.IDictionaryService _dictionaryService;
+
+        public DictionaryController(Services.IDictionaryService dictionaryService)
+        {
+            _dictionaryService = dictionaryService;
+        }
+
         public DictionaryController(ILogger<DictionaryController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetDictionary")]
-        public IEnumerable<Data.Dictionary> Get()
-        {
-            return Enumerable.Range(1, 5).Select(index => new Data.Dictionary
-            {
-                Words = new List<Data.Word>()
-            })
-            .ToArray();
-        }
+        [HttpGet]
+        public async Task<ActionResult<Dictionary>> GetDictionaryWords() => Ok(_dictionaryService.GetDictionaryWords());
     }
 }

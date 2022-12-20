@@ -1,34 +1,36 @@
-﻿<footer class="footer">
+﻿@using Monambike.Web.Data;
+
+<footer class="footer">
     <div class="footer__links">
         <div class="three-columns--footer">
             <div class="three-columns three-columns__extern-columns">
                 <span class="three-columns__footer-links-title"><b>OUTROS</b></span>
                 <ul class="three-columns__footer-links-body">
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://www.instagram.com/monambike/">Meus Desenhos e Fotos</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://www.youtube.com/user/monambike">Meus Vídeos</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://www.tiktok.com/monambike">Meus Vídeos Curtos</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://www.youtube.com/user/monambike">Músicas que eu Gosto</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@SocialMediaLinks.Instagram">Meus Desenhos e Fotos</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@SocialMediaLinks.Youtube">Meus Vídeos</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@SocialMediaLinks.TikTok">Meus Vídeos Curtos</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@SocialMediaLinks.Spotify">Músicas que eu Gosto</a></li>
                 </ul>
             </div>
             <div class="three-columns three-columns__intern-column">
                 <span class="three-columns__footer-links-title"><b>ME ENCONTRE TAMBÉM AQUI</b></span>
                 <ul class="three-columns__footer-links-body">
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/monambike">Linkedin</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://www.youtube.com/user/monambike">YouTube</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://twitter.com/Monambike">Twitter</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://steamcommunity.com/id/monambike">Steam</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://www.github.com/monambike/">Github</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@SocialMediaLinks.Linkedin">Linkedin</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@SocialMediaLinks.Youtube">YouTube</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@SocialMediaLinks.Twitter">Twitter</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@SocialMediaLinks.Steam">Steam</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@SocialMediaLinks.Github">Github</a></li>
                 </ul>
             </div>
             <div class="three-columns three-columns__extern-columnss">
                 <span class="three-columns__footer-links-title"><b>PROJETOS EM DESTAQUE</b></span>
                 <ul class="three-columns__footer-links-body">
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://github.com/users/monambike/projects/3">Project Hanabi</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://github.com/users/monambike/projects/9">KWIJisho</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://github.com/users/monambike/projects/20">ComfyZone</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://github.com/users/monambike/projects/5">Eletrolojinha</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://github.com/users/monambike/projects/6">Restaurantinho LTDA.</a></li>
-                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="https://github.com/users/monambike/projects/8">Meu Perfil</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@GithubProjects.ProjectHanabi">Project Hanabi</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@GithubProjects.KWIJisho">KWIJisho</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@GithubProjects.ComfyZone">ComfyZone</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@GithubProjects.Eletrolojinha">Eletrolojinha</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@GithubProjects.Restaurantinho">Restaurantinho LTDA.</a></li>
+                    <li class="three-columns__footer-links-item"><a target="_blank" rel="nofollow" href="@GithubProjects.MeuPerfil">Meu Perfil</a></li>
                 </ul>
             </div>
         </div>

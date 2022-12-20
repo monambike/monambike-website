@@ -1796,7 +1796,6 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.AspNetCore.Components.Web >= 7.0.1",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.1"
     ]
@@ -1847,10 +1846,6 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": {
-            "target": "Package",
-            "version": "[7.0.1, )"
-          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[7.0.1, )"
