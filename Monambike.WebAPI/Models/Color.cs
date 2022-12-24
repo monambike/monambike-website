@@ -5,12 +5,14 @@ namespace Monambike.WebAPI.Models
 {
     public class Color
     {
+        public Color(string hexadecimalColor) => HexadecimalColor = hexadecimalColor;
+
         private static readonly Regex hexadecimalColorRegex = new Regex(@"^#(?:[0-9a-fA-F]{3}){1,2}$", RegexOptions.Compiled);
         private string hexadecimalColor { get; set; }
         public string HexadecimalColor
         {
             get { return hexadecimalColor; }
-            set
+            private set
             {
                 Match match = hexadecimalColorRegex.Match($"#{value}");
 
