@@ -1,4 +1,6 @@
-﻿namespace Monambike.WebAPI.Models
+﻿using System.Collections.Generic;
+
+namespace Monambike.WebAPI.Models.Location
 {
     public class Country
     {
@@ -13,5 +15,7 @@
         /// Example: Brazil it's "BR".
         /// </summary>
         public string ISOCode { get; set; }
+
+        public List<State> States { get; set; }
     }
 }

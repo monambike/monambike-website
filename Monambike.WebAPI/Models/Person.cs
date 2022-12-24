@@ -1,5 +1,5 @@
-﻿using System;
-using Monambike.WebAPI.Models.Address;
+﻿using Monambike.WebAPI.Models.Location;
+using System;
 
 namespace Monambike.WebAPI.Models
 {

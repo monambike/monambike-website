@@ -6,7 +6,7 @@
 
         public Country Country { get; set; }
 
-        public string State { get; set; }
+        public State State { get; set; }
 
         public string CityProvince { get; set; }
 
