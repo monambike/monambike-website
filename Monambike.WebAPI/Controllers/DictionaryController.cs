@@ -11,23 +11,23 @@ namespace Monambike.WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class DictionaryController : ControllerBase
+    public class WordController : ControllerBase
     {
-        private readonly ILogger<DictionaryController> _logger;
+        private readonly ILogger<WordController> _logger;
 
-        private readonly Services.IDictionaryService _dictionaryService;
+        private readonly Services.IWordService _wordService;
 
-        public DictionaryController(Services.IDictionaryService dictionaryService)
+        public WordController(Services.IWordService wordService)
         {
-            _dictionaryService = dictionaryService;
+            _wordService = wordService;
         }
 
-        public DictionaryController(ILogger<DictionaryController> logger)
+        public WordController(ILogger<WordController> logger)
         {
             _logger = logger;
         }
 
         [HttpGet]
-        public async Task<ActionResult<Dictionary>> GetDictionaryWords() => Ok(_dictionaryService.GetDictionaryWords());
+        public async Task<ActionResult<Word>> GetDictionaryWords() => Ok(_wordService.GetWords());
     }
 }

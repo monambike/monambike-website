@@ -1,5 +1,14 @@
 ﻿namespace Monambike.WebAPI.Models.Publication.Visibility
 {
+    public enum Visibility
+    {
+        Public,
+        Private,
+        JustWithLink,
+        LoggedUsers,
+        SpecificLoggedUsers
+    }
+
     //public abstract class Visibility
     //{
     //    public abstract byte Icon { get; }

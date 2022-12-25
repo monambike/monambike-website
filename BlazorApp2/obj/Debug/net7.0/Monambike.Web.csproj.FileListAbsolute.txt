@@ -1,3 +1,13 @@
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.csproj.AssemblyReference.cache
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.Data.GithubProjects.resources
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.Data.SocialMediaLinks.resources
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.Properties.Resources.resources
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.csproj.GenerateResource.cache
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.GeneratedMSBuildEditorConfig.editorconfig
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.AssemblyInfoInputs.cache
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.AssemblyInfo.cs
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.csproj.CoreCompileInputs.cache
+G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.MvcApplicationPartsAssemblyInfo.cache
 G:\monambike.github.io_blazor\BlazorApp2\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 G:\monambike.github.io_blazor\BlazorApp2\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
 G:\monambike.github.io_blazor\BlazorApp2\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.1.b41t6mhjbv.js
@@ -602,14 +612,6 @@ G:\monambike.github.io_blazor\BlazorApp2\bin\Debug\net7.0\icudt.dat
 G:\monambike.github.io_blazor\BlazorApp2\bin\Debug\net7.0\icudt_CJK.dat
 G:\monambike.github.io_blazor\BlazorApp2\bin\Debug\net7.0\icudt_EFIGS.dat
 G:\monambike.github.io_blazor\BlazorApp2\bin\Debug\net7.0\icudt_no_CJK.dat
-G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.csproj.AssemblyReference.cache
-G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.Properties.Resources.resources
-G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.csproj.GenerateResource.cache
-G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.GeneratedMSBuildEditorConfig.editorconfig
-G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.AssemblyInfoInputs.cache
-G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.AssemblyInfo.cs
-G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.csproj.CoreCompileInputs.cache
-G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.MvcApplicationPartsAssemblyInfo.cache
 G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\build-gz\54MLJpGt.gz
 G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\build-gz\IRH5oUvH.gz
 G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\build-gz\zVJkR40x.gz
@@ -825,4 +827,3 @@ G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.dll
 G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\refint\Monambike.Web.dll
 G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.pdb
 G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\ref\Monambike.Web.dll
-G:\monambike.github.io_blazor\BlazorApp2\obj\Debug\net7.0\Monambike.Web.Data.Links.resources

@@ -1,7 +1,0 @@
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\netcoreapp3.1\Monambike.WebAPI.csproj.AssemblyReference.cache
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\netcoreapp3.1\Monambike.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\netcoreapp3.1\Monambike.WebAPI.AssemblyInfoInputs.cache
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\netcoreapp3.1\Monambike.WebAPI.AssemblyInfo.cs
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\netcoreapp3.1\Monambike.WebAPI.csproj.CoreCompileInputs.cache
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\netcoreapp3.1\Monambike.WebAPI.MvcApplicationPartsAssemblyInfo.cs
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\netcoreapp3.1\Monambike.WebAPI.MvcApplicationPartsAssemblyInfo.cache

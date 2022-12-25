@@ -16,7 +16,7 @@ namespace Monambike.WebAPI.Models.Posting
 
         public List<Topic> Topics { get; set; }
 
-        public Base Visibility { get; set; }
+        public Visibility Visibility { get; set; }
 
 
         [GeneratedRegex("[^a-zA-Z0-9\\ ]+")]
@@ -57,7 +57,5 @@ namespace Monambike.WebAPI.Models.Posting
         public DateTime CreationTime { get; set; }
 
         public List<string> EditHistory { get; set; }
-
-        //public Visibility Visibility { get; set; }
     }
 }
