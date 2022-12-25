@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>G:\monambike.github.io_blazor\BlazorApp2\Properties\PublishProfiles\monambike - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>G:\monambike.github.io_blazor\.github\workflows\monambike.yml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

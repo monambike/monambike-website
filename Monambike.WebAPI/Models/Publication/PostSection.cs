@@ -10,11 +10,6 @@ namespace Monambike.WebAPI.Models.Posting
         /// </summary>
         public string Title { get; set; }
 
-        public List<Body> Body { get; set; } = new List<Body>
-        {
-            new Body("hello my friends"),
-            new Body(0), // Image
-            new Body(new Tip("be careful.."))
-        };
+        public List<Body> Body { get; set; }
     }
 }

@@ -4,7 +4,7 @@
     {
         public override Color Color => new("");
 
-        public override byte Icon => 0;
+        public override byte[] Icon => new byte[0];
 
         public Caution(string content) : base(content) { }
     }

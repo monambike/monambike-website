@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-UH9jptJH1wZ3XMBPuMMAEaUKpfRxc5AgXkLdAFAvNVE=",
       "netstandard.dll": "sha256-+jUzj0FB0YcoBUeSkSNEjhVDTG08qbZ2twfCBMbzT+Q=",
       "System.Private.CoreLib.dll": "sha256-l+\/quNqfNCSUDSMJcp0+IxlSdOdnAtwVVWMXmYGHMpg=",
-      "Monambike.Web.dll": "sha256-Lmcz0uw6xwicSQ59lM45ghJHnC4vub6XxbZQleUg1x0="
+      "Monambike.Web.dll": "sha256-I2qwrpdiNPorrUaIC\/RvWYj9xcxGsnugpvd2VB0x03w="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Monambike.Web.pdb": "sha256-xgZgVPZ+ycg\/\/mrt69K1Uzb0NuKwJPeYUkYVTkjacC0="
+      "Monambike.Web.pdb": "sha256-dNrIdeflaIGxayUT9KgVhLr7PSpBRQPwc6KpGNf86mw="
     },
     "runtime": {
       "dotnet.7.0.1.b41t6mhjbv.js": "sha256-jjax3FMRXzFAziWowdtJf6vipP2xXAaA5gD6VBYB6Y0=",

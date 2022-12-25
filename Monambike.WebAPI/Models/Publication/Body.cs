@@ -8,7 +8,7 @@ namespace Monambike.WebAPI.Models.Posting
 
         public Body() { }
         public Body(string paragraph) { Content = paragraph; }
-        public Body(byte image) { Content = image; }
+        public Body(byte[] image) { Content = image; }
         public Body(Caution caution) { Content = caution; }
         public Body(Note note) { Content = note; }
         public Body(Tip tip) { Content = tip; }

@@ -1,0 +1,229 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\obj\\Release\\net7.0\\build-gz\\EJrElBls.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\css\\main.css.map"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\abstract\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\abstract\\_mixins.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\abstract\\variables\\_colors.scss",
+      "PackagePath": "staticwebassets\\scss\\abstract\\variables\\_colors.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\abstract\\variables\\_fonts.scss",
+      "PackagePath": "staticwebassets\\scss\\abstract\\variables\\_fonts.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\components\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_images.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\components\\_links.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_links.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\components\\_select.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_select.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\components\\_selection.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_selection.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\core\\_reset.scss",
+      "PackagePath": "staticwebassets\\scss\\core\\_reset.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\core\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\core\\_typography.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_footer.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\layout\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_header.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\layout\\_navigation.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_navigation.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\main.css",
+      "PackagePath": "staticwebassets\\scss\\main.css"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\main.css.map",
+      "PackagePath": "staticwebassets\\scss\\main.css.map"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\scss\\main.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\mediaquery\\_mobile.scss",
+      "PackagePath": "staticwebassets\\scss\\mediaquery\\_mobile.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\blog\\_articles.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\blog\\_articles.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_about-me.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_about-me.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_contact.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_contact.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_index.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_index.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_name-and-profession.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_name-and-profession.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_social-media.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_social-media.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_values.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_values.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_warning.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_warning.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\translation\\en-US.json",
+      "PackagePath": "staticwebassets\\translation\\en-US.json"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\translation\\es-ES.json",
+      "PackagePath": "staticwebassets\\translation\\es-ES.json"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\translation\\ja-JP.json",
+      "PackagePath": "staticwebassets\\translation\\ja-JP.json"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\translation\\pt-BR.json",
+      "PackagePath": "staticwebassets\\translation\\pt-BR.json"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\translation\\translationArchive.json",
+      "PackagePath": "staticwebassets\\translation\\translationArchive.json"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.Monambike.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.Monambike.Web.props",
+      "PackagePath": "build\\Monambike.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Monambike.Web.props",
+      "PackagePath": "buildMultiTargeting\\Monambike.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.Monambike.Web.props",
+      "PackagePath": "buildTransitive\\Monambike.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Monambike.WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WordController : ControllerBase
     {
         private readonly ILogger<WordController> _logger;

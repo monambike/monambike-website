@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
 
-        public byte Background { get; set; }
+        public byte[] Background { get; set; }
 
         public string Title { get; set; }
 

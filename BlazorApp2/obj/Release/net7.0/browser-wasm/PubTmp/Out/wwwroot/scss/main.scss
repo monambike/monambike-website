@@ -1,0 +1,28 @@
+// Abstract files
+@import "abstract/_mixins.scss";
+@import "abstract/variables/_colors.scss";
+@import "abstract/variables/_fonts.scss";
+
+// Core files
+@import "core/_reset.scss";
+@import "core/_typography.scss";
+
+// Components
+@import "components/_images.scss";
+@import "components/_links.scss";
+@import "components/_select.scss";
+
+// Layout
+@import "layout/_footer.scss";
+@import "layout/_header.scss";
+@import "layout/_navigation.scss";
+
+// Pages
+// Index
+@import "pages/index/_about-me.scss";
+@import "pages/index/_contact.scss";
+@import "pages/index/_index.scss";
+@import "pages/index/_name-and-profession.scss";
+@import "pages/index/_social-media.scss";
+@import "pages/index/_values.scss";
+@import "pages/index/_warning.scss";

@@ -1,3 +1,10 @@
+G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.csproj.AssemblyReference.cache
+G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.AssemblyInfoInputs.cache
+G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.AssemblyInfo.cs
+G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.csproj.CoreCompileInputs.cache
+G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 G:\monambike.github.io_blazor\Monambike.WebAPI\bin\Debug\net7.0\appsettings.Development.json
 G:\monambike.github.io_blazor\Monambike.WebAPI\bin\Debug\net7.0\appsettings.json
 G:\monambike.github.io_blazor\Monambike.WebAPI\bin\Debug\net7.0\Monambike.WebAPI.exe
@@ -9,13 +16,6 @@ G:\monambike.github.io_blazor\Monambike.WebAPI\bin\Debug\net7.0\Microsoft.OpenAp
 G:\monambike.github.io_blazor\Monambike.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 G:\monambike.github.io_blazor\Monambike.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 G:\monambike.github.io_blazor\Monambike.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.csproj.AssemblyReference.cache
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.AssemblyInfoInputs.cache
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.AssemblyInfo.cs
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.csproj.CoreCompileInputs.cache
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.MvcApplicationPartsAssemblyInfo.cs
-G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\Monambike.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.Monambike.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
 G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.Monambike.WebAPI.props
 G:\monambike.github.io_blazor\Monambike.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Monambike.WebAPI.props

@@ -80,10 +80,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>SocialMediaLinks.resx</DependentUpon>
     </Compile>
-    <Compile Update="Properties\Resources.Designer.cs">
+    <Compile Update="Properties\KarenKujo.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
+      <DependentUpon>KarenKujo.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -107,9 +107,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SocialMediaLinks.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    <EmbeddedResource Update="Properties\KarenKujo.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>KarenKujo.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

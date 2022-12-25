@@ -14,6 +14,6 @@ namespace Monambike.WebAPI.Models.Posting.Cards
 
         public abstract Color Color { get; }
 
-        public abstract byte Icon { get; }
+        public abstract byte[] Icon { get; }
     }
 }

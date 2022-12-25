@@ -25,9 +25,9 @@ namespace Monambike.WebAPI.Models
         public Phone Phone { get; set; }
 
 
-        public byte ProfilePhoto { get; set; }
+        public byte[] ProfilePhoto { get; set; }
 
-        public byte BackgroundPhoto { get; set; }
+        public byte[] BackgroundPhoto { get; set; }
 
 
         public Address Address { get; set; }
