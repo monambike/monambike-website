@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Monambike.WebAPI.Models.Publication.Visibility;
+using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
@@ -15,7 +16,7 @@ namespace Monambike.WebAPI.Models.Posting
 
         public List<Topic> Topics { get; set; }
 
-        public Visibility Visibility { get; set; }
+        public Base Visibility { get; set; }
 
 
         [GeneratedRegex("[^a-zA-Z0-9\\ ]+")]
@@ -56,14 +57,7 @@ namespace Monambike.WebAPI.Models.Posting
         public DateTime CreationTime { get; set; }
 
         public List<string> EditHistory { get; set; }
-    }
 
-    public enum Visibility
-    {
-        Public,
-        Private,
-        JustWithLink,
-        LoggedUsers,
-        SpecificUsers
+        //public Visibility Visibility { get; set; }
     }
 }
