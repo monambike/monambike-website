@@ -9,12 +9,12 @@ namespace Monambike.WebAPI.Models.Posting.TypesOfPost
         /// It may be different because I note at somewhere and later
         /// decided to post.
         /// </summary>
-        public DateTime WhenIWrote { get; set; }
+        public DateTime WroteDate { get; set; }
 
         /// <summary>
         /// 0 to 10, how I was feeling.
         /// </summary>
-        public decimal HowIWasFeeling { get; set; }
+        public decimal Feeling { get; set; }
 
 
         public List<Tag> Tags { get; set; }

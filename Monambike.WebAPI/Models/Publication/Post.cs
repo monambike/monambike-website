@@ -1,4 +1,4 @@
-﻿using Monambike.WebAPI.Models.Publication.Visibility;
+﻿using Monambike.WebAPI.Models.Publication;
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;

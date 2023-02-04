@@ -10,8 +10,8 @@ namespace Monambike.WebAPI.Models.Dictionary
 
         public List<string> Meanings { get; set; }
 
-        public List<Word> Antonyms { get; set; }
+        //public List<Word> Antonyms { get; set; }
 
-        public List<Word> Synonyms { get; set; }
+        //public List<Word> Synonyms { get; set; }
     }
 }
