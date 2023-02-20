@@ -1,8 +1,8 @@
-.three-columns {
+.three-columns { /* Actually being used on Footer and "My Values" Index Page Section */
   float: left;
   width: 30%;
 }
-.three-columns__extern-columns {
+.three-columns--extern-columns {
   margin: 0px 2.5% 0px 2.5%;
 }
 
@@ -76,10 +76,16 @@ figure {
 }
 
 a {
+  /* the thickness of the line */
+  /* the color */
   color: rgb(230, 230, 230);
-  transition: 0.25s;
+  padding-bottom: var(0.1em);
+  background: linear-gradient(90deg, rgb(95, 50, 155) 50%, rgb(230, 230, 230) 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(rgb(95, 50, 155) 0 0) 0% 100%/var(--_p, 0%) 0.1em no-repeat;
+  -webkit-background-clip: text, padding-box;
+  transition: 0.5s;
 }
 a:hover {
+  --_p: 100%;
   color: rgb(95, 50, 155);
 }
 
@@ -103,7 +109,7 @@ select option {
 }
 
 ::selection {
-  background: rgb(144, 100, 202);
+  background: rgb(95, 50, 155);
   color: rgb(230, 230, 230);
 }
 
@@ -117,68 +123,101 @@ select option {
   display: flex;
   flex-direction: column;
 }
-.footer__links {
+.footer--links {
   padding: 40px 0px 40px 0px;
 }
-
-.three-columns__title {
-  margin: 10px;
-}
-
-.three-columns--footer {
+.footer--links--three-columns {
   border-top: 6px solid rgb(40, 40, 40);
   margin: 0px 10% 0px 10%;
   padding: 20px;
+  /* Footer Links */
+  /* Container List Title */
+  /* Container List */
+  /* Every Item on the Container List */
 }
-
-.three-columns__footer-links-title {
+.footer--links--three-columns span {
   color: rgb(144, 100, 202);
 }
-
-.three-columns__footer-links-body {
+.footer--links--three-columns ul {
   margin-top: 20px;
 }
-
-.three-columns__footer-links-item {
+.footer--links--three-columns li {
   margin: 5px 0px 5px 0px;
 }
-
-.footer__description {
+.footer--copyright-and-translate {
   background-color: rgb(15, 15, 15);
   padding: 20px;
   text-align: center;
 }
-
-.small-text {
+.footer--copyright-and-translate--copyright {
   color: rgb(230, 230, 230);
   margin: 20px 0px 20px 0px;
 }
 
 .website-header {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   display: flex;
   padding: 5px;
 }
-.website-header .website-header--name {
+.website-header--presentation {
   flex: 1;
   margin: auto;
   margin-left: 10px;
+  display: flex;
+  align-items: center;
+  /* Vertical Line */
+}
+.website-header--presentation--profession::before {
+  content: "";
+  height: 1.5rem;
+  border-left: 2px solid rgb(230, 230, 230);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .website-header ul * {
   display: inline-block;
   margin: 0px 5px 0px 5px;
 }
 
-.site-section about {
+.site-section--about--body p {
   background-color: rgb(230, 230, 230);
+  padding: 20px;
+}
+.site-section--about--body p a {
+  color: rgb(77, 18, 161);
+}
+.site-section--about__filter {
+  /*background-color: rgba(230, 230, 230, 0.5);*/
+  padding: 0px 15% 0px 15%;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  /*use negative width if you want it to flow right to left else and positive for left to right*/
+  to {
+    background-position: -10000px 0;
+  }
+}
+.site-section--about::before {
+  content: "";
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  z-index: -1;
+  background-color: rgb(30, 30, 30);
+  opacity: 1;
+  background: radial-gradient(circle, transparent 20%, rgb(30, 30, 30) 20%, rgb(30, 30, 30) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgb(30, 30, 30) 20%, rgb(30, 30, 30) 80%, transparent 80%, transparent) 80px 80px, linear-gradient(rgb(95, 50, 155) 6.4px, transparent 6.4px) 0 -3.2px, linear-gradient(90deg, rgb(95, 50, 155) 6.4px, rgb(30, 30, 30) 6.4px) -3.2px 0;
+  background-size: 160px 160px, 160px 160px, 80px 80px, 80px 80px;
+  animation: animatedBackground 75s linear infinite;
+  transform: rotate(30deg);
 }
 
 .i-love {
-  margin: 30px 0px 30px 0px;
-  width: 50%;
+  margin: 30px 10px 30px 10px;
 }
 .i-love span, .i-love li {
-  border: 1.82px solid rgb(15, 15, 15);
+  border: 1.82px solid rgb(30, 30, 30);
   border-radius: 2px;
   padding: 5px;
   margin: 2px 0px 2px 0px;
@@ -191,20 +230,30 @@ select option {
   font-weight: bold;
 }
 .i-love li {
-  background: rgb(144, 100, 202);
+  background: rgb(227, 222, 236);
   transition: 0.5s;
+  border-color: rgb(30, 30, 30);
 }
 .i-love li:hover {
   transform: scale(1.05);
 }
-.i-love li:nth-child(odd) {
-  background: rgb(227, 222, 236);
+.i-love li:nth-child(even) {
+  background: rgb(144, 100, 202);
+  border-color: rgb(77, 18, 161);
+  color: rgb(230, 230, 230);
 }
 
 .karen-kujou-staring-happy {
   display: table;
   margin: 0px auto 0px auto;
   padding: 20px;
+  margin-bottom: 20px;
+}
+
+.gradient-effect {
+  background: -webkit-linear-gradient(rgb(95, 50, 155), rgb(144, 100, 202));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .site-section--contact {
@@ -226,25 +275,27 @@ select option {
   padding: 10px 0px 10px 0px;
   min-height: 40vh;
 }
-.site-section__title {
+.site-section--title {
   color: rgb(230, 230, 230);
   font-size: 34pt;
   text-shadow: 2px 2px rgb(15, 15, 15);
   padding: 20px;
   text-align: center;
 }
-.site-section__body {
+.site-section--body {
   padding: 20px;
 }
 
-.site-section--presentation {
-  background-color: rgb(77, 18, 161);
-  display: flex;
+.site-section {
   height: 85vh;
+}
+.site-section--presentation {
+  /*background-color: $COLOR-PURPLE-1;*/
+  background: -webkit-linear-gradient(rgb(77, 18, 161), rgb(95, 50, 155));
+  display: flex;
   padding-left: 20px;
-  align-self: center;
-  height: 50%;
   width: 100%;
+  align-items: center;
   color: rgb(230, 230, 230);
 }
 .site-section--presentation--name {
@@ -259,6 +310,7 @@ select option {
 }
 .site-section--presentation--skills {
   display: flex;
+  font-size: 3vw;
 }
 
 .site-section--social-media {
@@ -293,13 +345,12 @@ select option {
   text-align: center;
 }
 
-.myvalues__extern-column {
+.myvalues--extern-column {
   background-color: rgb(95, 50, 155);
   color: rgb(230, 230, 230);
   box-shadow: 5px 5px rgb(227, 222, 236);
 }
-
-.myvalues__intern-column {
+.myvalues--intern-column {
   background-color: rgb(227, 222, 236);
   box-shadow: 5px 5px rgb(144, 100, 202);
   color: rgb(15, 15, 15);

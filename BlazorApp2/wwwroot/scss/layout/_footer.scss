@@ -1,30 +1,42 @@
 @import "../abstract/variables/_colors.scss";
 
 .footer {
-  background-color: $COLOR-DARK-GRAY;
+  background-color: $COLOR-GRAY-1;
   display: flex;
   flex-direction: column;
-  
-  &__links {
+
+  &--links {
     padding: 40px 0px 40px 0px;
+
+    &--three-columns {
+      border-top: 6px solid $COLOR-GRAY-2;
+      margin: 0px 10% 0px 10%;
+      padding: 20px;
+
+      /* Footer Links */
+      /* Container List Title */
+      span {
+        color: $COLOR-PURPLE-3;
+      }
+      /* Container List */
+      ul {
+        margin-top: 20px;
+      }
+      /* Every Item on the Container List */
+      li {
+        margin: 5px 0px 5px 0px;
+      }
+    }
+  }
+
+  &--copyright-and-translate {
+    background-color: $COLOR-BLACK;
+    padding: 20px;
+    text-align: center;
+
+    &--copyright {
+      color: $COLOR-WHITE;
+      margin: 20px 0px 20px 0px;
+    }
   }
 }
-
-.three-columns__title { margin: 10px; }
-.three-columns--footer {
-  border-top: 6px solid $COLOR-GRAY;
-  margin: 0px 10% 0px 10%;
-  padding: 20px;
-}
-
-.three-columns__footer-links-title { color: $COLOR-BRIGHT-BLUE-PURPLE; }
-.three-columns__footer-links-body { margin-top: 20px;}
-.three-columns__footer-links-item { margin: 5px 0px 5px 0px; }
-
-.footer__description {
-  background-color: $COLOR-BLACK;
-  padding: 20px;
-  text-align: center;
-}
-
-.small-text { color: $COLOR-WHITE; margin: 20px 0px 20px 0px }

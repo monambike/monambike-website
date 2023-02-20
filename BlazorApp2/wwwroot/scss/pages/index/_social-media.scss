@@ -1,6 +1,6 @@
 @import "../../abstract/variables/_colors.scss";
 
-.site-section--social-media { background-color: $COLOR-BLUE-PURPLE; }
+.site-section--social-media { background-color: $COLOR-PURPLE-2; }
 .social-media {
   padding: 20px;
   margin-bottom: 20px;
@@ -14,7 +14,7 @@
 
   &--left{
     color: $COLOR-WHITE;
-    background-color: $COLOR-BRIGHT-BLUE-PURPLE;
+    background-color: $COLOR-PURPLE-3;
     
     * { text-align: left; }
   }

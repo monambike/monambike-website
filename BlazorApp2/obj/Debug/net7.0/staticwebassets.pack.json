@@ -13,16 +13,8 @@
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\main.css",
-      "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\main.css.map",
@@ -69,6 +61,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\karen-kujou\\sleeping.gif",
+      "PackagePath": "staticwebassets\\images\\karen-kujou\\sleeping.gif"
+    },
+    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
@@ -83,14 +79,6 @@
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\abstract\\variables\\_fonts.scss",
       "PackagePath": "staticwebassets\\scss\\abstract\\variables\\_fonts.scss"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.min.css.map"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\components\\_images.scss",
@@ -129,14 +117,6 @@
       "PackagePath": "staticwebassets\\scss\\layout\\_navigation.scss"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\main.css",
-      "PackagePath": "staticwebassets\\scss\\main.css"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\main.css.map",
-      "PackagePath": "staticwebassets\\scss\\main.css.map"
-    },
-    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\main.scss",
       "PackagePath": "staticwebassets\\scss\\main.scss"
     },
@@ -161,8 +141,8 @@
       "PackagePath": "staticwebassets\\scss\\pages\\index\\_index.scss"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_name-and-profession.scss",
-      "PackagePath": "staticwebassets\\scss\\pages\\index\\_name-and-profession.scss"
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_presentation.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_presentation.scss"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_social-media.scss",

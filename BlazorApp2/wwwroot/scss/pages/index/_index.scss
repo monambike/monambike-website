@@ -9,14 +9,14 @@
 
 .body-page {
   background: url(/resources/images/wallpaper_code.jpg) no-repeat fixed center/cover;
-  color: $COLOR-DARK-GRAY;
+  color: $COLOR-GRAY-1;
 }
 
 .site-section {
   padding: 10px 0px 10px 0px;
   min-height: 40vh;
 
-  &__title {
+  &--title {
     // Text
     color: $COLOR-WHITE;
     font-size: $FONT-SIZE-H2;
@@ -26,7 +26,7 @@
     text-align: center;
   }
   
-  &__body {
+  &--body {
     padding: 20px;
   }
 }

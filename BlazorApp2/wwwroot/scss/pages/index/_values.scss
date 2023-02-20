@@ -1,13 +1,33 @@
-.site-section--values { background-color: $COLOR-DARK-BLUE-PURPLE; }
-.column-title { font-size: $FONT-SIZE-H3; text-align: center; }
-.myvalues__extern-column { 
-  background-color: $COLOR-BLUE-PURPLE;
-  color: $COLOR-WHITE;
-  box-shadow: 5px 5px $COLOR-WHITE-BLUE-PURPLE;
+@import '../../abstract/variables/_colors.scss';
+@import '../../abstract/variables/_fonts.scss';
+
+.site-section {
+  &--values {
+  background-color: $COLOR-PURPLE-1;
+  }
 }
-.myvalues__intern-column { 
-  background-color: $COLOR-WHITE-BLUE-PURPLE;
-  box-shadow: 5px 5px $COLOR-BRIGHT-BLUE-PURPLE;
-  color: $COLOR-BLACK;
+
+.column-title {
+  font-size: $FONT-SIZE-H3;
+  text-align: center;
+
 }
-.topic-body--values { overflow: auto; }
+
+.myvalues {
+  &--extern-column { 
+    background-color: $COLOR-PURPLE-2;
+    color: $COLOR-WHITE;
+    box-shadow: 5px 5px $COLOR-PURPLE-4;
+  }
+
+  &--intern-column { 
+    background-color: $COLOR-PURPLE-4;
+    box-shadow: 5px 5px $COLOR-PURPLE-3;
+    color: $COLOR-BLACK;
+  }
+}
+.topic-body {
+  &--values {
+    overflow: auto;
+  }
+}

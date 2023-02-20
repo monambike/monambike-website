@@ -1,8 +1,13 @@
-.three-columns {
+.three-columns { /* Actually being used on Footer and "My Values" Index Page Section */
   float: left;
   width: 30%;
   
-  &__extern-columns { margin: 0px 2.5% 0px 2.5%; }
+  &--extern-columns {
+    margin: 0px 2.5% 0px 2.5%;
+  }
 }
 
-.center-content { display: flex; justify-content: center; }
+.center-content {
+  display: flex;
+  justify-content: center;
+}

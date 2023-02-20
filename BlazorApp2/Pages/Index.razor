@@ -16,46 +16,51 @@
     <h3 class="warning">Site em desenvolvimento, peço desculpas pelo inconveniente.</h3>
 
     <!-- ABOUT ME -->
-    <section class="site-section site-section--about">
-        <h2 class="site-section__title">SOBRE MIM</h2>
-        <div class="site-section__body">
-            <p>OOII, BOM DIAAAAAAA! &#128523;&#127881;&#127881; Opa, e ai!!</p>
-            <p>Eu sou Vinícius Gabriel, e sou um desenvolvedor C# e Web.</p>
-            <div class="i-love">
-                <span>Eu amo..</span>
-                <ul>
-                    <li>&#128230; Manter as minhas coisas organizadas, então quando eu estou com tudo pronto sempre que preciso 😎 só usar</li>
-                    <li>&#9195; Usar vários tipos de atalhos, as coisas ficam bem menos lentas, chatas e massivas, tudo fica muito mais fácil</li>
-                    <li>&#129302; Automação, porque fazer algo que pode ser feito por um outro alguém? Beep-Boop!</li>
-                </ul>
+    <section class="site-section--about">
+        <div class="site-section--about__filter">
+            <h2 class="site-section--title">SOBRE MIM</h2>
+            <div class="site-section--about--body">
+                <p>
+                    OII, <span class="gradient-effect">BOM DIAAAAAAA!</span> &#128523;&#127881;&#127881;
+                    <br />
+                    Eu sou Vinícius Gabriel, e sou um desenvolvedor C# e Web.
+                </p>
+                <div class="i-love">
+                    <span>Eu gosto de..</span>
+                    <ul>
+                        <li>&#128230; Manter as minhas coisas organizadas, então quando eu estou com tudo pronto sempre que preciso 😎 só usar</li>
+                        <li>&#9195; Usar vários tipos de atalhos, as coisas ficam bem menos lentas, chatas e massivas, tudo fica muito mais fácil</li>
+                        <li>&#129302; Automação, porque fazer algo que pode ser feito por um outro alguém? Beep-Boop!</li>
+                    </ul>
+                </div>
+                <div class="i-love">
+                    <span>Eu também amo..</span>
+                    <ul>
+                        <li>&#127918; Jogar joguinhos</li>
+                        <li>&#127912; Design e desenhar</li>
+                        <li>&#128172; Stickers</li>
+                        <li>&#128049; Gatinhos!!</li>
+                        <li>&#129424; E camarões.. &#128523</li>
+                    </ul>
+                </div>
+                <p>
+                    Que tal dar uma olhadinha no meu <a href="@SocialMediaLinks.Github">Github</a> também? O link das minhas outras redes sociais
+                    estão no rodapé da página, sinta-se à vontade para dar uma checadinha lá a qualquer
+                    momento &lt;&#51;!
+                </p>
             </div>
-            <div class="i-love">
-                <span>Eu amo..</span>
-                <ul>
-                    <li>&#127918; Jogar joguinhos</li>
-                    <li>&#127912; Design e desenhar</li>
-                    <li>&#128172; Stickers</li>
-                    <li>&#128049; Gatinhos!!</li>
-                    <li>&#129424; E camarões.. &#128523</li>
-                </ul>
-            </div>
-            <p>
-                Que tal dar uma olhadinha no meu <a href="@SocialMediaLinks.Github">Github</a> também? O link das minhas outras redes sociais
-                estão no rodapé da página, sinta-se à vontade para dar uma checadinha lá a qualquer
-                momento &lt;&#51;!
-            </p>
+            <figure class="karen-kujou-staring-happy" alt="Karen Kujou feliz" title="Karen Kujou feliz">
+                <img src="images/karen-kujou/staring-happy.gif">
+                <figcaption>Espero que goste do meu site!</figcaption>
+            </figure>
         </div>
-        <figure class="karen-kujou-staring-happy" alt="Karen Kujou feliz" title="Karen Kujou feliz">
-            <img src="images/karen-kujou/staring-happy.gif">
-            <figcaption>Espero que goste do meu site!</figcaption>
-        </figure>
     </section>
 
     <!-- MY VALUES -->
     <section class="site-section site-section--values">
-        <h2 class="site-section__title">VALORES</h2>
-        <div class="site-section__body topic-body--values">
-            <div class="three-columns three-columns__extern-columns myvalues__extern-column">
+        <h2 class="site-section--title">VALORES</h2>
+        <div class="site-section--body topic-body--values">
+            <div class="three-columns three-columns--extern-columns myvalues--extern-column">
                 <h3 class="column-title">Transparência</h3>
                 <p>
                     Manter o máximo de transparência possível dentro do âmbito de trabalho, evitando ao
@@ -70,7 +75,7 @@
                     <img src="images/values/transparency.png" alt="Imagem de Representação de Conversa - Transparência" title="Imagem de Representação de Conversa - Transparência">
                 </div>
             </div>
-            <div class="three-columns three-columns__intern-column myvalues__intern-column">
+            <div class="three-columns three-columns--intern-column myvalues--intern-column">
                 <h3 class="column-title">Evolução</h3>
                 <p>
                     Procuro sempre por uma constante melhora, aperfeiçoamento e conhecimento em pontos
@@ -81,9 +86,7 @@
                     <img src="images/values/adaptation.png" alt="Imagem de Um Lagarto - Adaptação" title="Imagem de Um Lagarto - Adaptação">
                 </div>
             </div>
-            <img scr="img/background.jpg" class="img" alt="wrong">
-            <img src="img/background.jpg" class="img" alt="ok">
-            <div class="three-columns three-columns__extern-columns myvalues__extern-column">
+            <div class="three-columns three-columns--extern-columns myvalues--extern-column">
                 <h3 class="column-title">Direcionamento</h3>
                 <p>
                     Definir o porquê da decisão estar sendo tomada, quanto tempo provavelmente vai
@@ -102,11 +105,11 @@
 
     <!-- SOCIAL MEDIA -->
     <section class="site-section site-section--social-media">
-        <h2 class="site-section__title">REDES SOCIAIS</h2>
-        <div class="site-section__body">
+        <h2 class="site-section--title">REDES SOCIAIS</h2>
+        <div class="site-section--body">
             <div class="social-media social-media--left">
-                <h3 class="social-media__title">Linkedin</h3>
-                <div class="social-media__body">
+                <h3 class="social-media--title">Linkedin</h3>
+                <div class="social-media--body">
                     <p>
                         Lugar onde eu coloco mais sobre a minha trajetória da minha carreira. Lá você
                         pode ver os lugares onde eu trabalhei, alguns projetos que tiveram um impacto mais
@@ -121,8 +124,8 @@
             </div>
 
             <div class="social-media social-media--right">
-                <h3 class="social-media__title">Youtube</h3>
-                <div class="social-media__body">
+                <h3 class="social-media--title">Youtube</h3>
+                <div class="social-media--body">
                     <p>
                         É o lugar onde tenho alguns dos melhores momentos ou edições que gosto de gostaria
                         de compartilhar com outras pessoas no geral
@@ -135,8 +138,8 @@
             </div>
 
             <div class="social-media social-media--left">
-                <h3 class="social-media__title">Tik Tok</h3>
-                <div class="social-media__body">
+                <h3 class="social-media--title">Tik Tok</h3>
+                <div class="social-media--body">
                     <p>Ainda não postei nada, mas ainda pretendo fazer conteúdo.</p>
                 </div>
             </div>
@@ -146,8 +149,8 @@
 
     <!-- CONTACT -->
     <section class="site-section site-section--contact">
-        <h2 class="site-section__title">CONTATO</h2>
-        <div class="site-section__body">
+        <h2 class="site-section--title">CONTATO</h2>
+        <div class="site-section--body">
             <p>Para ver algum dos meus projetos públicos você pode acessar o meu Github.</p>
             <p>E caso queira ver informações profissionais mais detalhadas e atualizadas a respeito de mim você pode ver no meu Linkedin.</p>
             <p>

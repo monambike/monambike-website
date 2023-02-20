@@ -2,12 +2,12 @@
 
 // Change website selection color (when you select a text)
 ::selection {
-  background: $COLOR-BRIGHT-BLUE-PURPLE;
+  background: $SELECT-COLOR;
   color: $COLOR-WHITE;
 }
 
 // For Firefox
 ::-moz-selection {
-  background: $COLOR-BRIGHT-BLUE-PURPLE;
+  background: $COLOR-PURPLE-3;
   color: $COLOR-WHITE;
 }

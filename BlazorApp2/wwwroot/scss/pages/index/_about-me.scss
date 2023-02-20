@@ -1,24 +1,61 @@
 @import '../../abstract/variables/_colors.scss';
 
 .site-section {
-  about {
-    background-color: $COLOR-WHITE;
+  &--about {
+    &--body{
+      p {
+        background-color: $COLOR-WHITE;
+        padding: 20px;
+
+        a {
+          color: $COLOR-PURPLE-1;
+        }
+      }
+    }
+
+    &__filter {
+      /*background-color: rgba(230, 230, 230, 0.5);*/
+      padding: 0px 15% 0px 15%;
+    }
+
+    @keyframes animatedBackground {
+      from {
+        background-position: 0 0;
+      }
+      /*use negative width if you want it to flow right to left else and positive for left to right*/
+      to {
+        background-position: -10000px 0;
+      }
+    }
+  }
+
+  &--about::before {
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    z-index: -1;
+    background-color: rgba(30,30,30,1);
+    opacity: 1;
+    background: radial-gradient(circle, transparent 20%, rgba(30,30,30,1) 20%, rgba(30,30,30,1) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgba(30,30,30,1) 20%, rgba(30,30,30,1) 80%, transparent 80%, transparent) 80px 80px, linear-gradient(rgba(95,50,155,1) 6.4px, transparent 6.4px) 0 -3.2px, linear-gradient(90deg, rgba(95,50,155,1) 6.4px, rgba(30,30,30,1) 6.4px) -3.2px 0;
+    background-size: 160px 160px, 160px 160px, 80px 80px, 80px 80px;
+    animation: animatedBackground 75s linear infinite;
+    transform: rotate(30deg);
   }
 }
 
 .i-love {
-  margin: 30px 0px 30px 0px;
-  width: 50%;
+  margin: 30px 10px 30px 10px;
 
   span, li {
-    border: 1.82px solid $COLOR-BLACK;
+    border: 1.82px solid $COLOR-GRAY-1;
     border-radius: 2px;
     padding: 5px;
     margin: 2px 0px 2px 0px;
   }
 
   span {
-    background-color: $COLOR-BLUE-PURPLE;
+    background-color: $COLOR-PURPLE-2;
     color: $COLOR-WHITE;
     display: block;
     padding: 5px;
@@ -26,15 +63,19 @@
   }
 
   li {
-    background: $COLOR-BRIGHT-BLUE-PURPLE;
+    background: $COLOR-PURPLE-4;
     transition: 0.5s;
+    border-color: $COLOR-GRAY-1;
+
     &:hover {
       transform: scale(1.050);
     }
   }
 
-  li:nth-child(odd) {
-    background: $COLOR-WHITE-BLUE-PURPLE;
+  li:nth-child(even) {
+    background: $COLOR-PURPLE-3;
+    border-color: $COLOR-PURPLE-1;
+    color: $COLOR-WHITE;
   }
 }
 
@@ -42,4 +83,11 @@
   display: table;
   margin: 0px auto 0px auto;
   padding: 20px;
+  margin-bottom: 20px;
+}
+
+.gradient-effect {
+  background: -webkit-linear-gradient($COLOR-PURPLE-2, $COLOR-PURPLE-3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
