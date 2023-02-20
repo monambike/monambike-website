@@ -60,12 +60,14 @@ img:hover {
   transform: scale(1.05);
 }
 
-figcaption {
-  transition: 0.25s;
-}
-
 img:hover + figcaption {
   opacity: 0;
+}
+
+figcaption {
+  color: rgb(120, 20, 220);
+  text-align: center;
+  transition: 0.25s;
 }
 
 figure {
@@ -73,16 +75,11 @@ figure {
   width: auto;
 }
 
-figcaption {
-  color: rgb(120, 20, 220);
-  text-align: center;
-}
-
 a {
   color: rgb(230, 230, 230);
   transition: 0.25s;
 }
-a a:hover {
+a:hover {
   color: rgb(95, 50, 155);
 }
 
@@ -103,6 +100,16 @@ select option {
   background-color: rgb(77, 18, 161);
   color: rgb(255, 255, 255);
   transition: 2s;
+}
+
+::selection {
+  background: rgb(144, 100, 202);
+  color: rgb(230, 230, 230);
+}
+
+::-moz-selection {
+  background: rgb(144, 100, 202);
+  color: rgb(230, 230, 230);
 }
 
 .footer {
@@ -147,8 +154,51 @@ select option {
   margin: 20px 0px 20px 0px;
 }
 
-.site-section--about {
+.website-header {
+  background-color: black;
+  display: flex;
+  padding: 5px;
+}
+.website-header .website-header--name {
+  flex: 1;
+  margin: auto;
+  margin-left: 10px;
+}
+.website-header ul * {
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
+}
+
+.site-section about {
   background-color: rgb(230, 230, 230);
+}
+
+.i-love {
+  margin: 30px 0px 30px 0px;
+  width: 50%;
+}
+.i-love span, .i-love li {
+  border: 1.82px solid rgb(15, 15, 15);
+  border-radius: 2px;
+  padding: 5px;
+  margin: 2px 0px 2px 0px;
+}
+.i-love span {
+  background-color: rgb(95, 50, 155);
+  color: rgb(230, 230, 230);
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+}
+.i-love li {
+  background: rgb(144, 100, 202);
+  transition: 0.5s;
+}
+.i-love li:hover {
+  transform: scale(1.05);
+}
+.i-love li:nth-child(odd) {
+  background: rgb(227, 222, 236);
 }
 
 .karen-kujou-staring-happy {
@@ -187,35 +237,27 @@ select option {
   padding: 20px;
 }
 
-.site-section__name-and-profession {
+.site-section--presentation {
   background-color: rgb(77, 18, 161);
   display: flex;
   height: 85vh;
-}
-
-.site-section__name-and-profession {
   padding-left: 20px;
-}
-
-.my-name-and-profession {
   align-self: center;
   height: 50%;
   width: 100%;
-}
-.my-name-and-profession__name {
   color: rgb(230, 230, 230);
+}
+.site-section--presentation--name {
   font-size: 5vw;
   text-shadow: 5px 5px rgb(95, 50, 155);
   align-self: flex-end;
   text-align: left;
 }
-.my-name-and-profession__profession {
-  color: rgb(230, 230, 230);
+.site-section--presentation--profession {
   font-size: 4vw;
-  text-shadow: 2px 2px rgb(95, 50, 155);
+  text-shadow: 5px 5px rgb(95, 50, 155);
 }
-
-.my-name-and-profession--name {
+.site-section--presentation--skills {
   display: flex;
 }
 

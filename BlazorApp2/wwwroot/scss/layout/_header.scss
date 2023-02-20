@@ -1,0 +1,18 @@
+@import "../abstract/variables/_colors.scss";
+
+.website-header{
+  background-color: black;
+  display: flex;
+  padding: 5px;
+  .website-header--name{
+    flex: 1; // Makes it align to left
+    margin: auto; // Align text to the center
+    margin-left: 10px;
+  }
+  ul{
+    *{
+      display: inline-block; // Displaying links single line
+      margin: 0px 5px 0px 5px; // Keeps a distance of 10 pixels between list items
+    }
+  }
+}

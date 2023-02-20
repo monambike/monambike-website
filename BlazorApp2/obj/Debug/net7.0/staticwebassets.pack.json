@@ -5,7 +5,7 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\obj\\Debug\\net7.0\\build-gz\\EJrElBls.gz",
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\obj\\Debug\\net7.0\\build-gz\\9Xj5wfMY.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
@@ -39,10 +39,6 @@
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map",
@@ -147,14 +143,6 @@
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\mediaquery\\_mobile.scss",
       "PackagePath": "staticwebassets\\scss\\mediaquery\\_mobile.scss"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "PackagePath": "staticwebassets\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\blog\\_articles.scss",

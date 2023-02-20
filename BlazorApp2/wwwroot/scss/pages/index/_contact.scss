@@ -1,1 +1,5 @@
-.site-section--contact { background-color: $color-white; }
+@import '../../abstract/variables/_colors.scss';
+
+.site-section--contact {
+  background-color: $COLOR-WHITE;
+}

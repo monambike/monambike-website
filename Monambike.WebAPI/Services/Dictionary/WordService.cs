@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.Entity.Core.EntityClient;
 using System.Linq;
 using System.Threading.Tasks;
+using Monambike.WebAPI.Data;
 
 namespace Monambike.WebAPI.Services.Dictionary
 {
@@ -18,6 +19,11 @@ namespace Monambike.WebAPI.Services.Dictionary
 
         public async Task<ServiceResponse<IEnumerable<GetWordDTO>>> GetWord()
         {
+            using (var context = new MonambikeContext())
+            {
+                var query = context.Words;
+            }
+
             var serviceResponse = new ServiceResponse<IEnumerable<GetWordDTO>>();
             
             var words = new ServiceResponse<IEnumerable<GetWordDTO>>();

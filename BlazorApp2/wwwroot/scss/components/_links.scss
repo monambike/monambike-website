@@ -1,7 +1,6 @@
 @import "../abstract/variables/_colors.scss";
 
 a {
-  color: $color-white; transition: 0.25s;
-  
-  a:hover { color: $color-blue-purple; }
+  color: $COLOR-WHITE; transition: 0.25s;
+  &:hover { color: $COLOR-BLUE-PURPLE; }
 }

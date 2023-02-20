@@ -1,7 +1,7 @@
 @import "../abstract/variables/_colors.scss";
 
 .footer {
-  background-color: $color-dark-gray;
+  background-color: $COLOR-DARK-GRAY;
   display: flex;
   flex-direction: column;
   
@@ -12,19 +12,19 @@
 
 .three-columns__title { margin: 10px; }
 .three-columns--footer {
-  border-top: 6px solid $color-gray;
+  border-top: 6px solid $COLOR-GRAY;
   margin: 0px 10% 0px 10%;
   padding: 20px;
 }
 
-.three-columns__footer-links-title { color: $color-bright-blue-purple; }
+.three-columns__footer-links-title { color: $COLOR-BRIGHT-BLUE-PURPLE; }
 .three-columns__footer-links-body { margin-top: 20px;}
 .three-columns__footer-links-item { margin: 5px 0px 5px 0px; }
 
 .footer__description {
-  background-color: $color-black;
+  background-color: $COLOR-BLACK;
   padding: 20px;
   text-align: center;
 }
 
-.small-text { color: $color-white; margin: 20px 0px 20px 0px }
+.small-text { color: $COLOR-WHITE; margin: 20px 0px 20px 0px }

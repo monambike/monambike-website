@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[G:/monambike.github.io_blazor/BlazorApp2/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/monambike.github.io_blazor/BlazorApp2/Pages/Blog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [G:/monambike.github.io_blazor/BlazorApp2/Shared/NoScript.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vU2NyaXB0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/monambike.github.io_blazor/BlazorApp2/Shared/TranslationButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRyYW5zbGF0aW9uQnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/monambike.github.io_blazor/BlazorApp2/_Imports.razor]

@@ -1,20 +1,20 @@
 @import "../../abstract/variables/_colors.scss";
 
-.site-section--social-media { background-color: $color-blue-purple; }
+.site-section--social-media { background-color: $COLOR-BLUE-PURPLE; }
 .social-media {
   padding: 20px;
   margin-bottom: 20px;
 
   &--right{
-    color: $color-black;
-    background-color: $color-white;
+    color: $COLOR-BLACK;
+    background-color: $COLOR-WHITE;
     
     * { text-align: right; }
   }
 
   &--left{
-    color: $color-white;
-    background-color: $color-bright-blue-purple;
+    color: $COLOR-WHITE;
+    background-color: $COLOR-BRIGHT-BLUE-PURPLE;
     
     * { text-align: left; }
   }

@@ -1,17 +1,17 @@
 @import "../abstract/variables/_colors.scss";
 
 select{
-  background-color: $color-dark-gray;
-  color: $color-white;
+  background-color: $COLOR-DARK-GRAY;
+  color: $COLOR-WHITE;
   cursor: pointer;
   padding: 10px;
   transition: 0.1s;
 
-  &:hover { background-color: $color-gray; }
-  &:active { background-color: $color-dark-gray; }
+  &:hover { background-color: $COLOR-GRAY; }
+  &:active { background-color: $COLOR-DARK-GRAY; }
   
   option{
-    background-color: $color-dark-blue-purple;
+    background-color: $COLOR-DARK-BLUE-PURPLE;
     color: rgba(255,255,255,1);
     transition: 2s;
   }
