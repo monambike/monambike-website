@@ -1,13 +1,9 @@
-.three-columns { /* Actually being used on Footer and "My Values" Index Page Section */
+/* Actually being used on Footer and "My Values" Index Page Section, it
+  makes possible to have three columns */
+.three-columns {
   float: left;
   width: 30%;
-  
-  &--extern-columns {
+  &--extern-columns { /* Left and Right Column */
     margin: 0px 2.5% 0px 2.5%;
   }
-}
-
-.center-content {
-  display: flex;
-  justify-content: center;
 }

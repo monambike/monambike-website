@@ -1,55 +1,11 @@
-.three-columns { /* Actually being used on Footer and "My Values" Index Page Section */
+/* Actually being used on Footer and "My Values" Index Page Section, it
+  makes possible to have three columns */
+.three-columns {
   float: left;
   width: 30%;
 }
-.three-columns--extern-columns {
+.three-columns--extern-columns { /* Left and Right Column */
   margin: 0px 2.5% 0px 2.5%;
-}
-
-.center-content {
-  display: flex;
-  justify-content: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
-}
-
-p {
-  margin: 0px;
-}
-
-body {
-  margin: 0px;
-}
-
-a {
-  text-decoration: none;
-}
-
-iframe {
-  border: 0px;
-}
-
-ul {
-  padding: 0px;
-  margin: 0px;
-}
-
-li {
-  list-style: none;
-  margin: 0px;
-}
-
-* {
-  font-family: "Arial", sans-serif;
-}
-
-p {
-  font-size: 16pt;
-  text-align: justify;
-  margin: 10px;
-  word-break: break-all;
 }
 
 img {
@@ -116,6 +72,47 @@ select option {
 ::-moz-selection {
   background: rgb(144, 100, 202);
   color: rgb(230, 230, 230);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  border: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  margin: 0px;
+}
+
+* {
+  font-family: "Arial", sans-serif;
+}
+
+p {
+  font-size: 16pt;
+  text-align: justify;
+  margin: 10px;
+  word-break: break-all;
 }
 
 .footer {
@@ -186,6 +183,11 @@ select option {
 .site-section--about--body p a {
   color: rgb(77, 18, 161);
 }
+.site-section--about--body p span {
+  background: -webkit-linear-gradient(rgb(95, 50, 155), rgb(144, 100, 202));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .site-section--about__filter {
   /*background-color: rgba(230, 230, 230, 0.5);*/
   padding: 0px 15% 0px 15%;
@@ -250,12 +252,6 @@ select option {
   margin-bottom: 20px;
 }
 
-.gradient-effect {
-  background: -webkit-linear-gradient(rgb(95, 50, 155), rgb(144, 100, 202));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .site-section--contact {
   background-color: rgb(230, 230, 230);
 }
@@ -284,6 +280,33 @@ select option {
 }
 .site-section--body {
   padding: 20px;
+}
+
+.site-section--my-values {
+  background-color: rgb(77, 18, 161);
+}
+.site-section--my-values .site-section--body {
+  overflow: auto;
+}
+.site-section--my-values--extern-column {
+  background-color: rgb(95, 50, 155);
+  color: rgb(230, 230, 230);
+  box-shadow: 5px 5px rgb(227, 222, 236);
+}
+.site-section--my-values--intern-column {
+  background-color: rgb(227, 222, 236);
+  box-shadow: 5px 5px rgb(144, 100, 202);
+  color: rgb(15, 15, 15);
+}
+
+.column-title {
+  font-size: 20pt;
+  text-align: center;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
 }
 
 .site-section {
@@ -315,54 +338,24 @@ select option {
 
 .site-section--social-media {
   background-color: rgb(95, 50, 155);
+  color: rgb(15, 15, 15);
 }
-
-.social-media {
+.site-section--social-media--containers {
   padding: 20px;
   margin-bottom: 20px;
-}
-.social-media--right {
-  color: rgb(15, 15, 15);
   background-color: rgb(230, 230, 230);
-}
-.social-media--right * {
   text-align: right;
 }
-.social-media--left {
+.site-section--social-media--containers:nth-child(odd) {
   color: rgb(230, 230, 230);
   background-color: rgb(144, 100, 202);
-}
-.social-media--left * {
   text-align: left;
-}
-
-.site-section--values {
-  background-color: rgb(77, 18, 161);
-}
-
-.column-title {
-  font-size: 20pt;
-  text-align: center;
-}
-
-.myvalues--extern-column {
-  background-color: rgb(95, 50, 155);
-  color: rgb(230, 230, 230);
-  box-shadow: 5px 5px rgb(227, 222, 236);
-}
-.myvalues--intern-column {
-  background-color: rgb(227, 222, 236);
-  box-shadow: 5px 5px rgb(144, 100, 202);
-  color: rgb(15, 15, 15);
-}
-
-.topic-body--values {
-  overflow: auto;
 }
 
 .warning {
   background-color: rgb(200, 20, 20);
   color: rgb(230, 230, 230);
+  padding: 5px;
   text-align: center;
 }
 

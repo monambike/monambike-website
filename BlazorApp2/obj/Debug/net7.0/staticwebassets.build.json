@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "leDDtWftpZSHmNGIdYkfhFpMwePEhXP10UYOhYhdP+4=",
+  "Hash": "6CIrv1YzJxmUZbBZ7VF6JshBQE2fyV1opjTaJU/JlFI=",
   "Source": "Monambike.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -6902,6 +6902,23 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\main.css",
+      "SourceId": "Monambike.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
+    },
+    {
       "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\main.css.map",
       "SourceId": "Monambike.Web",
       "SourceType": "Discovered",
@@ -7429,6 +7446,23 @@
       "OriginalItemSpec": "wwwroot\\scss\\pages\\index\\_index.scss"
     },
     {
+      "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_my-values.scss",
+      "SourceId": "Monambike.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "scss/pages/index/_my-values.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\pages\\index\\_my-values.scss"
+    },
+    {
       "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_presentation.scss",
       "SourceId": "Monambike.Web",
       "SourceType": "Discovered",
@@ -7461,23 +7495,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\pages\\index\\_social-media.scss"
-    },
-    {
-      "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_values.scss",
-      "SourceId": "Monambike.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "scss/pages/index/_values.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\pages\\index\\_values.scss"
     },
     {
       "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_warning.scss",

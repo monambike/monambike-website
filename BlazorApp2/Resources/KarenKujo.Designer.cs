@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Monambike.Web.Data {
+namespace Monambike.Web.Resources {
     using System;
     
     
@@ -22,24 +22,24 @@ namespace Monambike.Web.Data {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class GithubProjects {
+    public class KarenKujo {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal GithubProjects() {
+        internal KarenKujo() {
         }
         
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Monambike.Web.Data.GithubProjects", typeof(GithubProjects).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Monambike.Web.Resources.KarenKujo", typeof(KarenKujo).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +51,7 @@ namespace Monambike.Web.Data {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,56 +61,42 @@ namespace Monambike.Web.Data {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/20.
+        ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static string ComfyZone {
+        public static byte[] cat_ears {
             get {
-                return ResourceManager.GetString("ComfyZone", resourceCulture);
+                object obj = ResourceManager.GetObject("cat_ears", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/5.
+        ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static string Eletrolojinha {
+        public static byte[] determined {
             get {
-                return ResourceManager.GetString("Eletrolojinha", resourceCulture);
+                object obj = ResourceManager.GetObject("determined", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/9.
+        ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static string KWIJisho {
+        public static byte[] hair_flip {
             get {
-                return ResourceManager.GetString("KWIJisho", resourceCulture);
+                object obj = ResourceManager.GetObject("hair_flip", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/8.
+        ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static string MeuPerfil {
+        public static byte[] staring_happy {
             get {
-                return ResourceManager.GetString("MeuPerfil", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/3.
-        /// </summary>
-        internal static string ProjectHanabi {
-            get {
-                return ResourceManager.GetString("ProjectHanabi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/6.
-        /// </summary>
-        internal static string Restaurantinho {
-            get {
-                return ResourceManager.GetString("Restaurantinho", resourceCulture);
+                object obj = ResourceManager.GetObject("staring_happy", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

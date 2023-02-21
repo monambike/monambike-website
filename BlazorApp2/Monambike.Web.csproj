@@ -70,17 +70,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Data\GithubProjects.Designer.cs">
+    <Compile Update="Resources\GithubProjects.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>GithubProjects.resx</DependentUpon>
     </Compile>
-    <Compile Update="Data\SocialMediaLinks.Designer.cs">
+    <Compile Update="Resources\SocialMediaLinks.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>SocialMediaLinks.resx</DependentUpon>
     </Compile>
-    <Compile Update="Data\KarenKujo.Designer.cs">
+    <Compile Update="Resources\KarenKujo.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>KarenKujo.resx</DependentUpon>
@@ -99,15 +99,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Data\GithubProjects.resx">
+    <EmbeddedResource Update="Resources\GithubProjects.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GithubProjects.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Data\SocialMediaLinks.resx">
+    <EmbeddedResource Update="Resources\SocialMediaLinks.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SocialMediaLinks.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Data\KarenKujo.resx">
+    <EmbeddedResource Update="Resources\KarenKujo.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>KarenKujo.Designer.cs</LastGenOutput>
     </EmbeddedResource>

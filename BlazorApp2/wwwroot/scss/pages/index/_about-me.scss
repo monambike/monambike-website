@@ -2,13 +2,19 @@
 
 .site-section {
   &--about {
-    &--body{
+    &--body {
       p {
         background-color: $COLOR-WHITE;
         padding: 20px;
 
         a {
           color: $COLOR-PURPLE-1;
+        }
+
+        span {
+          background: -webkit-linear-gradient($COLOR-PURPLE-2, $COLOR-PURPLE-3);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
       }
     }
@@ -84,10 +90,4 @@
   margin: 0px auto 0px auto;
   padding: 20px;
   margin-bottom: 20px;
-}
-
-.gradient-effect {
-  background: -webkit-linear-gradient($COLOR-PURPLE-2, $COLOR-PURPLE-3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }

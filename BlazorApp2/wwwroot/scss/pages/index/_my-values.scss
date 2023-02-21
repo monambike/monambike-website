@@ -1,0 +1,33 @@
+@import '../../abstract/variables/_colors.scss';
+@import '../../abstract/variables/_fonts.scss';
+
+.site-section {
+  &--my-values {
+    background-color: $COLOR-PURPLE-1;
+
+    .site-section--body {
+      overflow: auto;
+    }
+
+    &--extern-column {
+      background-color: $COLOR-PURPLE-2;
+      color: $COLOR-WHITE;
+      box-shadow: 5px 5px $COLOR-PURPLE-4;
+    }
+
+    &--intern-column {
+      background-color: $COLOR-PURPLE-4;
+      box-shadow: 5px 5px $COLOR-PURPLE-3;
+      color: $COLOR-BLACK;
+    }
+  }
+}
+
+.column-title {
+  font-size: $FONT-SIZE-H3;
+  text-align: center;
+}
+.center-content {
+  display: flex;
+  justify-content: center;
+}

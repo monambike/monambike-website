@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Monambike.Web.Data {
+namespace Monambike.Web.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Monambike.Web.Data {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Monambike.Web.Data.SocialMediaLinks", typeof(SocialMediaLinks).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Monambike.Web.Resources.SocialMediaLinks", typeof(SocialMediaLinks).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
