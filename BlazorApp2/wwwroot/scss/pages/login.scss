@@ -1,0 +1,101 @@
+﻿@import '../abstract/variables/_colors.scss';
+
+body {
+  background-image: url(../images/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .login {
+    background-image: url(../images/purpletexture.jpg);
+    margin: auto;
+    text-align: center;
+
+    $HEIGHT: 400px;
+    $WIDTH: 600px;
+
+    position: absolute;
+    width: $WIDTH;
+    height: $HEIGHT;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin-top: -($HEIGHT / 2);
+    margin-left: -($WIDTH / 2);
+
+    div {
+      background-color: rgba(30,30,30,0.5);
+      height: 100%;
+      color: $COLOR-WHITE;
+
+      h1 {
+        padding: 30px 0px 30px 0px;
+      }
+
+      form {
+        padding: 30px 25% 0px 25%;
+        // Username and Password Fields
+        input {
+          width: 100%;
+          padding: 10px;
+          border: 0px;
+          margin: 10px 0px 10px 0px;
+          background-color: $COLOR-BLACK;
+        }
+        // I Forgot My Password
+        a {
+          color: $COLOR-WHITE;
+          width: 100%;
+          text-align: left;
+
+          &:hover {
+            color: $COLOR-PURPLE-3;
+            --_p: 0;
+            cursor: pointer;
+          }
+        }
+        // Login Button
+        button {
+          background-color: $COLOR-PURPLE-1;
+          font-weight: bold;
+          color: white;
+          border: 0;
+          padding: 10px;
+          width: 100%;
+          font-size: 12pt;
+          margin-top: 30px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: $COLOR-WHITE;
+            color: $COLOR-BLACK;
+            transition: 0.25s;
+          }
+        }
+      }
+      /* Faz com que todos os itens dentro da tela
+        de login fiquem um em baixo do outro */
+      * {
+        display: block;
+      }
+    }
+
+    .create-new-account {
+      background-color: $COLOR-WHITE;
+      color: $COLOR-BLACK;
+      font-weight: bold;
+      /* Colocar o texto no final da página */
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      font-size: 12pt;
+      padding: 10px 0px 10px 0px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $COLOR-PURPLE-1;
+        color: $COLOR-WHITE;
+        transition: 0.25s;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cXFzvkT1vin8BLlJ/gHRv262LBxbT2YRK2LnQhtUAZw=",
+  "Hash": "IfAcL/DNdra800vAM8XaU1QASCPMhT2kJ02r9YFpVrg=",
   "Source": "Monambike.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -7089,6 +7089,40 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
+      "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\pages\\login.css",
+      "SourceId": "Monambike.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/pages/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pages\\login.css"
+    },
+    {
+      "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\pages\\login.css.map",
+      "SourceId": "Monambike.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/pages/login.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pages\\login.css.map"
+    },
+    {
       "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\favicon.ico",
       "SourceId": "Monambike.Web",
       "SourceType": "Discovered",
@@ -7563,6 +7597,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\pages\\index\\_warning.scss"
+    },
+    {
+      "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\login.scss",
+      "SourceId": "Monambike.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "scss/pages/login.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\pages\\login.scss"
     },
     {
       "Identity": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\translation\\en-US.json",

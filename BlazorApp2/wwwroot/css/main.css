@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Actually being used on Footer and "My Values" Index Page Section, it
   makes possible to have three columns */
 .three-columns {
@@ -6,6 +7,13 @@
 }
 .three-columns--extern-columns { /* Left and Right Column */
   margin: 0px 2.5% 0px 2.5%;
+}
+
+.not-selectable {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 img {
@@ -367,6 +375,91 @@ p {
   color: rgb(230, 230, 230);
   padding: 5px;
   text-align: center;
+}
+
+body {
+  background-image: url(../images/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .login {
+  background-image: url(../images/purpletexture.jpg);
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -300px;
+}
+body .login div {
+  background-color: rgba(30, 30, 30, 0.5);
+  height: 100%;
+  color: rgb(230, 230, 230);
+  /* Faz com que todos os itens dentro da tela
+    de login fiquem um em baixo do outro */
+}
+body .login div h1 {
+  padding: 30px 0px 30px 0px;
+}
+body .login div form {
+  padding: 30px 25% 0px 25%;
+}
+body .login div form input {
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  margin: 10px 0px 10px 0px;
+  background-color: rgb(15, 15, 15);
+}
+body .login div form a {
+  color: rgb(230, 230, 230);
+  width: 100%;
+  text-align: left;
+}
+body .login div form a:hover {
+  color: rgb(144, 100, 202);
+  --_p: 0;
+  cursor: pointer;
+}
+body .login div form button {
+  background-color: rgb(77, 18, 161);
+  font-weight: bold;
+  color: white;
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 12pt;
+  margin-top: 30px;
+  cursor: pointer;
+}
+body .login div form button:hover {
+  background-color: rgb(230, 230, 230);
+  color: rgb(15, 15, 15);
+  transition: 0.25s;
+}
+body .login div * {
+  display: block;
+}
+body .login .create-new-account {
+  background-color: rgb(230, 230, 230);
+  color: rgb(15, 15, 15);
+  font-weight: bold;
+  /* Colocar o texto no final da página */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 12pt;
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+}
+body .login .create-new-account:hover {
+  background-color: rgb(77, 18, 161);
+  color: rgb(230, 230, 230);
+  transition: 0.25s;
 }
 
 /*# sourceMappingURL=main.css.map */

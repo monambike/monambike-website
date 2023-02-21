@@ -61,6 +61,14 @@
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\pages\\login.css",
+      "PackagePath": "staticwebassets\\css\\pages\\login.css"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\pages\\login.css.map",
+      "PackagePath": "staticwebassets\\css\\pages\\login.css.map"
+    },
+    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -171,6 +179,10 @@
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_warning.scss",
       "PackagePath": "staticwebassets\\scss\\pages\\index\\_warning.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\login.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\login.scss"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\translation\\en-US.json",
