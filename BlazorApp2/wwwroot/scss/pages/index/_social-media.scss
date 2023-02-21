@@ -2,15 +2,17 @@
 
 .site-section {
   &--social-media {
+    height: 130vh !important;
+
     background-color: $COLOR-PURPLE-2;
     color: $COLOR-BLACK;
+    height: auto;
 
     &--containers {
       padding: 20px;
       margin-bottom: 20px;
       background-color: $COLOR-WHITE;
       text-align: right;
-
     }
 
     &--containers:nth-child(odd) {

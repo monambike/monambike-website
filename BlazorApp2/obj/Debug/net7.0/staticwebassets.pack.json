@@ -69,6 +69,18 @@
       "PackagePath": "staticwebassets\\images\\karen-kujou\\sleeping.gif"
     },
     {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\you-will-see\\anime-computer.gif",
+      "PackagePath": "staticwebassets\\images\\you-will-see\\anime-computer.gif"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\you-will-see\\anime-studying.gif",
+      "PackagePath": "staticwebassets\\images\\you-will-see\\anime-studying.gif"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\you-will-see\\anime-watching-tv.gif",
+      "PackagePath": "staticwebassets\\images\\you-will-see\\anime-watching-tv.gif"
+    },
+    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

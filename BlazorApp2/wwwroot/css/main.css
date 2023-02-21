@@ -282,11 +282,18 @@ p {
   padding: 20px;
 }
 
+.site-section {
+  height: 110vh !important;
+}
 .site-section--my-values {
   background-color: rgb(77, 18, 161);
 }
-.site-section--my-values .site-section--body {
-  overflow: auto;
+.site-section--my-values img:hover {
+  transform: scale(1) !important;
+}
+.site-section--my-values--extern-column:hover, .site-section--my-values--intern-column:hover {
+  transform: scale(1.025);
+  transition: 0.25s;
 }
 .site-section--my-values--extern-column {
   background-color: rgb(95, 50, 155);
@@ -302,6 +309,7 @@ p {
 .column-title {
   font-size: 20pt;
   text-align: center;
+  padding: 20px 0px 20px 0px;
 }
 
 .center-content {
@@ -337,8 +345,10 @@ p {
 }
 
 .site-section--social-media {
+  height: 130vh !important;
   background-color: rgb(95, 50, 155);
   color: rgb(15, 15, 15);
+  height: auto;
 }
 .site-section--social-media--containers {
   padding: 20px;

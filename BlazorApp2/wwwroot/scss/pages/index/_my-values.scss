@@ -2,11 +2,19 @@
 @import '../../abstract/variables/_fonts.scss';
 
 .site-section {
+  height: 110vh !important;
+
   &--my-values {
     background-color: $COLOR-PURPLE-1;
 
-    .site-section--body {
-      overflow: auto;
+
+    img:hover {
+      transform: scale(1) !important;
+    }
+
+    &--extern-column:hover, &--intern-column:hover {
+      transform: scale(1.025);
+      transition: 0.25s;
     }
 
     &--extern-column {
@@ -26,6 +34,7 @@
 .column-title {
   font-size: $FONT-SIZE-H3;
   text-align: center;
+  padding: 20px 0px 20px 0px;
 }
 .center-content {
   display: flex;

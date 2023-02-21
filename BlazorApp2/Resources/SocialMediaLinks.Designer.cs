@@ -63,9 +63,9 @@ namespace Monambike.Web.Resources {
         /// <summary>
         ///   Looks up a localized string similar to https://github.com/monambike.
         /// </summary>
-        internal static string Github {
+        internal static string GitHub {
             get {
-                return ResourceManager.GetString("Github", resourceCulture);
+                return ResourceManager.GetString("GitHub", resourceCulture);
             }
         }
         
