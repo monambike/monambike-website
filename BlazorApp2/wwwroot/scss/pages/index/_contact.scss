@@ -1,5 +1,14 @@
 @import '../../abstract/variables/_colors.scss';
 
 .site-section--contact {
-  background-color: $COLOR-WHITE;
+  background-color: rgba(245, 245, 245);
+
+  p {
+    background-color: $COLOR-WHITE;
+    padding: 20px;
+    a {
+      color: $COLOR-PURPLE-1;
+    }
+  }
+
 }

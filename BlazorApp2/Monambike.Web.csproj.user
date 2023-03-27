@@ -4,7 +4,7 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <ActiveDebugProfile>Monambike.Web</ActiveDebugProfile>
     <NameOfLastUsedPublishProfile>G:\monambike.github.io_blazor\.github\workflows\monambike.yml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

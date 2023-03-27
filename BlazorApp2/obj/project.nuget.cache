@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "srIHALvcpI6+7Y6Mi87/NWy3uvZ1ZDvbIo3tCVw7pnlo8O3R30H7UkCVByawurlTQ5Wj12A6c83DtuFim9M5Rg==",
+  "dgSpecHash": "FTWbnKqV3yOq4jPdHr5naGoCtE8xNoaCfNh8zY0MJfGwz1mAOV1cIMOCE4CZ9/0gbNSgbiQ6T68ZfGruXQuXIQ==",
   "success": true,
   "projectFilePath": "G:\\monambike.github.io_blazor\\BlazorApp2\\Monambike.Web.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\vinic\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.3.nupkg.sha512"
+    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.4.nupkg.sha512"
   ],
   "logs": []
 }

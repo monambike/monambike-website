@@ -6,13 +6,12 @@
   flex-direction: column;
 
   &--links {
-    padding: 40px 0px 40px 0px;
+    padding: 5% 0% 5% 0%;
 
     &--three-columns {
       border-top: 6px solid $COLOR-GRAY-2;
       margin: 0px 10% 0px 10%;
       padding: 20px;
-
       /* Footer Links */
       /* Container List Title */
       span {
@@ -20,23 +19,23 @@
       }
       /* Container List */
       ul {
-        margin-top: 20px;
+        margin-top: 8%;
       }
       /* Every Item on the Container List */
       li {
-        margin: 5px 0px 5px 0px;
+        margin: 5% 0% 5% 0%;
       }
     }
   }
 
   &--copyright-and-translate {
     background-color: $COLOR-BLACK;
-    padding: 20px;
+    padding: 2.5%;
     text-align: center;
 
     &--copyright {
       color: $COLOR-WHITE;
-      margin: 20px 0px 20px 0px;
+      margin: 2.5% 0% 2.5% 0%;
     }
   }
 }

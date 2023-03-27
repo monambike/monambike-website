@@ -5,16 +5,12 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\obj\\Release\\net7.0\\build-gz\\EJrElBls.gz",
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\obj\\Release\\net7.0\\build-gz\\9Xj5wfMY.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
@@ -41,10 +37,6 @@
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
-    },
-    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map"
     },
@@ -69,8 +61,40 @@
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\pages\\login.css",
+      "PackagePath": "staticwebassets\\css\\pages\\login.css"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\css\\pages\\login.css.map",
+      "PackagePath": "staticwebassets\\css\\pages\\login.css.map"
+    },
+    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\karen-kujou\\sleeping.gif",
+      "PackagePath": "staticwebassets\\images\\karen-kujou\\sleeping.gif"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\purpletexture.jpg",
+      "PackagePath": "staticwebassets\\images\\purpletexture.jpg"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\space.jpg",
+      "PackagePath": "staticwebassets\\images\\space.jpg"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\you-will-see\\anime-computer.gif",
+      "PackagePath": "staticwebassets\\images\\you-will-see\\anime-computer.gif"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\you-will-see\\anime-studying.gif",
+      "PackagePath": "staticwebassets\\images\\you-will-see\\anime-studying.gif"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\you-will-see\\anime-watching-tv.gif",
+      "PackagePath": "staticwebassets\\images\\you-will-see\\anime-watching-tv.gif"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\index.html",
@@ -87,14 +111,6 @@
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\abstract\\variables\\_fonts.scss",
       "PackagePath": "staticwebassets\\scss\\abstract\\variables\\_fonts.scss"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.min.css.map"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\components\\_images.scss",
@@ -133,28 +149,12 @@
       "PackagePath": "staticwebassets\\scss\\layout\\_navigation.scss"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\main.css",
-      "PackagePath": "staticwebassets\\scss\\main.css"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\main.css.map",
-      "PackagePath": "staticwebassets\\scss\\main.css.map"
-    },
-    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\main.scss",
       "PackagePath": "staticwebassets\\scss\\main.scss"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\mediaquery\\_mobile.scss",
       "PackagePath": "staticwebassets\\scss\\mediaquery\\_mobile.scss"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "PackagePath": "staticwebassets\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
-    },
-    {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\scss\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css.map"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\blog\\_articles.scss",
@@ -173,20 +173,24 @@
       "PackagePath": "staticwebassets\\scss\\pages\\index\\_index.scss"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_name-and-profession.scss",
-      "PackagePath": "staticwebassets\\scss\\pages\\index\\_name-and-profession.scss"
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_presentation.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_presentation.scss"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_social-media.scss",
       "PackagePath": "staticwebassets\\scss\\pages\\index\\_social-media.scss"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_values.scss",
-      "PackagePath": "staticwebassets\\scss\\pages\\index\\_values.scss"
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_tour.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_tour.scss"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_warning.scss",
       "PackagePath": "staticwebassets\\scss\\pages\\index\\_warning.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\login.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\login.scss"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\translation\\en-US.json",

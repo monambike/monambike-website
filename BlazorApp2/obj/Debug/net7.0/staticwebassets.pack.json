@@ -77,6 +77,14 @@
       "PackagePath": "staticwebassets\\images\\karen-kujou\\sleeping.gif"
     },
     {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\purpletexture.jpg",
+      "PackagePath": "staticwebassets\\images\\purpletexture.jpg"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\space.jpg",
+      "PackagePath": "staticwebassets\\images\\space.jpg"
+    },
+    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\images\\you-will-see\\anime-computer.gif",
       "PackagePath": "staticwebassets\\images\\you-will-see\\anime-computer.gif"
     },
@@ -165,16 +173,16 @@
       "PackagePath": "staticwebassets\\scss\\pages\\index\\_index.scss"
     },
     {
-      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_my-values.scss",
-      "PackagePath": "staticwebassets\\scss\\pages\\index\\_my-values.scss"
-    },
-    {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_presentation.scss",
       "PackagePath": "staticwebassets\\scss\\pages\\index\\_presentation.scss"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_social-media.scss",
       "PackagePath": "staticwebassets\\scss\\pages\\index\\_social-media.scss"
+    },
+    {
+      "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_tour.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\index\\_tour.scss"
     },
     {
       "Id": "G:\\monambike.github.io_blazor\\BlazorApp2\\wwwroot\\scss\\pages\\index\\_warning.scss",
