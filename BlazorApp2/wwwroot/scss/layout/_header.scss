@@ -4,6 +4,9 @@
   background-color: $COLOR-BLACK;
   display: flex;
   padding: 5px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 
   &--presentation {
     flex: 1; // Makes it align to left
@@ -11,7 +14,6 @@
     margin-left: 10px;
     display: flex;
     align-items: center;
-
     /* Vertical Line */
     &--profession::before {
       content: "";
@@ -51,11 +53,29 @@
     display: block;
   }
 
+  .hamburguer.active .bar:nth-child(1) {
+    opacity: 0;
+  }
+  .hamburguer.active .bar:nth-child(2) {
+    transform:translateY(8px) rotate(45deg);
+  }
+  .hamburguer.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
   .ul-navigation{
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 35px;
     gap: 0;
     flex-direction: column;
+    background-color: $COLOR-BLACK;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    &__active{
+      left: 0px;
+    }
   }
+
 }

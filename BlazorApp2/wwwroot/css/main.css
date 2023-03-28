@@ -164,6 +164,9 @@ p {
   background-color: rgb(15, 15, 15);
   display: flex;
   padding: 5px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 }
 .website-header--presentation {
   flex: 1;
@@ -204,12 +207,28 @@ p {
   .hamburguer {
     display: block;
   }
+  .hamburguer.active .bar:nth-child(1) {
+    opacity: 0;
+  }
+  .hamburguer.active .bar:nth-child(2) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburguer.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
   .ul-navigation {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 35px;
     gap: 0;
     flex-direction: column;
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .ul-navigation__active {
+    left: 0px;
   }
 }
 .site-section {
