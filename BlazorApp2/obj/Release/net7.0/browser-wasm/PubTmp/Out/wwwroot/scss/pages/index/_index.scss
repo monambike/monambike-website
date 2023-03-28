@@ -8,26 +8,25 @@
 }
 
 .body-page {
-  background: url(/resources/images/wallpaper_code.jpg)
-    no-repeat fixed center/cover;
-  color: $color-dark-gray;
+  background: url(/resources/images/wallpaper_code.jpg) no-repeat fixed center/cover;
+  color: $COLOR-GRAY-1;
 }
 
 .site-section {
   padding: 10px 0px 10px 0px;
   min-height: 40vh;
 
-  &__title {
+  &--title {
     // Text
-    color: $color-white;
-    font-size: $font-size-h2;
-    text-shadow: 2px 2px $color-black;
+    color: $COLOR-WHITE;
+    font-size: $FONT-SIZE-H2;
+    text-shadow: 2px 2px $COLOR-BLACK;
     // Position and Size
     padding: 20px;
     text-align: center;
   }
   
-  &__body {
+  &--body {
     padding: 20px;
   }
 }

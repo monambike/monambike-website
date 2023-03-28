@@ -1,21 +1,24 @@
 @import "../../abstract/variables/_colors.scss";
 
-.site-section--social-media { background-color: $color-blue-purple; }
-.social-media {
-  padding: 20px;
-  margin-bottom: 20px;
+.site-section {
+  &--social-media {
+    height: 130vh !important;
 
-  &--right{
-    color: $color-black;
-    background-color: $color-white;
-    
-    * { text-align: right; }
-  }
+    background-color: $COLOR-PURPLE-2;
+    color: $COLOR-BLACK;
+    height: auto;
 
-  &--left{
-    color: $color-white;
-    background-color: $color-bright-blue-purple;
-    
-    * { text-align: left; }
+    &--containers {
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: $COLOR-WHITE;
+      text-align: right;
+    }
+
+    &--containers:nth-child(odd) {
+      color: $COLOR-WHITE;
+      background-color: $COLOR-PURPLE-3;
+      text-align: left;
+    }
   }
 }

@@ -1,14 +1,85 @@
+@charset "UTF-8";
+/* Actually being used on Footer and "Tour" Index Page Section, it
+  makes possible to have three columns */
 .three-columns {
   float: left;
   width: 30%;
 }
-.three-columns__extern-columns {
+.three-columns--extern-columns { /* Left and Right Column */
   margin: 0px 2.5% 0px 2.5%;
 }
 
-.center-content {
-  display: flex;
-  justify-content: center;
+.not-selectable {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+img {
+  max-width: 100%;
+  transition: 0.5s;
+}
+img:hover {
+  transform: scale(1.05);
+}
+
+img:hover + figcaption {
+  opacity: 0;
+}
+
+figcaption {
+  color: rgb(120, 20, 220);
+  text-align: center;
+  transition: 0.25s;
+}
+
+figure {
+  border-left: 18px double rgb(120, 20, 220);
+  width: auto;
+}
+
+a {
+  /* the thickness of the line */
+  /* the color */
+  color: rgb(230, 230, 230);
+  padding-bottom: var(0.1em);
+  background: linear-gradient(90deg, rgb(95, 50, 155) 50%, rgb(230, 230, 230) 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(rgb(95, 50, 155) 0 0) 0% 100%/var(--_p, 0%) 0.1em no-repeat;
+  -webkit-background-clip: text, padding-box;
+  transition: 0.5s;
+}
+a:hover {
+  --_p: 100%;
+  color: rgb(95, 50, 155);
+}
+
+select {
+  background-color: rgb(30, 30, 30);
+  color: rgb(230, 230, 230);
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.1s;
+}
+select:hover {
+  background-color: rgb(40, 40, 40);
+}
+select:active {
+  background-color: rgb(30, 30, 30);
+}
+select option {
+  background-color: rgb(77, 18, 161);
+  color: rgb(255, 255, 255);
+  transition: 2s;
+}
+
+::selection {
+  background: rgb(95, 50, 155);
+  color: rgb(230, 230, 230);
+}
+
+::-moz-selection {
+  background: rgb(144, 100, 202);
+  color: rgb(230, 230, 230);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,63 +117,10 @@ li {
 }
 
 p {
-  font-size: 16pt;
+  font-size: 1.5rem;
   text-align: justify;
   margin: 10px;
   word-break: break-all;
-}
-
-img {
-  max-width: 100%;
-  transition: 0.5s;
-}
-img:hover {
-  transform: scale(1.05);
-}
-
-figcaption {
-  transition: 0.25s;
-}
-
-img:hover + figcaption {
-  opacity: 0;
-}
-
-figure {
-  border-left: 18px double rgb(120, 20, 220);
-  width: auto;
-}
-
-figcaption {
-  color: rgb(120, 20, 220);
-  text-align: center;
-}
-
-a {
-  color: rgb(230, 230, 230);
-  transition: 0.25s;
-}
-a a:hover {
-  color: rgb(95, 50, 155);
-}
-
-select {
-  background-color: rgb(30, 30, 30);
-  color: rgb(230, 230, 230);
-  cursor: pointer;
-  padding: 10px;
-  transition: 0.1s;
-}
-select:hover {
-  background-color: rgb(40, 40, 40);
-}
-select:active {
-  background-color: rgb(30, 30, 30);
-}
-select option {
-  background-color: rgb(77, 18, 161);
-  color: rgb(255, 255, 255);
-  transition: 2s;
 }
 
 .footer {
@@ -110,55 +128,153 @@ select option {
   display: flex;
   flex-direction: column;
 }
-.footer__links {
-  padding: 40px 0px 40px 0px;
+.footer--links {
+  padding: 5% 0% 5% 0%;
 }
-
-.three-columns__title {
-  margin: 10px;
-}
-
-.three-columns--footer {
+.footer--links--three-columns {
   border-top: 6px solid rgb(40, 40, 40);
   margin: 0px 10% 0px 10%;
   padding: 20px;
+  /* Footer Links */
+  /* Container List Title */
+  /* Container List */
+  /* Every Item on the Container List */
 }
-
-.three-columns__footer-links-title {
+.footer--links--three-columns span {
   color: rgb(144, 100, 202);
 }
-
-.three-columns__footer-links-body {
-  margin-top: 20px;
+.footer--links--three-columns ul {
+  margin-top: 8%;
 }
-
-.three-columns__footer-links-item {
-  margin: 5px 0px 5px 0px;
+.footer--links--three-columns li {
+  margin: 5% 0% 5% 0%;
 }
-
-.footer__description {
+.footer--copyright-and-translate {
   background-color: rgb(15, 15, 15);
-  padding: 20px;
+  padding: 2.5%;
   text-align: center;
 }
-
-.small-text {
+.footer--copyright-and-translate--copyright {
   color: rgb(230, 230, 230);
-  margin: 20px 0px 20px 0px;
+  margin: 2.5% 0% 2.5% 0%;
 }
 
+.website-header {
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  padding: 5px;
+}
+.website-header--presentation {
+  flex: 1;
+  margin: auto;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  /* Vertical Line */
+}
+.website-header--presentation--profession::before {
+  content: "";
+  height: 1.5rem;
+  border-left: 2px solid rgb(230, 230, 230);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.website-header ul * {
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
+}
+
+.site-section {
+  /* Purple cross animation at dark gray background */
+}
 .site-section--about {
+  /* Purple cross animation at dark gray background */
+}
+.site-section--about--body p {
   background-color: rgb(230, 230, 230);
+  padding: 20px;
+}
+.site-section--about--body p a {
+  color: rgb(77, 18, 161);
+}
+.site-section--about--body p span {
+  background: -webkit-linear-gradient(rgb(95, 50, 155), rgb(144, 100, 202));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.site-section--about__filter {
+  padding: 0px 15% 0px 15%;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  /*use negative width if you want it to flow right to left else and positive for left to right*/
+  to {
+    background-position: -10000px 0;
+  }
+}
+.site-section--about::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+  background: radial-gradient(circle, transparent 20%, rgb(30, 30, 30) 20%, rgb(30, 30, 30) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgb(30, 30, 30) 20%, rgb(30, 30, 30) 80%, transparent 80%, transparent) 80px 80px, linear-gradient(rgb(95, 50, 155) 6.4px, transparent 6.4px) 0 -3.2px, linear-gradient(90deg, rgb(95, 50, 155) 6.4px, rgb(30, 30, 30) 6.4px) -3.2px 0;
+  background-size: 160px 160px, 160px 160px, 80px 80px, 80px 80px;
+  animation: animatedBackground 75s linear infinite;
+  /*transform: rotate(30deg);*/
+}
+
+.i-love {
+  margin: 30px 10px 30px 10px;
+}
+.i-love span, .i-love li {
+  border: 1.82px solid rgb(30, 30, 30);
+  border-radius: 2px;
+  padding: 5px;
+  margin: 2px 0px 2px 0px;
+}
+.i-love span {
+  background-color: rgb(95, 50, 155);
+  color: rgb(230, 230, 230);
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+}
+.i-love li {
+  transition: 0.5s;
+}
+.i-love li:hover {
+  transform: scale(1.05);
+}
+.i-love li:nth-child(odd) {
+  background: rgb(227, 222, 236);
+  border-color: rgb(30, 30, 30);
+}
+.i-love li:nth-child(even) {
+  background: rgb(144, 100, 202);
+  border-color: rgb(77, 18, 161);
+  color: rgb(230, 230, 230);
 }
 
 .karen-kujou-staring-happy {
   display: table;
   margin: 0px auto 0px auto;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .site-section--contact {
+  background-color: rgb(245, 245, 245);
+}
+.site-section--contact p {
   background-color: rgb(230, 230, 230);
+  padding: 20px;
+}
+.site-section--contact p a {
+  color: rgb(77, 18, 161);
 }
 
 .iframe-import-section {
@@ -176,101 +292,197 @@ select option {
   padding: 10px 0px 10px 0px;
   min-height: 40vh;
 }
-.site-section__title {
+.site-section--title {
   color: rgb(230, 230, 230);
   font-size: 34pt;
   text-shadow: 2px 2px rgb(15, 15, 15);
   padding: 20px;
   text-align: center;
 }
-.site-section__body {
+.site-section--body {
   padding: 20px;
 }
 
-.site-section__name-and-profession {
-  background-color: rgb(77, 18, 161);
-  display: flex;
-  height: 85vh;
+.site-section {
+  height: 110vh !important;
 }
-
-.site-section__name-and-profession {
-  padding-left: 20px;
-}
-
-.my-name-and-profession {
-  align-self: center;
-  height: 50%;
-  width: 100%;
-}
-.my-name-and-profession__name {
-  color: rgb(230, 230, 230);
-  font-size: 5vw;
-  text-shadow: 5px 5px rgb(95, 50, 155);
-  align-self: flex-end;
-  text-align: left;
-}
-.my-name-and-profession__profession {
-  color: rgb(230, 230, 230);
-  font-size: 4vw;
-  text-shadow: 2px 2px rgb(95, 50, 155);
-}
-
-.my-name-and-profession--name {
-  display: flex;
-}
-
-.site-section--social-media {
-  background-color: rgb(95, 50, 155);
-}
-
-.social-media {
-  padding: 20px;
-  margin-bottom: 20px;
-}
-.social-media--right {
-  color: rgb(15, 15, 15);
-  background-color: rgb(230, 230, 230);
-}
-.social-media--right * {
-  text-align: right;
-}
-.social-media--left {
-  color: rgb(230, 230, 230);
-  background-color: rgb(144, 100, 202);
-}
-.social-media--left * {
-  text-align: left;
-}
-
-.site-section--values {
+.site-section--tour {
   background-color: rgb(77, 18, 161);
 }
-
-.column-title {
-  font-size: 20pt;
-  text-align: center;
+.site-section--tour img:hover {
+  transform: scale(1) !important;
 }
-
-.myvalues__extern-column {
+.site-section--tour--extern-column:hover, .site-section--tour--intern-column:hover {
+  transform: scale(1.025);
+  transition: 0.25s;
+}
+.site-section--tour--extern-column {
   background-color: rgb(95, 50, 155);
   color: rgb(230, 230, 230);
   box-shadow: 5px 5px rgb(227, 222, 236);
 }
-
-.myvalues__intern-column {
+.site-section--tour--intern-column {
   background-color: rgb(227, 222, 236);
   box-shadow: 5px 5px rgb(144, 100, 202);
   color: rgb(15, 15, 15);
 }
 
-.topic-body--values {
-  overflow: auto;
+.column-title {
+  font-size: 20pt;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+.site-section {
+  height: 85vh;
+}
+.site-section--presentation {
+  /*background-color: $COLOR-PURPLE-1;*/
+  background: -webkit-linear-gradient(rgb(77, 18, 161), rgb(95, 50, 155));
+  display: flex;
+  padding-left: 2.5%;
+  width: 97.5%;
+  align-items: center;
+  color: rgb(230, 230, 230);
+}
+.site-section--presentation--name {
+  font-size: 5vw;
+  text-shadow: 5px 5px rgb(95, 50, 155);
+  align-self: flex-end;
+  text-align: left;
+}
+.site-section--presentation--profession {
+  font-size: 4vw;
+  text-shadow: 5px 5px rgb(95, 50, 155);
+}
+.site-section--presentation--skills {
+  display: flex;
+  font-size: 3vw;
+}
+
+.site-section--social-media {
+  height: 130vh !important;
+  background-color: rgb(95, 50, 155);
+  color: rgb(15, 15, 15);
+  height: auto;
+}
+.site-section--social-media--containers {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(230, 230, 230);
+  text-align: right;
+}
+.site-section--social-media--containers:nth-child(odd) {
+  color: rgb(230, 230, 230);
+  background-color: rgb(144, 100, 202);
+  text-align: left;
 }
 
 .warning {
   background-color: rgb(200, 20, 20);
   color: rgb(230, 230, 230);
+  padding: 5px;
   text-align: center;
+}
+
+.login-page-background {
+  background-image: url(../images/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Make background fill the whole screen */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.login-page-background .login-frame {
+  background-image: url(../images/purpletexture.jpg);
+  margin: auto;
+  text-align: center;
+  /* Centering login screen */
+  /* Size */
+  width: 600px;
+  height: 450px;
+  /* Position */
+  position: absolute;
+  margin: -225px 0px 0px -300px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+}
+.login-page-background .login-frame .background-filter {
+  background-color: rgba(30, 30, 30, 0.5);
+  height: 100%;
+  color: rgb(230, 230, 230);
+  /* Faz com que todos os itens dentro da tela
+    de login fiquem um em baixo do outro */
+}
+.login-page-background .login-frame .background-filter h1 {
+  padding-top: 30px;
+}
+.login-page-background .login-frame .background-filter form {
+  padding: 30px 25% 0px 25%;
+}
+.login-page-background .login-frame .background-filter form input {
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  margin: 20px 0px 20px 0px;
+  font-size: 12pt;
+  background-color: rgb(15, 15, 15);
+  color: rgb(230, 230, 230);
+}
+.login-page-background .login-frame .background-filter form a {
+  color: rgb(230, 230, 230);
+  width: 100%;
+  text-align: left;
+}
+.login-page-background .login-frame .background-filter form a:hover {
+  color: rgb(144, 100, 202);
+  --_p: 0;
+  cursor: pointer;
+}
+.login-page-background .login-frame .background-filter form button {
+  background-color: rgb(77, 18, 161);
+  font-weight: bold;
+  color: white;
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 12pt;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.login-page-background .login-frame .background-filter form button:hover {
+  background-color: rgb(230, 230, 230);
+  color: rgb(15, 15, 15);
+  transition: 0.25s;
+}
+.login-page-background .login-frame .background-filter * {
+  display: block;
+}
+.login-page-background .login-frame .create-new-account {
+  background-color: rgb(230, 230, 230);
+  color: rgb(15, 15, 15);
+  font-weight: bold;
+  /* Colocar o texto no final da página */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 12pt;
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+}
+.login-page-background .login-frame .create-new-account:hover {
+  background-color: rgb(77, 18, 161);
+  color: rgb(230, 230, 230);
+  transition: 0.25s;
 }
 
 /*# sourceMappingURL=main.css.map */

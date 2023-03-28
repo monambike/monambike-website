@@ -2,11 +2,8 @@
 @import '../../abstract/variables/_fonts.scss';
 
 .site-section {
-  height: 110vh !important;
-
   &--tour {
     background-color: $COLOR-PURPLE-1;
-
 
     img:hover {
       transform: scale(1) !important;
@@ -28,15 +25,29 @@
       box-shadow: 5px 5px $COLOR-PURPLE-3;
       color: $COLOR-BLACK;
     }
+
+
+    @media(max-width:800px) {
+      .three-columns {
+        float: none;
+        width: 100%;
+        box-shadow: none;
+
+        &--extern-columns {
+          margin: 0;
+        }
+      }
+    }
   }
 }
 
-.column-title {
-  font-size: $FONT-SIZE-H3;
-  text-align: center;
-  padding: 20px 0px 20px 0px;
-}
-.center-content {
-  display: flex;
-  justify-content: center;
-}
+  .column-title {
+    font-size: $FONT-SIZE-H3;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .center-content {
+    display: flex;
+    justify-content: center;
+  }

@@ -1,12 +1,17 @@
-$color-black: rgba(15, 15, 15, 1);
-$color-dark-gray: rgba(30, 30, 30, 1);
-$color-gray: rgba(40, 40, 40, 1);
-$color-white: rgba(230, 230, 230);
+// Neutral Colors
+$COLOR-BLACK: rgba(15, 15, 15, 1);
+$COLOR-GRAY-1: rgba(30, 30, 30, 1);
+$COLOR-GRAY-2: rgba(40, 40, 40, 1);
+$COLOR-WHITE: rgba(230, 230, 230);
 
-$color-dark-blue-purple: rgba(77, 18, 161);
-$color-blue-purple: rgb(95, 50, 155);
-$color-bright-blue-purple: rgb(144, 100, 202);
-$color-white-blue-purple: rgb(227, 222, 236);
+// Purple Colors
+$COLOR-PURPLE-1: rgba(77, 18, 161);
+$COLOR-PURPLE-2: rgba(95, 50, 155);
+$COLOR-PURPLE-3: rgba(144, 100, 202);
+$COLOR-PURPLE-4: rgba(227, 222, 236);
 
-$color-green: rgba(20, 160, 20);
-$color-red: rgba(200, 20, 20);
+// Color For Text Selection
+$SELECT-COLOR: rgba(95, 50, 155);
+
+// Warning Color
+$COLOR-RED: rgba(200, 20, 20);

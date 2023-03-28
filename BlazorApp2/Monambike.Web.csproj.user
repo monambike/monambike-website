@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>Monambike.Web</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>G:\monambike.github.io_blazor\.github\workflows\monambike.yml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>monambike - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

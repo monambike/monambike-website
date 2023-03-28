@@ -30,3 +30,32 @@
     }
   }
 }
+
+.hamburguer{
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkite-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: $COLOR-WHITE;
+}
+
+@media(max-width:800px){
+  .hamburguer{
+    display: block;
+  }
+
+  .ul-navigation{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+  }
+}
