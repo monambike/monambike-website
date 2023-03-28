@@ -403,7 +403,6 @@ p {
   background: -webkit-linear-gradient(rgb(77, 18, 161), rgb(95, 50, 155));
   display: flex;
   padding-left: 2.5%;
-  width: 97.5%;
   align-items: center;
   color: rgb(230, 230, 230);
 }

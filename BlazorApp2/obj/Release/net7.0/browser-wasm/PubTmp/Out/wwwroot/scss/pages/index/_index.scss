@@ -14,7 +14,10 @@
 
 .site-section {
   padding: 10px 0px 10px 0px;
-  min-height: 40vh;
+  min-height: 50vh;
+  height: 100% !important;
+  display: block;
+  overflow: auto;
 
   &--title {
     // Text
@@ -25,7 +28,7 @@
     padding: 20px;
     text-align: center;
   }
-  
+
   &--body {
     padding: 20px;
   }

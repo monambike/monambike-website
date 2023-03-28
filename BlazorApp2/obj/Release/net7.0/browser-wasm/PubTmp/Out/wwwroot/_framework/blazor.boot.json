@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Microsoft.AspNetCore.Components.dll": "sha256-\/fUGWpjT31mI5NvtO97bMDKNu6yyGWc0E65Q8xw3ERI=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-+c9xJOFdzr8Rb1GTgtU5RJkrmmPtkXJWj8C6fFYTyMo=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-xbljJkHE5KLll7mQpC+wXP9vzkyjydGEqjedSx\/04pU=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-2Jg3mQhCSyqkofbgXHMRw0whL7fAl07+VKYd0lApk7I=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-X\/f4fDl2cuIRXeWHhK\/f2UqQbFioD+RU4a4CEh0zrrQ=",
@@ -21,7 +21,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-eXvGx2jcjpTPEJoAHBsW\/VuMPbNyyU+AsuhPmkzSSRY=",
       "Microsoft.JSInterop.dll": "sha256-o8AIKirvHrREeVXWDAon4ee2hZS61A5nLyLfZ355X24=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-ClhDy3j6C2coeaYSd71VzhinK6w5QGa2ViwhRhQ6L40=",
-      "Monambike.Web.dll": "sha256-HCXLuTd737084csHKJwVK1pQcJQBhBYSgo6KeWgBWTg=",
+      "Monambike.Web.dll": "sha256-My3usGBC70VjaMxZW6yantZS48umqj75Kj6tIMn1c8g=",
       "System.Collections.Concurrent.dll": "sha256-\/rVxlaYJ+4nw+9LtMaUKLTkh2uTjZxQU79YDel6+cbw=",
       "System.Collections.dll": "sha256-rbeDhIDSUeFVYVchmOgdwkyz0pqM45yIr28ClqqevII=",
       "System.ComponentModel.dll": "sha256-SQWBEnKAV\/J2jOPx2Nq2GToL26u1xo5eYazE0h0rqv0=",
@@ -31,7 +31,7 @@
       "System.Net.Primitives.dll": "sha256-UzhUUxrHva0ha5CEjSRop9\/VyIRywS0ycCVV2Xjp3Zo=",
       "System.Private.CoreLib.dll": "sha256-xwcJ8A4zpNZEK+zJpWULly52d4gvWSyfEPJHPgCRkhc=",
       "System.Private.Uri.dll": "sha256-kw5QybEgcKpCLDH87Ohc9VTNnNGof9ZWfunzCmz14bk=",
-      "System.Runtime.dll": "sha256-8etfNPUWKlQp\/11+S03WWkC+C090HjdLCzxliomLYWk=",
+      "System.Runtime.dll": "sha256-EyPqGfIppHPZykrunI76Pj+AuhQ1WPmdBIl1rOxamEA=",
       "System.Runtime.InteropServices.JavaScript.dll": "sha256-l3LOpn41IENvd+HSuUnRyB6aRoKuvrUE4SnHt\/pEs1Y=",
       "System.Text.Encodings.Web.dll": "sha256-7lN0bLZ2wqjP7HBE0pmfRmbaM5+hmCOr0GjEwtOXu50=",
       "System.Text.Json.dll": "sha256-0ZgnMsiKplG+MGTDnMX1wtP7KnYX7B0QPJcBBkwjfdw="
