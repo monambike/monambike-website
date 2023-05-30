@@ -1,4 +1,4 @@
-# Meu Site Pessoal
+# My Personal Website
 
 Project containing my personal website which contains some brief information about myself. Give me a chance, check it out! 🥺💜
 
