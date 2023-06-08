@@ -1,1 +1,0 @@
-G:\monambike.github.io_blazor\BlazorApp2\obj\Release\net7.0\browser-wasm\PubTmp\Out\web.config
