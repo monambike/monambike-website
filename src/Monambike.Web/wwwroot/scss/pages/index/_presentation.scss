@@ -1,0 +1,33 @@
+@import "../../abstract/variables/_colors.scss";
+
+.site-section {
+  height: 85vh;
+  &--presentation {
+    /*background-color: $COLOR-PURPLE-1;*/
+    background: -webkit-linear-gradient($COLOR-PURPLE-1, $COLOR-PURPLE-2);
+    display: flex;
+    padding-left: 2.5%;
+    align-items: center;
+    color: $COLOR-WHITE;
+
+    &--name {
+      // Text
+      font-size: 5vw;
+      text-shadow: 5px 5px $COLOR-PURPLE-2;
+      // Position
+      align-self: flex-end;
+      text-align: left;
+    }
+
+    &--profession {
+      // Text
+      font-size: 4vw;
+      text-shadow: 5px 5px $COLOR-PURPLE-2;
+    }
+
+    &--skills {
+      display: flex;
+      font-size: 3vw;
+    }
+  }
+}

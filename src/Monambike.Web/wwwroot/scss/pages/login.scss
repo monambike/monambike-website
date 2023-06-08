@@ -1,0 +1,109 @@
+﻿@import '../abstract/variables/_colors.scss';
+
+.login-page-background {
+  background-image: url(../images/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Make background fill the whole screen */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+
+  .login-frame {
+    background-image: url(../images/purpletexture.jpg);
+    margin: auto;
+    text-align: center;
+    /* Centering login screen */
+    $HEIGHT: 450px;
+    $WIDTH: 600px;
+    /* Size */
+    width: $WIDTH;
+    height: $HEIGHT;
+    /* Position */
+    position: absolute;
+    margin: calc($HEIGHT / -2) 0px 0px calc($WIDTH / -2);
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+
+    .background-filter {
+      background-color: rgba(30,30,30,0.5);
+      height: 100%;
+      color: $COLOR-WHITE;
+
+      h1 {
+        padding-top: 30px;
+      }
+
+      form {
+        padding: 30px 25% 0px 25%;
+        // Username and Password Fields
+        input {
+          width: 100%;
+          padding: 10px;
+          border: 0px;
+          margin: 20px 0px 20px 0px;
+          font-size: 12pt;
+          background-color: $COLOR-BLACK;
+          color: $COLOR-WHITE;
+        }
+        // I Forgot My Password
+        a {
+          color: $COLOR-WHITE;
+          width: 100%;
+          text-align: left;
+
+          &:hover {
+            color: $COLOR-PURPLE-3;
+            --_p: 0;
+            cursor: pointer;
+          }
+        }
+        // Login Button
+        button {
+          background-color: $COLOR-PURPLE-1;
+          font-weight: bold;
+          color: white;
+          border: 0;
+          padding: 10px;
+          width: 100%;
+          font-size: 12pt;
+          margin-top: 30px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: $COLOR-WHITE;
+            color: $COLOR-BLACK;
+            transition: 0.25s;
+          }
+        }
+      }
+      /* Faz com que todos os itens dentro da tela
+        de login fiquem um em baixo do outro */
+      * {
+        display: block;
+      }
+    }
+
+    .create-new-account {
+      background-color: $COLOR-WHITE;
+      color: $COLOR-BLACK;
+      font-weight: bold;
+      /* Colocar o texto no final da página */
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      font-size: 12pt;
+      padding: 10px 0px 10px 0px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $COLOR-PURPLE-1;
+        color: $COLOR-WHITE;
+        transition: 0.25s;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@import '../../abstract/variables/_colors.scss';
+
+.warning {
+  background-color: $COLOR-RED;
+  color: $COLOR-WHITE;
+  padding: 5px;
+  text-align: center;
+}

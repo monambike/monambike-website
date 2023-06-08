@@ -1,0 +1,13 @@
+@import '../abstract/variables/_colors.scss';
+
+// Change website selection color (when you select a text)
+::selection {
+  background: $SELECT-COLOR;
+  color: $COLOR-WHITE;
+}
+
+// For Firefox
+::-moz-selection {
+  background: $COLOR-PURPLE-3;
+  color: $COLOR-WHITE;
+}

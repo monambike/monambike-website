@@ -1,0 +1,17 @@
+/* Actually being used on Footer and "Tour" Index Page Section, it
+  makes possible to have three columns */
+.three-columns {
+  float: left;
+  width: 30%;
+  &--extern-columns { /* Left and Right Column */
+    margin: 0px 2.5% 0px 2.5%;
+  }
+}
+
+/* The component with this class cannot be selected */
+.not-selectable {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
