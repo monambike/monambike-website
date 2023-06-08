@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monambike.Web", "Monambike.Web\Monambike.Web.csproj", "{912356AB-C1D9-40AD-A400-3FAEE982A77C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monambike.WebAPI", "Monambike.WebAPI\Monambike.WebAPI.csproj", "{1CB33139-19FB-4168-AB39-D20D1548D61C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{912356AB-C1D9-40AD-A400-3FAEE982A77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912356AB-C1D9-40AD-A400-3FAEE982A77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912356AB-C1D9-40AD-A400-3FAEE982A77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912356AB-C1D9-40AD-A400-3FAEE982A77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB33139-19FB-4168-AB39-D20D1548D61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB33139-19FB-4168-AB39-D20D1548D61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB33139-19FB-4168-AB39-D20D1548D61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB33139-19FB-4168-AB39-D20D1548D61C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97847373-3E88-41AA-9CB0-0AA9113F5B24}
+	EndGlobalSection
+EndGlobal
