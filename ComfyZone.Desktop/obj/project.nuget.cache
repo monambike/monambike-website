@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x5rEvv63L+R6f5LudIYk5KKXDWzX03vIwLAqpiulYB7EEL3S3hAVLoF6ssYYYYN4+XgY/pGKWEbzZ2rwGRCV5w==",
+  "dgSpecHash": "K70wn7nr2MuS16fwGHpl0wHNt+8dzMzMQ4IC2rL2c8gkouJ00pIsuQEgc4GJ2PZU1sVqJHb+3MQL+7sUqIwL2w==",
   "success": true,
-  "projectFilePath": "G:\\monambike.github.io_blazor\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj",
+  "projectFilePath": "G:\\monambike-website\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.0\\microsoft.netframework.referenceassemblies.net48.1.0.0.nupkg.sha512",

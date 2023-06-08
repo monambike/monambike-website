@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Golex78N8XvfZzhsiu4aJqCac1P465Nu5rsMRYHKdahwUpdl9YEKfdIascA+rMO13MbUsqQ0F7VU1+uZKkayw==",
+  "dgSpecHash": "3pqvIv5gosAqmiAr/nev2RYfXdKnFiga0Wqtgd8J/wLTJoypIN98xvOHcSMoBpPPTOEr9eQuXmtGoL5ptWjhtg==",
   "success": true,
-  "projectFilePath": "G:\\monambike.github.io_blazor\\BlazorAppExampleDeleteLater\\BlazorAppExampleDeleteLater.csproj",
+  "projectFilePath": "G:\\monambike-website\\BlazorAppExampleDeleteLater\\BlazorAppExampleDeleteLater.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

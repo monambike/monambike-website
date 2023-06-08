@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FTWbnKqV3yOq4jPdHr5naGoCtE8xNoaCfNh8zY0MJfGwz1mAOV1cIMOCE4CZ9/0gbNSgbiQ6T68ZfGruXQuXIQ==",
+  "dgSpecHash": "Qh39ojZ/HBJ64vFpue9PXhxFoszhNFoXFY81KVpJVOF5WFWTxeNPln64fEHGO7MVj+0Cf3/cPEh2JfIlTwJdrA==",
   "success": true,
-  "projectFilePath": "G:\\monambike.github.io_blazor\\BlazorApp2\\Monambike.Web.csproj",
+  "projectFilePath": "G:\\monambike-website\\BlazorApp2\\Monambike.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.2\\microsoft.aspnetcore.authorization.7.0.2.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.2\\microsoft.aspnetcore.components.7.0.2.nupkg.sha512",
@@ -30,8 +30,7 @@
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.2\\microsoft.jsinterop.webassembly.7.0.2.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\vinic\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.4.nupkg.sha512"
+    "C:\\Users\\vinic\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

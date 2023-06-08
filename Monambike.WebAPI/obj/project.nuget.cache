@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OCb+AG+5vZ3WpT8yupjEqAfc9J1ifkOWq0krwc/KoAh5oxqTslrQ4OI9kuEcYOvRHvq+RpsZaI47z0emVZpd2A==",
+  "dgSpecHash": "t6nLqvrvhtNPZcMmuIvN1ZSGIlAmoQLAm3nEzaReFN778VsK/3eyZd9HrcfeMQ3HzdnXVrDjO36tfR/C5CdLpQ==",
   "success": true,
-  "projectFilePath": "G:\\monambike.github.io_blazor\\Monambike.WebAPI\\Monambike.WebAPI.csproj",
+  "projectFilePath": "G:\\monambike-website\\Monambike.WebAPI\\Monambike.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\monambike.github.io_blazor\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj": {}
+    "G:\\monambike-website\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj": {}
   },
   "projects": {
-    "G:\\monambike.github.io_blazor\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj": {
+    "G:\\monambike-website\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\monambike.github.io_blazor\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj",
+        "projectUniqueName": "G:\\monambike-website\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj",
         "projectName": "ComfyZone.Desktop",
-        "projectPath": "G:\\monambike.github.io_blazor\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj",
+        "projectPath": "G:\\monambike-website\\ComfyZone.Desktop\\ComfyZone.Desktop.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "G:\\monambike.github.io_blazor\\ComfyZone.Desktop\\obj\\",
+        "outputPath": "G:\\monambike-website\\ComfyZone.Desktop\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

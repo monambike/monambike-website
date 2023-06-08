@@ -9,89 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Monambike.Web
 build_property.RootNamespace = Monambike.Web
-build_property.ProjectDir = G:\monambike.github.io_blazor\BlazorApp2\
+build_property.ProjectDir = G:\monambike-website\BlazorApp2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\monambike.github.io_blazor\BlazorApp2
+build_property.MSBuildProjectDirectory = G:\monambike-website\BlazorApp2
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/App.razor]
+[G:/monambike-website/BlazorApp2/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Blog.razor]
+[G:/monambike-website/BlazorApp2/Pages/Blog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Index/AboutMe.razor]
+[G:/monambike-website/BlazorApp2/Pages/Index/AboutMe.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhcQWJvdXRNZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Index/Contact.razor]
+[G:/monambike-website/BlazorApp2/Pages/Index/Contact.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhcQ29udGFjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Index/Index.razor]
+[G:/monambike-website/BlazorApp2/Pages/Index/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Index/Presentation.razor]
+[G:/monambike-website/BlazorApp2/Pages/Index/Presentation.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhcUHJlc2VudGF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Index/SocialMedia.razor]
+[G:/monambike-website/BlazorApp2/Pages/Index/SocialMedia.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhcU29jaWFsTWVkaWEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Index/Tour.razor]
+[G:/monambike-website/BlazorApp2/Pages/Index/Tour.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhcVG91ci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Index/Warning.razor]
+[G:/monambike-website/BlazorApp2/Pages/Index/Warning.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhcV2FybmluZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Login.razor]
+[G:/monambike-website/BlazorApp2/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/Profile.razor]
+[G:/monambike-website/BlazorApp2/Pages/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/ReferenceGuide.razor]
+[G:/monambike-website/BlazorApp2/Pages/ReferenceGuide.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmZXJlbmNlR3VpZGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Pages/SignUp.razor]
+[G:/monambike-website/BlazorApp2/Pages/SignUp.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnblVwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Shared/Footer.razor]
+[G:/monambike-website/BlazorApp2/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Shared/Header.razor]
+[G:/monambike-website/BlazorApp2/Shared/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Shared/MainLayout.razor]
+[G:/monambike-website/BlazorApp2/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Shared/NoMenuLayout.razor]
+[G:/monambike-website/BlazorApp2/Shared/NoMenuLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vTWVudUxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Shared/NoScript.razor]
+[G:/monambike-website/BlazorApp2/Shared/NoScript.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vU2NyaXB0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/Shared/TranslationButton.razor]
+[G:/monambike-website/BlazorApp2/Shared/TranslationButton.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRyYW5zbGF0aW9uQnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/monambike.github.io_blazor/BlazorApp2/_Imports.razor]
+[G:/monambike-website/BlazorApp2/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
