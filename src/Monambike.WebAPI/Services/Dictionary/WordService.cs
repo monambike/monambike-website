@@ -1,11 +1,8 @@
-﻿
+﻿using Monambike.WebAPI.Data;
 using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity.Core.EntityClient;
 using System.Linq;
 using System.Threading.Tasks;
-using Monambike.WebAPI.Data;
 
 namespace Monambike.WebAPI.Services.Dictionary
 {
@@ -17,7 +14,7 @@ namespace Monambike.WebAPI.Services.Dictionary
             _mapper = mapper;
         }
 
-        public async Task<ServiceResponse<IEnumerable<GetWordDTO>>> GetWord()
+        public async Task<ServiceResponse<IEnumerable<GetWordDTO>>> GetWords()
         {
             using (var context = new MonambikeContext())
             {
@@ -33,6 +30,51 @@ namespace Monambike.WebAPI.Services.Dictionary
                 return serviceResponse;
 
             throw new Exception("No words were found.");
+        }
+        public async Task<ServiceResponse<GetWordDTO>> CreateWord(CreateWordDTO newWord)
+        {
+            var wordEntity = _mapper.Map<Word>(newWord);
+
+            using (var context = new MonambikeContext())
+            {
+                context.Words.Add(wordEntity);
+                await context.SaveChangesAsync();
+            }
+
+            var createdWordDto = _mapper.Map<GetWordDTO>(wordEntity);
+            return new ServiceResponse<GetWordDTO> { Data = createdWordDto };
+        }
+        public async Task<ServiceResponse<UpdateWordDTO>> UpdateWord(int id, UpdateWordDTO updatedWord)
+        {
+            var existingWord = _mapper.Map<Word>(updatedWord);
+            using (var context = new MonambikeContext())
+            {
+                existingWord = await context.Words.FindAsync(id);
+                if (existingWord == null)
+                    throw new Exception("Word not found.");
+
+                _mapper.Map(updatedWord, existingWord);
+                await context.SaveChangesAsync();
+            }
+
+            var updatedWordDto = _mapper.Map<UpdateWordDTO>(existingWord);
+            return new ServiceResponse<UpdateWordDTO> { Data = updatedWordDto };
+        }
+
+        public async Task<ServiceResponse<string>> DeleteWord(int id)
+        {
+
+            using (var context = new MonambikeContext())
+            {
+                var existingWord = await context.Words.FindAsync(id);
+                if (existingWord == null)
+                    throw new Exception("Word not found.");
+
+                context.Words.Remove(existingWord);
+                await context.SaveChangesAsync();
+            }
+
+            return new ServiceResponse<string> { Data = "Word deleted successfully." };
         }
     }
 }

@@ -9,7 +9,9 @@ public partial class Address
 
     public string Street { get; set; } = null!;
 
-    public string Number { get; set; } = null!;
+    public string? Complement { get; set; }
+
+    public string? Number { get; set; }
 
     public int? CityId { get; set; }
 

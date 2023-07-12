@@ -33,7 +33,7 @@ public partial class User
 
     public virtual Setting? Setting { get; set; }
 
-    public virtual ICollection<Tag> Tags { get; } = new List<Tag>();
-
     public virtual ICollection<UserMedium> UserMedia { get; } = new List<UserMedium>();
+
+    public virtual ICollection<UserTag> UserTags { get; } = new List<UserTag>();
 }

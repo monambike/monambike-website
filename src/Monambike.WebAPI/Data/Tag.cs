@@ -9,9 +9,5 @@ public partial class Tag
 
     public string Name { get; set; } = null!;
 
-    public int UserId { get; set; }
-
-    public virtual User User { get; set; } = null!;
-
-    public virtual ICollection<Medium> Media { get; } = new List<Medium>();
+    public virtual ICollection<Post> Posts { get; } = new List<Post>();
 }

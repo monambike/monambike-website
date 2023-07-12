@@ -11,7 +11,11 @@ public partial class Country
 
     public string Abbreviation { get; set; } = null!;
 
+    public string PhoneCode { get; set; } = null!;
+
     public virtual ICollection<Address> Addresses { get; } = new List<Address>();
+
+    public virtual ICollection<Language> Languages { get; } = new List<Language>();
 
     public virtual ICollection<Region> Regions { get; } = new List<Region>();
 }

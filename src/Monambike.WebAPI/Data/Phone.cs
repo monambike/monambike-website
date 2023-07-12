@@ -13,7 +13,7 @@ public partial class Phone
 
     public string Number { get; set; } = null!;
 
-    public string CompletePhoneNumber { get; set; } = null!;
+    public int? CompletePhoneNumber { get; set; }
 
     public virtual User User { get; set; } = null!;
 }

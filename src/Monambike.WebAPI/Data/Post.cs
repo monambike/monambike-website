@@ -18,4 +18,6 @@ public partial class Post
     public virtual ICollection<Token> Tokens { get; } = new List<Token>();
 
     public virtual Visibility Visibility { get; set; } = null!;
+
+    public virtual ICollection<Tag> TagOfPosts { get; } = new List<Tag>();
 }
