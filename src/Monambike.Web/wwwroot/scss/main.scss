@@ -4,10 +4,13 @@
 @import "abstract/variables/_fonts.scss";
 
 // (components) Loading Images, Links and Other Components
+@import "components/_button.scss";
 @import "components/_images.scss";
 @import "components/_links.scss";
+@import "components/_scrollbar.scss";
 @import "components/_select.scss";
 @import "components/_selection.scss";
+@import "components/_text.scss";
 
 // (core) Loading Typography and Reset Classes
 @import "core/_reset.scss";
@@ -18,8 +21,11 @@
 @import "layout/_header.scss";
 @import "layout/_navigation.scss";
 
-// (pages) Loading All Stylish for Every Page and Section
-// Index Page
+// (mediaquery) Loading Website Layout For Specific Platforms
+@import "mediaquery/_mobile.scss";
+
+// (pages) // Loading All Stylish for Every Page and Section
+// (pages/index) Index Page
 @import "pages/index/_about-me.scss";
 @import "pages/index/_contact.scss";
 @import "pages/index/_index.scss";
@@ -27,5 +33,5 @@
 @import "pages/index/_presentation.scss";
 @import "pages/index/_social-media.scss";
 @import "pages/index/_warning.scss";
-// Login Page
+// (pages/login) Login Page
 @import "pages/login.scss";

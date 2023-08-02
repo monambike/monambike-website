@@ -1,0 +1,31 @@
+﻿/*.reveal {
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+*/
+
+/* Define the keyframes for the 'animate' animation */
+@keyframes animate {
+    from {
+        transform: translateY(-144px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Apply the 'reveal' class styles */
+.reveal {
+    position: relative;
+    animation: animate 2s ease;
+}

@@ -17,6 +17,18 @@
   user-select: none; /* Standard */
 }
 
+a.button {
+  background-color: rgb(77, 18, 161);
+  padding: 10px;
+  border-radius: 5px;
+}
+a.button:hover {
+  background-color: rgb(227, 222, 236);
+}
+a.button::before {
+  content: "Clique aqui: ";
+}
+
 img {
   max-width: 100%;
   transition: 0.5s;
@@ -41,8 +53,8 @@ figure {
 }
 
 a {
-  /* the thickness of the line */
-  /* the color */
+  /* Variables that hold values from the line under links when hovered */
+  /* Link attributes */
   color: rgb(230, 230, 230);
   padding-bottom: var(0.1em);
   background: linear-gradient(90deg, rgb(95, 50, 155) 50%, rgb(230, 230, 230) 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(rgb(95, 50, 155) 0 0) 0% 100%/var(--_p, 0%) 0.1em no-repeat;
@@ -54,11 +66,34 @@ a:hover {
   color: rgb(95, 50, 155);
 }
 
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: rgb(227, 222, 236);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(144, 100, 202);
+  /* Handle on hover */
+  /* Handle when dragged */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(95, 50, 155);
+}
+::-webkit-scrollbar-thumb:active {
+  background: rgb(77, 18, 161);
+}
+
 select {
   background-color: rgb(30, 30, 30);
   color: rgb(230, 230, 230);
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
   transition: 0.1s;
 }
 select:hover {
@@ -68,7 +103,7 @@ select:active {
   background-color: rgb(30, 30, 30);
 }
 select option {
-  background-color: rgb(77, 18, 161);
+  background-color: rgb(95, 50, 155);
   color: rgb(255, 255, 255);
   transition: 2s;
 }
@@ -81,6 +116,35 @@ select option {
 ::-moz-selection {
   background: rgb(144, 100, 202);
   color: rgb(230, 230, 230);
+}
+
+/*.reveal {
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+*/
+/* Define the keyframes for the 'animate' animation */
+@keyframes animate {
+  from {
+    transform: translateY(-144px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* Apply the 'reveal' class styles */
+.reveal {
+  position: relative;
+  animation: animate 2s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -163,10 +227,7 @@ p {
 .website-header {
   background-color: rgb(15, 15, 15);
   display: flex;
-  padding: 5px;
-  position: fixed;
-  z-index: 100;
-  width: 100%;
+  padding: 10px;
 }
 .website-header--presentation {
   flex: 1;
@@ -304,6 +365,11 @@ p {
   background: rgb(144, 100, 202);
   border-color: rgb(77, 18, 161);
   color: rgb(230, 230, 230);
+}
+
+.button-container {
+  text-align: center;
+  padding: 20px 0px;
 }
 
 .karen-kujou-staring-happy {

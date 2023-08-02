@@ -1,0 +1,15 @@
+@import "../abstract/variables/_colors.scss";
+
+a.button {
+  background-color: $COLOR-PURPLE-1;
+  padding: 10px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $COLOR-PURPLE-4;
+  }
+
+  &::before {
+    content: "Clique aqui: ";
+  }
+}

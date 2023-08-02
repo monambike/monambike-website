@@ -1,2 +1,37 @@
-﻿<!-- WARNING ABOUT SITE AT DEVELOPMENT -->
-<h3 class="warning">O site permanece em fase de desenvolvimento, peço sua compreensão.</h3>
+﻿<h3 class="warning">O site permanece em fase de desenvolvimento, peço sua compreensão.</h3>
+
+@*@using System.Net.Http
+@using System.Threading.Tasks
+@using System.Timers
+
+<!-- WARNING ABOUT SITE AT DEVELOPMENT -->
+<h3 class="warning">@displayText</h3>
+
+@code {
+    private string displayText = "O site permanece em fase de desenvolvimento, peço sua compreensão.";
+    public string[] lines = new string[0];
+    private Random random = new Random();
+    private Timer timer = new Timer(15000); // 15000 milliseconds = 15 seconds;
+
+    protected override async Task OnInitializedAsync()
+    {
+        HttpClient httpClient = new HttpClient();
+
+        // Loading website curiosities
+        string fileContent = await httpClient.GetStringAsync("Resources/Curiosities.txt");
+        lines = fileContent.Split('\n');
+
+        timer.Elapsed += TimerElapsed;
+        timer.Start();
+    }
+
+    private void TimerElapsed(object sender, ElapsedEventArgs e)
+    {
+        // Gets a random curiosity to display
+        int randomIndex = random.Next(0, lines.Length);
+        displayText = lines[randomIndex];
+
+        InvokeAsync(StateHasChanged);
+    }
+}
+*@

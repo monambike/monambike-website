@@ -4,7 +4,7 @@ select{
   background-color: $COLOR-GRAY-1;
   color: $COLOR-WHITE;
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
   transition: 0.1s;
   &:hover {
     background-color: $COLOR-GRAY-2;
@@ -14,7 +14,7 @@ select{
   }
   
   option{
-    background-color: $COLOR-PURPLE-1;
+    background-color: $COLOR-PURPLE-2;
     color: rgba(255,255,255,1);
     transition: 2s;
   }

@@ -3,10 +3,7 @@
 .website-header {
   background-color: $COLOR-BLACK;
   display: flex;
-  padding: 5px;
-  position: fixed;
-  z-index: 100;
-  width: 100%;
+  padding: 10px;
 
   &--presentation {
     flex: 1; // Makes it align to left

@@ -1,9 +1,11 @@
 @import "../abstract/variables/_colors.scss";
 
 a {
-  $LINE-THICKNESS: 0.1em; /* the thickness of the line */
-  $LINECOLOR: $COLOR-PURPLE-2; /* the color */
+  /* Variables that hold values from the line under links when hovered */
+  $LINE-THICKNESS: 0.1em;
+  $LINECOLOR: $COLOR-PURPLE-2;
 
+  /* Link attributes */
   color: $COLOR-WHITE;
   padding-bottom: var($LINE-THICKNESS);
   background: linear-gradient(90deg,$LINECOLOR 50%, $COLOR-WHITE 0) calc(100% - var(--_p,0%)) / 200% 100%, linear-gradient($LINECOLOR 0 0) 0% 100%/var(--_p,0%) $LINE-THICKNESS no-repeat;
@@ -13,6 +15,5 @@ a {
   &:hover {
     --_p: 100%;
     color: $COLOR-PURPLE-2
-    /*color: $COLOR-PURPLE-3*/
   }
 }
