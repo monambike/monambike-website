@@ -1,0 +1,17 @@
+@import '../abstract/variables/_colors.scss';
+
+#app {
+  min-height: 100%;
+}
+
+.loading {
+  background: $COLOR-PURPLE-2;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  p, img {
+    margin: 0;
+    padding: 0;
+  }
+}

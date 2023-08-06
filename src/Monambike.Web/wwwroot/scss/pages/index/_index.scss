@@ -17,7 +17,7 @@
   min-height: 50vh;
   height: 100% !important;
   display: block;
-  overflow: auto;
+  overflow: hidden; // Hide scrollbars for text animation
 
   &--title {
     // Text

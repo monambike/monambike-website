@@ -5,49 +5,59 @@
   &--tour {
     background-color: $COLOR-PURPLE-1;
 
-    img:hover {
-      transform: scale(1) !important;
-    }
+    a {
+      // Removing image hover animation
+      img:hover {
+        transform: scale(1) !important;
+      }
+      // Adding hover to columns
+      & .three-columns {
+        padding: 0;
+        transition: padding 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
+      }
 
-    &--extern-column:hover, &--intern-column:hover {
-      transform: scale(1.025);
-      transition: 0.25s;
-    }
+      &:hover .three-columns {
+        padding: 10px;
+      }
+      // Extern columns
+      &:nth-child(odd) div {
+        background-color: $COLOR-PURPLE-2;
+        box-shadow: 5px 5px $COLOR-PURPLE-4;
+        color: $COLOR-WHITE;
+      }
+      // Intern column
+      &:nth-child(even) div {
+        background-color: $COLOR-PURPLE-4;
+        box-shadow: 5px 5px $COLOR-PURPLE-3;
+        color: $COLOR-BLACK;
+      }
+      // Adjust layout for smaller devices
+      @media(max-width:800px) {
+        &:hover .three-columns {
+          transform: scale(1);
+        }
+        // Removing animation
+        .three-columns {
+          margin: 15px 0px;
+          width: 100%;
 
-    &--extern-column {
-      background-color: $COLOR-PURPLE-2;
-      color: $COLOR-WHITE;
-      box-shadow: 5px 5px $COLOR-PURPLE-4;
-    }
-
-    &--intern-column {
-      background-color: $COLOR-PURPLE-4;
-      box-shadow: 5px 5px $COLOR-PURPLE-3;
-      color: $COLOR-BLACK;
-    }
-
-
-    @media(max-width:800px) {
-      .three-columns {
-        float: none;
-        width: 100%;
-        box-shadow: none;
-
-        &--extern-columns {
-          margin: 0;
+          p {
+            text-align: center;
+          }
+          // Making text aligned to middle
         }
       }
     }
   }
 }
 
-  .column-title {
-    font-size: $FONT-SIZE-H3;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-  }
+.column-title {
+  font-size: $FONT-SIZE-H3;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
 
-  .center-content {
-    display: flex;
-    justify-content: center;
-  }
+.center-content {
+  display: flex;
+  justify-content: center;
+}

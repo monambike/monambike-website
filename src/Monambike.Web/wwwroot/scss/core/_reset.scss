@@ -3,7 +3,10 @@ h1, h2, h3, h4, h5, h6 { margin: 0px; }
 p { margin: 0px; }
 
 // Divisions
-body { margin: 0px; }
+html, body {
+  height: 100%;
+  margin: 0px;
+}
 
 // Links and Imports
 a { text-decoration: none; }

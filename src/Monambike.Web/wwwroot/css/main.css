@@ -5,15 +5,15 @@
   float: left;
   width: 30%;
 }
-.three-columns--extern-columns { /* Left and Right Column */
-  margin: 0px 2.5% 0px 2.5%;
+.three-columns:nth-child(odd) { /* Left and Right Column */
+  margin: 0px 1% 0px 1%;
 }
 
 /* The component with this class cannot be selected */
 .not-selectable {
   -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
+  -moz-user-select: none; /* Firefox */
   user-select: none; /* Standard */
 }
 
@@ -56,14 +56,14 @@ a {
   /* Variables that hold values from the line under links when hovered */
   /* Link attributes */
   color: rgb(230, 230, 230);
-  padding-bottom: var(0.1em);
-  background: linear-gradient(90deg, rgb(95, 50, 155) 50%, rgb(230, 230, 230) 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(rgb(95, 50, 155) 0 0) 0% 100%/var(--_p, 0%) 0.1em no-repeat;
+  padding-bottom: var(0.15em);
+  background: linear-gradient(90deg, rgb(144, 100, 202) 50%, rgb(230, 230, 230) 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(rgb(144, 100, 202) 0 0) 0% 100%/var(--_p, 0%) 0.15em no-repeat;
   -webkit-background-clip: text, padding-box;
   transition: 0.5s;
 }
 a:hover {
   --_p: 100%;
-  color: rgb(95, 50, 155);
+  color: rgb(144, 100, 202);
 }
 
 /* Scrollbar Width */
@@ -118,33 +118,15 @@ select option {
   color: rgb(230, 230, 230);
 }
 
-/*.reveal {
-    position: relative;
-    transform: translateY(144px);
-    opacity: 0;
-    transition: 1s all 1s ease;
-}
-
-.reveal.active {
-    transform: translateY(0);
-    opacity: 1;
-}
-*/
-/* Define the keyframes for the 'animate' animation */
-@keyframes animate {
-  from {
-    transform: translateY(-144px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-/* Apply the 'reveal' class styles */
-.reveal {
+.reveal__translate {
   position: relative;
-  animation: animate 2s ease;
+  transform: translateY(144px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal__translate.active {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -155,7 +137,8 @@ p {
   margin: 0px;
 }
 
-body {
+html, body {
+  height: 100%;
   margin: 0px;
 }
 
@@ -228,6 +211,7 @@ p {
   background-color: rgb(15, 15, 15);
   display: flex;
   padding: 10px;
+  z-index: 999; /* Add z-index to make sure it appears above other elements */
 }
 .website-header--presentation {
   flex: 1;
@@ -265,8 +249,13 @@ p {
 }
 
 @media (max-width: 800px) {
+  .website-header {
+    position: fixed;
+    width: 100%;
+  }
   .hamburguer {
     display: block;
+    margin-right: 20px;
   }
   .hamburguer.active .bar:nth-child(1) {
     opacity: 0;
@@ -287,11 +276,127 @@ p {
     width: 100%;
     text-align: center;
     transition: 0.3s;
+    z-index: 999; /* Add z-index to make sure it appears above other elements */
+    padding: 20px 0;
+  }
+  .ul-navigation li {
+    display: block;
+    margin: 10px 0;
   }
   .ul-navigation__active {
     left: 0px;
   }
 }
+#app {
+  min-height: 100%;
+}
+
+.loading {
+  background: rgb(95, 50, 155);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.loading p, .loading img {
+  margin: 0;
+  padding: 0;
+}
+
+.login-page-background {
+  background-image: url(../images/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Make background fill the whole screen */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.login-page-background .login-frame {
+  background-image: url(../images/purpletexture.jpg);
+  margin: auto;
+  text-align: center;
+  /* Centering login screen */
+  /* Size */
+  width: 600px;
+  height: 450px;
+  /* Position */
+  position: absolute;
+  margin: -225px 0px 0px -300px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+}
+.login-page-background .login-frame .background-filter {
+  background-color: rgba(30, 30, 30, 0.5);
+  height: 100%;
+  color: rgb(230, 230, 230);
+  /* Faz com que todos os itens dentro da tela
+    de login fiquem um em baixo do outro */
+}
+.login-page-background .login-frame .background-filter h1 {
+  padding-top: 30px;
+}
+.login-page-background .login-frame .background-filter form {
+  padding: 30px 25% 0px 25%;
+}
+.login-page-background .login-frame .background-filter form input {
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  margin: 20px 0px 20px 0px;
+  font-size: 12pt;
+  background-color: rgb(15, 15, 15);
+  color: rgb(230, 230, 230);
+}
+.login-page-background .login-frame .background-filter form a {
+  color: rgb(230, 230, 230);
+  width: 100%;
+  text-align: left;
+}
+.login-page-background .login-frame .background-filter form a:hover {
+  color: rgb(144, 100, 202);
+  --_p: 0;
+  cursor: pointer;
+}
+.login-page-background .login-frame .background-filter form button {
+  background-color: rgb(77, 18, 161);
+  font-weight: bold;
+  color: white;
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 12pt;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.login-page-background .login-frame .background-filter form button:hover {
+  background-color: rgb(230, 230, 230);
+  color: rgb(15, 15, 15);
+  transition: 0.25s;
+}
+.login-page-background .login-frame .background-filter * {
+  display: block;
+}
+.login-page-background .login-frame .create-new-account {
+  background-color: rgb(230, 230, 230);
+  color: rgb(15, 15, 15);
+  font-weight: bold;
+  /* Colocar o texto no final da página */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 12pt;
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+}
+.login-page-background .login-frame .create-new-account:hover {
+  background-color: rgb(77, 18, 161);
+  color: rgb(230, 230, 230);
+  transition: 0.25s;
+}
+
 .site-section {
   /* Purple cross animation at dark gray background */
 }
@@ -406,7 +511,7 @@ p {
   min-height: 50vh;
   height: 100% !important;
   display: block;
-  overflow: auto;
+  overflow: hidden;
 }
 .site-section--title {
   color: rgb(230, 230, 230);
@@ -422,31 +527,36 @@ p {
 .site-section--tour {
   background-color: rgb(77, 18, 161);
 }
-.site-section--tour img:hover {
+.site-section--tour a img:hover {
   transform: scale(1) !important;
 }
-.site-section--tour--extern-column:hover, .site-section--tour--intern-column:hover {
-  transform: scale(1.025);
-  transition: 0.25s;
+.site-section--tour a .three-columns {
+  padding: 0;
+  transition: padding 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
 }
-.site-section--tour--extern-column {
+.site-section--tour a:hover .three-columns {
+  padding: 10px;
+}
+.site-section--tour a:nth-child(odd) div {
   background-color: rgb(95, 50, 155);
-  color: rgb(230, 230, 230);
   box-shadow: 5px 5px rgb(227, 222, 236);
+  color: rgb(230, 230, 230);
 }
-.site-section--tour--intern-column {
+.site-section--tour a:nth-child(even) div {
   background-color: rgb(227, 222, 236);
   box-shadow: 5px 5px rgb(144, 100, 202);
   color: rgb(15, 15, 15);
 }
 @media (max-width: 800px) {
-  .site-section--tour .three-columns {
-    float: none;
-    width: 100%;
-    box-shadow: none;
+  .site-section--tour a:hover .three-columns {
+    transform: scale(1);
   }
-  .site-section--tour .three-columns--extern-columns {
-    margin: 0;
+  .site-section--tour a .three-columns {
+    margin: 15px 0px;
+    width: 100%;
+  }
+  .site-section--tour a .three-columns p {
+    text-align: center;
   }
 }
 
@@ -510,101 +620,6 @@ p {
   color: rgb(230, 230, 230);
   padding: 5px;
   text-align: center;
-}
-
-.login-page-background {
-  background-image: url(../images/space.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* Make background fill the whole screen */
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-}
-.login-page-background .login-frame {
-  background-image: url(../images/purpletexture.jpg);
-  margin: auto;
-  text-align: center;
-  /* Centering login screen */
-  /* Size */
-  width: 600px;
-  height: 450px;
-  /* Position */
-  position: absolute;
-  margin: -225px 0px 0px -300px;
-  z-index: 15;
-  top: 50%;
-  left: 50%;
-}
-.login-page-background .login-frame .background-filter {
-  background-color: rgba(30, 30, 30, 0.5);
-  height: 100%;
-  color: rgb(230, 230, 230);
-  /* Faz com que todos os itens dentro da tela
-    de login fiquem um em baixo do outro */
-}
-.login-page-background .login-frame .background-filter h1 {
-  padding-top: 30px;
-}
-.login-page-background .login-frame .background-filter form {
-  padding: 30px 25% 0px 25%;
-}
-.login-page-background .login-frame .background-filter form input {
-  width: 100%;
-  padding: 10px;
-  border: 0px;
-  margin: 20px 0px 20px 0px;
-  font-size: 12pt;
-  background-color: rgb(15, 15, 15);
-  color: rgb(230, 230, 230);
-}
-.login-page-background .login-frame .background-filter form a {
-  color: rgb(230, 230, 230);
-  width: 100%;
-  text-align: left;
-}
-.login-page-background .login-frame .background-filter form a:hover {
-  color: rgb(144, 100, 202);
-  --_p: 0;
-  cursor: pointer;
-}
-.login-page-background .login-frame .background-filter form button {
-  background-color: rgb(77, 18, 161);
-  font-weight: bold;
-  color: white;
-  border: 0;
-  padding: 10px;
-  width: 100%;
-  font-size: 12pt;
-  margin-top: 30px;
-  cursor: pointer;
-}
-.login-page-background .login-frame .background-filter form button:hover {
-  background-color: rgb(230, 230, 230);
-  color: rgb(15, 15, 15);
-  transition: 0.25s;
-}
-.login-page-background .login-frame .background-filter * {
-  display: block;
-}
-.login-page-background .login-frame .create-new-account {
-  background-color: rgb(230, 230, 230);
-  color: rgb(15, 15, 15);
-  font-weight: bold;
-  /* Colocar o texto no final da página */
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  font-size: 12pt;
-  padding: 10px 0px 10px 0px;
-  cursor: pointer;
-}
-.login-page-background .login-frame .create-new-account:hover {
-  background-color: rgb(77, 18, 161);
-  color: rgb(230, 230, 230);
-  transition: 0.25s;
 }
 
 /*# sourceMappingURL=main.css.map */

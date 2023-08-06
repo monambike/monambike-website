@@ -4,6 +4,7 @@
   background-color: $COLOR-BLACK;
   display: flex;
   padding: 10px;
+  z-index: 999; /* Add z-index to make sure it appears above other elements */
 
   &--presentation {
     flex: 1; // Makes it align to left
@@ -20,7 +21,6 @@
       margin-right: 0.5rem;
     }
   }
-
 
   ul {
     * {
@@ -45,9 +45,16 @@
   background: $COLOR-WHITE;
 }
 
+// Smaller devices
 @media(max-width:800px){
+  .website-header {
+    position: fixed;
+    width: 100%;
+  }
+
   .hamburguer{
     display: block;
+    margin-right: 20px;
   }
 
   .hamburguer.active .bar:nth-child(1) {
@@ -60,7 +67,7 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .ul-navigation{
+  .ul-navigation {
     position: fixed;
     left: -100%;
     top: 35px;
@@ -70,9 +77,18 @@
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    &__active{
+    z-index: 999; /* Add z-index to make sure it appears above other elements */
+    padding: 20px 0;
+
+
+    // Makes all items to be displayed vertically
+    li {
+      display: block;
+      margin: 10px 0;
+    }
+
+    &__active {
       left: 0px;
     }
   }
-
 }

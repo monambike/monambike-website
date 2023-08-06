@@ -96,6 +96,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Components\" />
     <Folder Include="Pages\Portfolio\" />
   </ItemGroup>
 

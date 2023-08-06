@@ -1,0 +1,55 @@
+﻿@*@namespace Monambike.Web.Components
+
+@using Microsoft.JSInterop
+@inject IJSRuntime JSRuntime
+
+<h3>@displayText</h3>
+
+@code {
+    private string displayText = "Initial Text";
+
+    [JSInvokableAttribute("OnScroll")]
+    public async Task OnScroll()
+    {
+        // Get the current scroll position using JavaScript Interop
+        var scrollY = await JSRuntime.InvokeAsync<int>("eval", "window.pageYOffset");
+
+        if (scrollY >= 0.5 * await JSRuntime.InvokeAsync<int>("eval", "window.innerHeight"))
+        {
+            // Update the displayText when the user scrolls down by 50% of the viewport height
+            displayText = "New Text";
+            StateHasChanged(); // Notify Blazor that the state has changed and needs to re-render the component
+        }
+    }
+}
+
+@code {
+    private string displayText = "Initial Text";
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Register the OnScroll method as a JavaScript function that can be called from JavaScript
+        await JSRuntime.InvokeVoidAsync("registerScrollEvent", DotNetObjectReference.Create(this));
+    }
+
+    [JSInvokable("OnScroll")]
+    public async Task OnScroll()
+    {
+        // Get the current scroll position using JavaScript Interop
+        var scrollY = await JSRuntime.InvokeAsync<double>("eval", "window.pageYOffset");
+        var windowHeight = await JSRuntime.InvokeAsync<double>("eval", "window.innerHeight");
+
+        if (scrollY >= 0.5 * windowHeight)
+        {
+            // Update the displayText when the user scrolls down by 50% of the viewport height
+            displayText = "New Text";
+            StateHasChanged(); // Notify Blazor that the state has changed and needs to re-render the component
+        }
+        else
+        {
+            displayText = "Initial Text";
+            StateHasChanged(); // Notify Blazor that the state has changed and needs to re-render the component
+        }
+    }
+}
+*@

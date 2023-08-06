@@ -1,15 +1,19 @@
-﻿@using Monambike.Web.Resources;
+﻿@using Microsoft.JSInterop
+@*@using Monambike.Web.Components;*@
+@*@using Monambike.Web.Components;*@
+@using Monambike.Web.Resources;
+@inject IJSRuntime JSRuntime
 
 <section class="site-section--about">
-    <div class="site-section--about__filter reveal">
+    <div class="site-section--about__filter">
         <h2 class="site-section--title">SOBRE MIM</h2>
         <div class="site-section--about--body">
-            <p>
+            <p class="reveal__translate">
                 OII, <span>BOM DIAAAAAAA!</span> &#128523;&#127881;&#127881;
                 <br />
-                Eu me chamo Vinícius Gabriel, e sou um desenvolvedor <span>C#</span> e <span>Web</span>.
+                Eu me chamo Vinícius Gabriel, e sou um desenvolvedor que trabalha com <span>C#</span>, <span>Jogos</span> e <span>Web</span>.
             </p>
-            <div class="i-love">
+            <div class="i-love reveal__translate">
                 <span>Eu gosto de..</span>
                 <ul>
                     <li>&#128230; Manter as minhas coisas organizadas, então quando eu estou com tudo pronto sempre que preciso 😎 só usar</li>
@@ -17,7 +21,7 @@
                     <li>&#129302; Automação, porque fazer algo que pode ser feito por um outro alguém? Beep-Boop!</li>
                 </ul>
             </div>
-            <div class="i-love">
+            <div class="i-love reveal__translate">
                 <span>Eu também amo..</span>
                 <ul>
                     <li>&#127918; Jogar joguinhos</li>
@@ -27,7 +31,7 @@
                     <li>&#129424; E camarões.. &#128523</li>
                 </ul>
             </div>
-            <p>
+            <p class="reveal__translate">
                 Que tal dar uma olhadinha no meu <a href="@SocialMediaLinks.GitHub">GitHub</a> também? O link das minhas outras redes sociais
                 estão no rodapé da página, sinta-se à vontade para dar uma checadinha lá a qualquer
                 momento &lt;&#51;!
@@ -42,3 +46,10 @@
         </figure>
     </div>
 </section>
+
+@code {
+    private async Task CallOnScrollInScrollingTextComponent()
+    {
+        await JSRuntime.InvokeVoidAsync("ScrollingText.OnScroll");
+    }
+}

@@ -25,6 +25,9 @@
 @import "mediaquery/_mobile.scss";
 
 // (pages) // Loading All Stylish for Every Page and Section
+// (pages)
+@import "pages/_loading.scss";
+@import "pages/_login.scss";
 // (pages/index) Index Page
 @import "pages/index/_about-me.scss";
 @import "pages/index/_contact.scss";
@@ -33,5 +36,3 @@
 @import "pages/index/_presentation.scss";
 @import "pages/index/_social-media.scss";
 @import "pages/index/_warning.scss";
-// (pages/login) Login Page
-@import "pages/login.scss";
