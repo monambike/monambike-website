@@ -46,10 +46,3 @@
         </figure>
     </div>
 </section>
-
-@code {
-    private async Task CallOnScrollInScrollingTextComponent()
-    {
-        await JSRuntime.InvokeVoidAsync("ScrollingText.OnScroll");
-    }
-}

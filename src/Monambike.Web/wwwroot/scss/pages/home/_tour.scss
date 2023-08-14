@@ -12,12 +12,11 @@
       }
       // Adding hover to columns
       & .three-columns {
-        padding: 0;
-        transition: padding 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
+        transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
       }
 
       &:hover .three-columns {
-        padding: 10px;
+        transform: scale(1.05);
       }
       // Extern columns
       &:nth-child(odd) div {

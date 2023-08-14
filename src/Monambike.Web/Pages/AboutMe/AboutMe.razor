@@ -1,4 +1,7 @@
 ﻿@page "/aboutme"
+@page "/about"
+
+@inject PageTitleService PageTitleService
 
 <div>
     Olá!! Meu nome é Vinícius Gabriel mas se quiser pode me chamar de Vini ;P
@@ -12,3 +15,10 @@
         Mantenho conversa à base de emojis de stickers
     </li>
 </div>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await PageTitleService.SetPageTitle("About Me");
+    }
+}

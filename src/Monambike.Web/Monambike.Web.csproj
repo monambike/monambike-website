@@ -4,17 +4,17 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>wwwroot\images\favicon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Remove="wwwroot\fonts\LICENSE.txt" />
     <Content Remove="wwwroot\fonts\PermanentMarker-Regular.ttf" />
-    <Content Remove="wwwroot\images\contact\github.png" />
-    <Content Remove="wwwroot\images\contact\google.png" />
-    <Content Remove="wwwroot\images\contact\linkedin.png" />
-    <Content Remove="wwwroot\images\contact\outlook.png" />
-    <Content Remove="wwwroot\images\contact\whatsapp.png" />
-    <Content Remove="wwwroot\images\favicon.ico" />
+    <Content Remove="wwwroot\images\social-media\github.png" />
+    <Content Remove="wwwroot\images\social-media\google.png" />
+    <Content Remove="wwwroot\images\social-media\linkedin.png" />
+    <Content Remove="wwwroot\images\social-media\outlook.png" />
+    <Content Remove="wwwroot\images\social-media\whatsapp.png" />
     <Content Remove="wwwroot\images\karen-kujou\cat-ears.gif" />
     <Content Remove="wwwroot\images\karen-kujou\determined.gif" />
     <Content Remove="wwwroot\images\karen-kujou\hair-flip.gif" />
@@ -29,11 +29,11 @@
   <ItemGroup>
     <None Include="wwwroot\fonts\LICENSE.txt" />
     <None Include="wwwroot\fonts\PermanentMarker-Regular.ttf" />
-    <None Include="wwwroot\images\contact\github.png" />
-    <None Include="wwwroot\images\contact\google.png" />
-    <None Include="wwwroot\images\contact\linkedin.png" />
-    <None Include="wwwroot\images\contact\outlook.png" />
-    <None Include="wwwroot\images\contact\whatsapp.png" />
+    <None Include="wwwroot\images\social-media\github.png" />
+    <None Include="wwwroot\images\social-media\google.png" />
+    <None Include="wwwroot\images\social-media\linkedin.png" />
+    <None Include="wwwroot\images\social-media\outlook.png" />
+    <None Include="wwwroot\images\social-media\whatsapp.png" />
     <None Include="wwwroot\images\favicon.ico" />
     <None Include="wwwroot\images\karen-kujou\cat-ears.gif" />
     <None Include="wwwroot\images\karen-kujou\determined.gif" />
@@ -47,8 +47,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.9" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="7.0.10" />
   </ItemGroup>
 
   <ItemGroup>
@@ -96,7 +97,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Components\" />
     <Folder Include="Pages\Portfolio\" />
   </ItemGroup>
 

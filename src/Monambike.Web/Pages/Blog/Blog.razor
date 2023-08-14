@@ -1,5 +1,7 @@
 ﻿@page "/blog"
 
+@inject PageTitleService PageTitleService
+
 <div>
     <div>
         <header>
@@ -41,3 +43,11 @@
         <h3>Conteúdo Recomendado</h3>
     </div>
 </div>
+
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await PageTitleService.SetPageTitle("Blog");
+    }
+}

@@ -524,6 +524,51 @@ p {
   padding: 20px;
 }
 
+.site-section {
+  height: 85vh;
+}
+.site-section--presentation {
+  /*background-color: $COLOR-PURPLE-1;*/
+  background: -webkit-linear-gradient(rgb(77, 18, 161), rgb(95, 50, 155));
+  display: flex;
+  padding-left: 2.5%;
+  align-items: center;
+  color: rgb(230, 230, 230);
+  text-transform: uppercase;
+}
+.site-section--presentation--name {
+  font-size: 5vw;
+  text-shadow: 5px 5px rgb(95, 50, 155);
+  align-self: flex-end;
+  text-align: left;
+}
+.site-section--presentation--profession {
+  font-size: 4vw;
+  text-shadow: 5px 5px rgb(95, 50, 155);
+}
+.site-section--presentation--skills {
+  display: flex;
+  font-size: 3vw;
+}
+
+.site-section--social-media {
+  height: 130vh !important;
+  background-color: rgb(95, 50, 155);
+  color: rgb(15, 15, 15);
+  height: auto;
+}
+.site-section--social-media--containers {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(230, 230, 230);
+  text-align: right;
+}
+.site-section--social-media--containers:nth-child(odd) {
+  color: rgb(230, 230, 230);
+  background-color: rgb(144, 100, 202);
+  text-align: left;
+}
+
 .site-section--tour {
   background-color: rgb(77, 18, 161);
 }
@@ -531,11 +576,10 @@ p {
   transform: scale(1) !important;
 }
 .site-section--tour a .three-columns {
-  padding: 0;
-  transition: padding 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
+  transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
 }
 .site-section--tour a:hover .three-columns {
-  padding: 10px;
+  transform: scale(1.05);
 }
 .site-section--tour a:nth-child(odd) div {
   background-color: rgb(95, 50, 155);
@@ -569,50 +613,6 @@ p {
 .center-content {
   display: flex;
   justify-content: center;
-}
-
-.site-section {
-  height: 85vh;
-}
-.site-section--presentation {
-  /*background-color: $COLOR-PURPLE-1;*/
-  background: -webkit-linear-gradient(rgb(77, 18, 161), rgb(95, 50, 155));
-  display: flex;
-  padding-left: 2.5%;
-  align-items: center;
-  color: rgb(230, 230, 230);
-}
-.site-section--presentation--name {
-  font-size: 5vw;
-  text-shadow: 5px 5px rgb(95, 50, 155);
-  align-self: flex-end;
-  text-align: left;
-}
-.site-section--presentation--profession {
-  font-size: 4vw;
-  text-shadow: 5px 5px rgb(95, 50, 155);
-}
-.site-section--presentation--skills {
-  display: flex;
-  font-size: 3vw;
-}
-
-.site-section--social-media {
-  height: 130vh !important;
-  background-color: rgb(95, 50, 155);
-  color: rgb(15, 15, 15);
-  height: auto;
-}
-.site-section--social-media--containers {
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: rgb(230, 230, 230);
-  text-align: right;
-}
-.site-section--social-media--containers:nth-child(odd) {
-  color: rgb(230, 230, 230);
-  background-color: rgb(144, 100, 202);
-  text-align: left;
 }
 
 .warning {

@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Index Page": {
+    "Home Page": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

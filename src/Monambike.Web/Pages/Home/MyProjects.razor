@@ -1,0 +1,38 @@
+﻿@* @using Monambike.Web.Models
+@using Monambike.Web.Models.Links
+
+<!-- MY PROJECTS -->
+<section class="site-section site-section--presentation">
+    <h2 class="site-section--title">MY PROJECTS</h2>
+    <div class="site-section--body">
+        <div class="site-section--social-media--containers">
+            <ul>
+                @foreach (var project in Projects)
+                {
+                    <li>
+                        <h4>@project.Name</h4>
+                        <p>@project.Description</p>
+                        <img src="@project.ImagePath" alt="Project Image" />
+                        <!-- Display other project properties as needed -->
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</section>
+
+@code {
+    private List<Project> Projects { get; set; }
+
+    protected override void OnInitialized()
+    {
+        // Example: Populate the ProjectList with mock data
+        Projects = new List<Project>
+        {
+            new Project("Project 1",
+                "This is the first project.",
+                "/images/project1.jpg", new List<Monmabike.Web.Models Link>
+            }
+        };
+    }
+} *@
