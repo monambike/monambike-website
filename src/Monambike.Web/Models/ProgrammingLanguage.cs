@@ -4,14 +4,16 @@
     {
         public string Name { get; }
 
-        public string Color { get; }
+        public string BackgroundColor { get; }
 
         public ProgrammingLanguage(string name, string color)
         {
             Name = name;
-            Color = color;
+            BackgroundColor = color;
         }
 
-        public static ProgrammingLanguage Monambike => new("C#", "green");
+        public static ProgrammingLanguage CSharp => new("C#", "#7318f2"); // Purple
+        public static ProgrammingLanguage HTML => new("HTML", "#17bdff"); // Cyan Blue
+        public static ProgrammingLanguage JavaScript => new("JavaScript", "#eafc23"); // Yellow
     }
 }

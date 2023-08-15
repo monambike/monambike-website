@@ -1,4 +1,4 @@
-﻿namespace Monambike.Web.Models.Links
+﻿namespace Monambike.Web.Models
 {
     /// <summary>
     /// Represents a link with associated metadata such as title, URL, and
@@ -17,6 +17,11 @@
         public string Url { get; }
 
         /// <summary>
+        /// Gets the hover information of the link.
+        /// </summary>
+        public string HoverInformation { get; }
+
+        /// <summary>
         /// Gets the associated social media information for the link.
         /// </summary>
         public SocialMedia SocialMedia { get; }
@@ -27,11 +32,12 @@
         /// <param name="title">The title of the link.</param>
         /// <param name="url">The URL of the link.</param>
         /// <param name="socialMedia">The associated social media information.</param>
-        public Link(string title, string url, SocialMedia socialMedia)
+        public Link(string title, string url, SocialMedia socialMedia, string hoverInformation)
         {
             Title = title;
             Url = url;
             SocialMedia = socialMedia;
+            HoverInformation = hoverInformation;
         }
     }
 }

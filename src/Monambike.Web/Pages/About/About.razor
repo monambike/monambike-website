@@ -1,0 +1,31 @@
+﻿@page "/about"
+@page "/aboutme"
+
+@inject PageTitleService PageTitleService
+
+<div>
+    <h3>Coisas pessoais sobre mim</h3>
+    <p>
+        Olá!! Meu nome é Vinícius Gabriel mas se quiser pode me chamar de Vini ;P
+
+        Eu criei diversos projetos.
+
+        Adoro desenhar, programar e criar coisas relevantes pra mim e pra outras pessoas!!
+
+        Eu também adoro vídeos de gatinhos
+
+        Amo chuva, frio.
+    </p>
+
+    <li>
+        Sou apaixonado por <a>organização</a>.
+        Mantenho conversa à base de emojis de stickers
+    </li>
+</div>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await PageTitleService.SetPageTitle("About");
+    }
+}

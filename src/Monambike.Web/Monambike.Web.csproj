@@ -97,10 +97,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Portfolio\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="Resources\Curiosities.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

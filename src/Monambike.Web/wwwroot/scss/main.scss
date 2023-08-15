@@ -25,9 +25,10 @@
 @import "mediaquery/_mobile.scss";
 
 // (pages) // Loading All Stylish for Every Page and Section
-// (pages)
-@import "pages/_loading.scss";
-@import "pages/_login.scss";
+// (pages/about) About
+@import "pages/about/_about.scss";
+// (pages/blog) Blog
+@import "pages/blog/_articles.scss";
 // (pages/index) Home Page
 @import "pages/home/_about-me.scss";
 @import "pages/home/_contact.scss";
@@ -37,3 +38,6 @@
 @import "pages/home/_social-media.scss";
 @import "pages/home/_tour.scss";
 @import "pages/home/_warning.scss";
+// (pages)
+@import "pages/_loading.scss";
+@import "pages/_login.scss";

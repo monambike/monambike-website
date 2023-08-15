@@ -1,6 +1,4 @@
-﻿using Monambike.Web.Models.Links;
-
-namespace Monambike.Web.Models
+﻿namespace Monambike.Web.Models
 {
     /// <summary>
     /// Represents information about a project, including its name, description, image path, associated links, and programming languages.
