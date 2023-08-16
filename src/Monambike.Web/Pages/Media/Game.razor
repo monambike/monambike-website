@@ -1,5 +1,22 @@
-﻿<h3>Games</h3>
+﻿@page "/games"
+
+@foreach(var game in MyGames)
+{
+    <h3>@game.Title</h3>
+    <p>@game.Description</p>
+    <img src="@game.ImagePath" />
+    <span></span>
+    <div>
+        @foreach (var achievement in game.Achievements)
+        {
+            <img title="@achievement.Name
+                            teste" />
+        }
+    </div>
+}
+
 
 @code {
+    public List<Games> MyGames = new();
 
 }

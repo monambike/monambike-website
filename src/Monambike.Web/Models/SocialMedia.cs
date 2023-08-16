@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace Monambike.Web.Models
+﻿namespace Monambike.Web.Models
 {
     public class SocialMedia
     {

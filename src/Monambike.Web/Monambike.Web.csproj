@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Utilities\Project.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="wwwroot\fonts\LICENSE.txt" />
     <Content Remove="wwwroot\fonts\PermanentMarker-Regular.ttf" />
     <Content Remove="wwwroot\images\social-media\github.png" />
@@ -24,6 +28,10 @@
     <Content Remove="wwwroot\javascript\fixIframeFunctions.js" />
     <Content Remove="wwwroot\javascript\headerFunctions.js" />
     <Content Remove="wwwroot\javascript\translationFunctions.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Utilities\Project.cs" />
   </ItemGroup>
 
   <ItemGroup>
