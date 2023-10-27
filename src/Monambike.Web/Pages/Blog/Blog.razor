@@ -1,4 +1,5 @@
 ﻿@page "/blog"
+@page "/blog/{Text}"
 
 @inject PageTitleService PageTitleService
 
@@ -48,6 +49,15 @@
 @code {
     protected override async Task OnInitializedAsync()
     {
-        await PageTitleService.SetPageTitle("Blog");
+        await PageTitleService.SetPrefixOnPageTitle("Blog");
+    }
+
+
+    [Parameter]
+    public string Text { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Text = Text ?? "fantastic";
     }
 }

@@ -1,9 +1,11 @@
-﻿@page "/games"
+﻿@using Monambike.Web.Models
 
-@foreach(var game in MyGames)
+@page "/games"
+
+@foreach(var game in Games)
 {
     <h3>@game.Title</h3>
-    <p>@game.Description</p>
+    <p>@game.BriefComment</p>
     <img src="@game.ImagePath" />
     <span></span>
     <div>
@@ -17,6 +19,6 @@
 
 
 @code {
-    public List<Games> MyGames = new();
+    public List<Monambike.Web.Models.Game> Games = new();
 
 }

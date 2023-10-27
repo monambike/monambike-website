@@ -11,9 +11,9 @@
         public string Title { get; }
 
         /// <summary>
-        /// Gets the description of the game.
+        /// Gets a brief comment about the game.
         /// </summary>
-        public string Description { get; }
+        public string BriefComment { get; }
 
         /// <summary>
         /// Gets the list of tags associated with the game.
@@ -21,12 +21,12 @@
         public List<Tag> Tags { get; }
 
         /// <summary>
-        /// Gets the list of platforms the game is available on.
+        /// Gets the list of platforms the game was consumed on.
         /// </summary>
         public List<Platform> Platforms { get; }
 
         /// <summary>
-        /// Gets the list of achievements within the game.
+        /// Gets the list of achievements highlighted together within the game.
         /// </summary>
         public List<Achievement> Achievements { get; }
 

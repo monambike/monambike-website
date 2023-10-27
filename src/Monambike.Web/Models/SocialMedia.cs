@@ -3,6 +3,7 @@
     public class SocialMedia
     {
         public string Name { get; }
+
         public string IconPath { get; }
 
         private static readonly string IconPathBase = "../../wwwroot/images/social-media/";
