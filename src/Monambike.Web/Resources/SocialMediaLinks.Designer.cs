@@ -72,9 +72,27 @@ namespace Monambike.Web.Resources {
         /// <summary>
         ///   Looks up a localized string similar to https://www.instagram.com/monambike/.
         /// </summary>
-        internal static string Instagram {
+        internal static string InstagramMonambike {
             get {
-                return ResourceManager.GetString("Instagram", resourceCulture);
+                return ResourceManager.GetString("InstagramMonambike", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://www.instagram.com/monambike_portfolio/.
+        /// </summary>
+        internal static string InstagramMonambikePortfolio {
+            get {
+                return ResourceManager.GetString("InstagramMonambikePortfolio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://monambike.itch.io/.
+        /// </summary>
+        internal static string ItchIo {
+            get {
+                return ResourceManager.GetString("ItchIo", resourceCulture);
             }
         }
         
@@ -126,9 +144,18 @@ namespace Monambike.Web.Resources {
         /// <summary>
         ///   Looks up a localized string similar to https://www.youtube.com/user/monambike.
         /// </summary>
-        internal static string Youtube {
+        internal static string YoutubeMonambike {
             get {
-                return ResourceManager.GetString("Youtube", resourceCulture);
+                return ResourceManager.GetString("YoutubeMonambike", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://www.youtube.com/@monambike_portfolio.
+        /// </summary>
+        internal static string YoutubeMonambikePortfolio {
+            get {
+                return ResourceManager.GetString("YoutubeMonambikePortfolio", resourceCulture);
             }
         }
     }

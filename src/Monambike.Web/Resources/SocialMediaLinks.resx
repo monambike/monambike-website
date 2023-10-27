@@ -120,8 +120,14 @@
   <data name="GitHub" xml:space="preserve">
     <value>https://github.com/monambike</value>
   </data>
-  <data name="Instagram" xml:space="preserve">
+  <data name="InstagramMonambike" xml:space="preserve">
     <value>https://www.instagram.com/monambike/</value>
+  </data>
+  <data name="InstagramMonambikePortfolio" xml:space="preserve">
+    <value>https://www.instagram.com/monambike_portfolio/</value>
+  </data>
+  <data name="ItchIo" xml:space="preserve">
+    <value>https://monambike.itch.io/</value>
   </data>
   <data name="Linkedin" xml:space="preserve">
     <value>https://www.linkedin.com/in/monambike</value>
@@ -138,7 +144,10 @@
   <data name="Twitter" xml:space="preserve">
     <value>https://twitter.com/Monambike</value>
   </data>
-  <data name="Youtube" xml:space="preserve">
+  <data name="YoutubeMonambike" xml:space="preserve">
     <value>https://www.youtube.com/user/monambike</value>
+  </data>
+  <data name="YoutubeMonambikePortfolio" xml:space="preserve">
+    <value>https://www.youtube.com/@monambike_portfolio</value>
   </data>
 </root>

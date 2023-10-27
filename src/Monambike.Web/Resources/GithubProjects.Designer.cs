@@ -61,25 +61,25 @@ namespace Monambike.Web.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/20.
+        ///   Looks up a localized string similar to https://github.com/monambike/diversao-inclusiva.
         /// </summary>
-        internal static string ComfyZone {
+        internal static string DiversaoInclusiva {
             get {
-                return ResourceManager.GetString("ComfyZone", resourceCulture);
+                return ResourceManager.GetString("DiversaoInclusiva", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/5.
+        ///   Looks up a localized string similar to https://github.com/monambike/doce-do-bom-mobile.
         /// </summary>
-        internal static string Eletrolojinha {
+        internal static string DoceDoBom {
             get {
-                return ResourceManager.GetString("Eletrolojinha", resourceCulture);
+                return ResourceManager.GetString("DoceDoBom", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/9.
+        ///   Looks up a localized string similar to https://github.com/monambike/kwijisho-discord-bot.
         /// </summary>
         internal static string KWIJisho {
             get {
@@ -88,16 +88,16 @@ namespace Monambike.Web.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/8.
+        ///   Looks up a localized string similar to https://github.com/monambike/pdfconverter-pdftables-to-csv.
         /// </summary>
-        internal static string MeuPerfil {
+        internal static string PDFConverter {
             get {
-                return ResourceManager.GetString("MeuPerfil", resourceCulture);
+                return ResourceManager.GetString("PDFConverter", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/3.
+        ///   Looks up a localized string similar to https://github.com/monambike/project-hanabi-web.
         /// </summary>
         internal static string ProjectHanabi {
             get {
@@ -106,11 +106,11 @@ namespace Monambike.Web.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/users/monambike/projects/6.
+        ///   Looks up a localized string similar to https://github.com/monambike/yotsuki-web.
         /// </summary>
-        internal static string Restaurantinho {
+        internal static string YotsukiWeb {
             get {
-                return ResourceManager.GetString("Restaurantinho", resourceCulture);
+                return ResourceManager.GetString("YotsukiWeb", resourceCulture);
             }
         }
     }

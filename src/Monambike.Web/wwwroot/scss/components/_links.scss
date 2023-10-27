@@ -18,3 +18,7 @@ a {
     color: $LINK-COLOR
   }
 }
+
+a[target=_blank]:after {
+  content: "\2197" // Represents a diagonal up arrow symbol
+}

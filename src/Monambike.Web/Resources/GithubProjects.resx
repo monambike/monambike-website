@@ -117,22 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ComfyZone" xml:space="preserve">
-    <value>https://github.com/users/monambike/projects/20</value>
+  <data name="DiversaoInclusiva" xml:space="preserve">
+    <value>https://github.com/monambike/diversao-inclusiva</value>
   </data>
-  <data name="Eletrolojinha" xml:space="preserve">
-    <value>https://github.com/users/monambike/projects/5</value>
+  <data name="DoceDoBom" xml:space="preserve">
+    <value>https://github.com/monambike/doce-do-bom-mobile</value>
   </data>
   <data name="KWIJisho" xml:space="preserve">
-    <value>https://github.com/users/monambike/projects/9</value>
+    <value>https://github.com/monambike/kwijisho-discord-bot</value>
   </data>
-  <data name="MeuPerfil" xml:space="preserve">
-    <value>https://github.com/users/monambike/projects/8</value>
+  <data name="PDFConverter" xml:space="preserve">
+    <value>https://github.com/monambike/pdfconverter-pdftables-to-csv</value>
   </data>
   <data name="ProjectHanabi" xml:space="preserve">
-    <value>https://github.com/users/monambike/projects/3</value>
+    <value>https://github.com/monambike/project-hanabi-web</value>
   </data>
-  <data name="Restaurantinho" xml:space="preserve">
-    <value>https://github.com/users/monambike/projects/6</value>
+  <data name="YotsukiWeb" xml:space="preserve">
+    <value>https://github.com/monambike/yotsuki-web</value>
   </data>
 </root>

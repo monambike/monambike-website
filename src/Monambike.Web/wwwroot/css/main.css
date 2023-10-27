@@ -66,6 +66,10 @@ a:hover {
   color: rgb(144, 100, 202);
 }
 
+a[target=_blank]:after {
+  content: "↗";
+}
+
 /* Scrollbar Width */
 ::-webkit-scrollbar {
   width: 14px;
