@@ -6,6 +6,9 @@
     background-color: $COLOR-PURPLE-1;
 
     a {
+      img{
+        width: 100%;
+      }
       // Removing image hover animation
       img:hover {
         transform: scale(1) !important;
@@ -32,10 +35,10 @@
       }
       // Adjust layout for smaller devices
       @media(max-width:800px) {
+        // Removing animation
         &:hover .three-columns {
           transform: scale(1);
         }
-        // Removing animation
         .three-columns {
           margin: 15px 0px;
           width: 100%;

@@ -1,7 +1,6 @@
 @import "../../abstract/variables/_colors.scss";
 
 .site-section {
-  height: 85vh;
   &--presentation {
     /*background-color: $COLOR-PURPLE-1;*/
     background: -webkit-linear-gradient($COLOR-PURPLE-1, $COLOR-PURPLE-2);
@@ -29,6 +28,15 @@
     &--skills {
       display: flex;
       font-size: 3vw;
+    }
+
+    
+    // Adjust layout for smaller devices
+    @media(max-width:800px) {
+      &--name {
+        // Text
+        font-size: 9vw;
+      }
     }
   }
 }

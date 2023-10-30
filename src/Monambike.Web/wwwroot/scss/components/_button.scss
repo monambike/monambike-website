@@ -4,6 +4,13 @@ a.button {
   background-color: $COLOR-PURPLE-1;
   padding: 10px;
   border-radius: 5px;
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  overflow: hidden; /* Hide any overflow text that doesn't fit */
+  text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */
+  position: relative;
+  text-align: center;
+  margin: auto;
+  display: inline-block; /* Make the link behave like a block-level element */
 
   &:hover {
     background-color: $COLOR-PURPLE-4;

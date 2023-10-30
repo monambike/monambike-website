@@ -21,6 +21,13 @@ a.button {
   background-color: rgb(77, 18, 161);
   padding: 10px;
   border-radius: 5px;
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  overflow: hidden; /* Hide any overflow text that doesn't fit */
+  text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */
+  position: relative;
+  text-align: center;
+  margin: auto;
+  display: inline-block; /* Make the link behave like a block-level element */
 }
 a.button:hover {
   background-color: rgb(227, 222, 236);
@@ -201,6 +208,12 @@ p {
 .footer--links--three-columns li {
   margin: 5% 0% 5% 0%;
 }
+@media (max-width: 800px) {
+  .footer--links .three-columns {
+    margin: 15px 0px;
+    width: 100%;
+  }
+}
 .footer--copyright-and-translate {
   background-color: rgb(15, 15, 15);
   padding: 2.5%;
@@ -316,6 +329,11 @@ article {
 .site-section--about__filter {
   padding: 0px 15% 0px 15%;
 }
+@media (max-width: 800px) {
+  .site-section--about__filter {
+    padding: 0;
+  }
+}
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
@@ -422,9 +440,6 @@ article {
   padding: 20px;
 }
 
-.site-section {
-  height: 85vh;
-}
 .site-section--presentation {
   /*background-color: $COLOR-PURPLE-1;*/
   background: -webkit-linear-gradient(rgb(77, 18, 161), rgb(95, 50, 155));
@@ -448,6 +463,11 @@ article {
   display: flex;
   font-size: 3vw;
 }
+@media (max-width: 800px) {
+  .site-section--presentation--name {
+    font-size: 9vw;
+  }
+}
 
 .site-section--social-media {
   height: 130vh !important;
@@ -469,6 +489,9 @@ article {
 
 .site-section--tour {
   background-color: rgb(77, 18, 161);
+}
+.site-section--tour a img {
+  width: 100%;
 }
 .site-section--tour a img:hover {
   transform: scale(1) !important;

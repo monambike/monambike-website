@@ -21,8 +21,11 @@
 
     &__filter {
       padding: 0px 15% 0px 15%;
+      // Adjust layout for smaller devices
+      @media(max-width:800px) {
+        padding: 0;
+      }
     }
-
     /* Purple cross animation at dark gray background */
     @keyframes animatedBackground {
       from {
@@ -34,7 +37,6 @@
       }
     }
   }
-
   /* Purple cross animation at dark gray background */
   &--about::before {
     content: "";

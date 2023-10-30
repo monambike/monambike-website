@@ -25,10 +25,12 @@
     <div id="app">
         <!-- Loading -->
         <div class="loading">
-            <p>Continua ligado ai!</p>
+            Loading<span id="loading-dots">...</span>
             <img src="images/karen-kujou/sleeping.gif" alt="Karen Kujou Tirando uma Sonequinha" title="Karen Kujou Tirando uma Sonequinha" />
-            <p>O site já já vai terminar de carregar!</p>
+            <span id="loading-message">O site já já vai terminar de carregar!</span>
+
         </div>
+        <LoadingComponent />
     </div>
 
     <div id="blazor-error-ui">
@@ -38,5 +40,45 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="javascript/scroll.js"></script>
+
+    <script>
+        // File with random loading messages
+        loadingMessages = "../Resources/LoadingMessages.txt";
+
+        // Setting a random message to the loading pager
+        var loadingMessageInnerHTML = document.getElementById("loading-message").innerHTML
+        loadingMessageInnerHTML = getRandomLineFromFile(loadingMessages);
+
+        var intervalId = window.setInterval(function () {
+            // call your function here
+        }, 5000);
+
+        function getRandomLineFromFile(filename, callback) {
+            const fileSystem = require("fs");
+            fileSystem.readFile(filename, "utf-8", function (error, data) {
+                if (error) {
+                    throw error;
+                }
+
+                // Get all lines from file
+                var lines = data.split('\n');
+                // Choose one of the lines...
+                var line = lines[Math.floor(Math.random() * lines.length)]
+
+                // Invoke the callback with our line
+                return line;
+            })
+        }
+
+        function loadingDotAnimation() {
+            var dots = window.setInterval(function () {
+                var wait = document.getElementById("loading-dots");
+                if (wait.innerHTML.length > 3)
+                    wait.innerHTML = "";
+                else
+                    wait.innerHTML += ".";
+            }, 100);
+        }
+    </script>
 </body>
 </html>

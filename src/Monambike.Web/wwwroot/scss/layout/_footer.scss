@@ -26,6 +26,13 @@
         margin: 5% 0% 5% 0%;
       }
     }
+    // Adjust layout for smaller devices
+    @media(max-width:800px) {
+      .three-columns {
+        margin: 15px 0px;
+        width: 100%;
+      }
+    }
   }
 
   &--copyright-and-translate {
