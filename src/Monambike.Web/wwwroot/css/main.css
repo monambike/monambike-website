@@ -62,9 +62,9 @@ figure {
 a {
   /* Variables that hold values from the line under links when hovered */
   /* Link attributes */
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   padding-bottom: var(0.15em);
-  background: linear-gradient(90deg, rgb(144, 100, 202) 50%, rgb(230, 230, 230) 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(rgb(144, 100, 202) 0 0) 0% 100%/var(--_p, 0%) 0.15em no-repeat;
+  background: linear-gradient(90deg, rgb(144, 100, 202) 50%, #fafafa 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(rgb(144, 100, 202) 0 0) 0% 100%/var(--_p, 0%) 0.15em no-repeat;
   -webkit-background-clip: text, padding-box;
   transition: 0.5s;
 }
@@ -102,7 +102,7 @@ p a[target=_blank]:after, li a[target=_blank]:after {
 
 select {
   background-color: rgb(30, 30, 30);
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   cursor: pointer;
   padding: 5px;
   transition: 0.1s;
@@ -121,12 +121,12 @@ select option {
 
 ::selection {
   background: rgb(95, 50, 155);
-  color: rgb(230, 230, 230);
+  color: #fafafa;
 }
 
 ::-moz-selection {
   background: rgb(144, 100, 202);
-  color: rgb(230, 230, 230);
+  color: #fafafa;
 }
 
 .reveal__translate {
@@ -220,7 +220,7 @@ p {
   text-align: center;
 }
 .footer--copyright-and-translate--copyright {
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   margin: 2.5% 0% 2.5% 0%;
 }
 
@@ -241,7 +241,7 @@ p {
 .website-header--presentation--profession::before {
   content: "";
   height: 1.5rem;
-  border-left: 2px solid rgb(230, 230, 230);
+  border-left: 2px solid #fafafa;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
@@ -262,7 +262,7 @@ p {
   margin: 5px auto;
   -webkite-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: rgb(230, 230, 230);
+  background: #fafafa;
 }
 
 @media (max-width: 800px) {
@@ -315,7 +315,7 @@ article {
   /* Purple cross animation at dark gray background */
 }
 .site-section--about--body p {
-  background-color: rgb(230, 230, 230);
+  background-color: #fafafa;
   padding: 20px;
 }
 .site-section--about--body p a {
@@ -367,7 +367,7 @@ article {
 }
 .i-love span {
   background-color: rgb(95, 50, 155);
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   display: block;
   padding: 5px;
   font-weight: bold;
@@ -385,7 +385,7 @@ article {
 .i-love li:nth-child(even) {
   background: rgb(144, 100, 202);
   border-color: rgb(77, 18, 161);
-  color: rgb(230, 230, 230);
+  color: #fafafa;
 }
 
 .button-container {
@@ -404,7 +404,7 @@ article {
   background-color: rgb(245, 245, 245);
 }
 .site-section--contact p {
-  background-color: rgb(230, 230, 230);
+  background-color: #fafafa;
   padding: 20px;
 }
 .site-section--contact p a {
@@ -430,7 +430,7 @@ article {
   overflow: hidden;
 }
 .site-section--title {
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   font-size: 34pt;
   text-shadow: 2px 2px rgb(15, 15, 15);
   padding: 20px;
@@ -446,7 +446,7 @@ article {
   display: flex;
   padding-left: 2.5%;
   align-items: center;
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   text-transform: uppercase;
 }
 .site-section--presentation--name {
@@ -478,11 +478,11 @@ article {
 .site-section--social-media--containers {
   padding: 20px;
   margin-bottom: 20px;
-  background-color: rgb(230, 230, 230);
+  background-color: #fafafa;
   text-align: right;
 }
 .site-section--social-media--containers:nth-child(odd) {
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   background-color: rgb(144, 100, 202);
   text-align: left;
 }
@@ -505,7 +505,7 @@ article {
 .site-section--tour a:nth-child(odd) div {
   background-color: rgb(95, 50, 155);
   box-shadow: 5px 5px rgb(227, 222, 236);
-  color: rgb(230, 230, 230);
+  color: #fafafa;
 }
 .site-section--tour a:nth-child(even) div {
   background-color: rgb(227, 222, 236);
@@ -538,24 +538,58 @@ article {
 
 .warning {
   background-color: rgb(200, 20, 20);
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   padding: 5px;
   text-align: center;
 }
 
-#app {
-  min-height: 100%;
+.app {
+  background: url("../../images/karen-kujou/determined.gif") no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
-
-.loading {
-  background: rgb(95, 50, 155);
-  height: 100vh;
+.app .loading {
+  display: table-cell;
+  vertical-align: middle;
+}
+.app .loading--background-filter {
+  background-color: #fafafa;
+}
+.app .loading--image {
+  padding: 2% 0;
+  text-align: center;
+}
+.app .loading--image img {
+  border: 5px solid rgb(95, 50, 155);
+  border-radius: 5px;
+}
+.app .loading--title, .app .loading--body {
+  padding: 20px;
+  font-size: 16pt;
+  color: white;
+  font-weight: bold;
+}
+.app .loading--title {
+  background-color: rgb(77, 18, 161);
+}
+.app .loading--body {
+  background-color: rgb(95, 50, 155);
+}
+.app .loading--curiosity {
+  background-color: #fafafa;
+  /*background-color: black;*/
+  padding: 10px;
+  font-size: 12pt;
+  text-align: center;
+}
+.app .loading p, .app .loading img {
   margin: 0;
   padding: 0;
-}
-.loading p, .loading img {
-  margin: 0;
-  padding: 0;
+  display: inline-block;
 }
 
 .login-page-background {
@@ -587,7 +621,7 @@ article {
 .login-page-background .login-frame .background-filter {
   background-color: rgba(30, 30, 30, 0.5);
   height: 100%;
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   /* Faz com que todos os itens dentro da tela
     de login fiquem um em baixo do outro */
 }
@@ -604,10 +638,10 @@ article {
   margin: 20px 0px 20px 0px;
   font-size: 12pt;
   background-color: rgb(15, 15, 15);
-  color: rgb(230, 230, 230);
+  color: #fafafa;
 }
 .login-page-background .login-frame .background-filter form a {
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   width: 100%;
   text-align: left;
 }
@@ -628,7 +662,7 @@ article {
   cursor: pointer;
 }
 .login-page-background .login-frame .background-filter form button:hover {
-  background-color: rgb(230, 230, 230);
+  background-color: #fafafa;
   color: rgb(15, 15, 15);
   transition: 0.25s;
 }
@@ -636,7 +670,7 @@ article {
   display: block;
 }
 .login-page-background .login-frame .create-new-account {
-  background-color: rgb(230, 230, 230);
+  background-color: #fafafa;
   color: rgb(15, 15, 15);
   font-weight: bold;
   /* Colocar o texto no final da página */
@@ -649,7 +683,7 @@ article {
 }
 .login-page-background .login-frame .create-new-account:hover {
   background-color: rgb(77, 18, 161);
-  color: rgb(230, 230, 230);
+  color: #fafafa;
   transition: 0.25s;
 }
 

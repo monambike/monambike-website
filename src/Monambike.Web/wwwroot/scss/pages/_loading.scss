@@ -1,17 +1,62 @@
 @import '../abstract/variables/_colors.scss';
 
-#app {
-  min-height: 100%;
-}
+.app {
+  background: url("../../images/karen-kujou/determined.gif") no-repeat;
+  background-size: cover;
+  // Semi-transparent color layer over background
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.90);
+  // Position
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 
-.loading {
-  background: $COLOR-PURPLE-2;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
+  .loading {
+    // Position
+    display: table-cell;
+    vertical-align: middle;
 
-  p, img {
-    margin: 0;
-    padding: 0;
+    &--background-filter {
+      background-color: $COLOR-WHITE;
+    }
+
+    &--image {
+      padding: 2% 0;
+      text-align: center;
+
+      img {
+        border: 5px solid $COLOR-PURPLE-2;
+        border-radius: 5px;
+      }
+    }
+
+    &--title, &--body {
+      padding: 20px;
+      font-size: 16pt;
+      color: white;
+      font-weight: bold;
+    }
+
+    &--title {
+      background-color: $COLOR-PURPLE-1;
+    }
+
+    &--body {
+      background-color: $COLOR-PURPLE-2;
+    }
+
+    &--curiosity {
+      background-color: $COLOR-WHITE;
+      /*background-color: black;*/
+      padding: 10px;
+      font-size: 12pt;
+      text-align: center;
+    }
+
+    p, img {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
   }
 }

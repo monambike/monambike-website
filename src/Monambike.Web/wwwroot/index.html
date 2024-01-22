@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Vinícius Gabriel | Monambike</title>
+    <title>Vinícius Gabriel&nbsp;&#124;&nbsp;Monambike</title>
     <!-- METADATA -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <!--My Info-->
     <meta name="author" content="Vinícius Gabriel Marques de Melo">
     <meta name="application-name" content="Monambike Site">
     <meta name="description" content="Esse é meu site pessoal. Programador, amante de jogos e coisas fofas nascido em Ribeirão Preto. Tentando todos os dias ficar cada vez melhor na minha área e na minha percepção do mundo à minha volta.">
     <meta name="keywords" content="monambike, vinicius-gabriel, vinicius, site-pessoal, curriculo, programacao, desenvolvedor, desenvolvimento-web, inicio, pagina-inicial">
-
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-
-    <!-- Site Icons -->
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- WEBSITE ICONS -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
+    <!--<div id="app">-->
     <div id="app">
+    <!--<div class="app">-->
         <!-- Loading -->
         <div class="loading">
-            Loading<span id="loading-dots">...</span>
-            <img src="images/karen-kujou/sleeping.gif" alt="Karen Kujou Tirando uma Sonequinha" title="Karen Kujou Tirando uma Sonequinha" />
-            <span id="loading-message">O site já já vai terminar de carregar!</span>
-
+            <div class="loading--background-filter">
+                <div class="loading--title">
+                    Loading<span id="loading-dots">...</span>
+                </div>
+                <div class="loading--image">
+                    <img src="images/karen-kujou/sleeping.gif" alt="Karen Kujou Tirando uma Sonequinha" title="Karen Kujou Tirando uma Sonequinha" />
+                </div>
+                <div class="loading--body">
+                    <span id="loading-message">O site já já vai terminar de carregar!</span>
+                </div>
+                <div class="loading--curiosity">
+                    <span>Curiosidade do momento.</span>
+                </div>
+            </div>
         </div>
         <LoadingComponent />
     </div>
@@ -42,43 +51,43 @@
     <script src="javascript/scroll.js"></script>
 
     <script>
-        // File with random loading messages
-        loadingMessages = "../Resources/LoadingMessages.txt";
+        //// File with random loading messages
+        //loadingMessages = "../Resources/LoadingMessages.txt";
 
-        // Setting a random message to the loading pager
-        var loadingMessageInnerHTML = document.getElementById("loading-message").innerHTML
-        loadingMessageInnerHTML = getRandomLineFromFile(loadingMessages);
+        //// Setting a random message to the loading pager
+        //var loadingMessageInnerHTML = document.getElementById("loading-message").innerHTML
+        //loadingMessageInnerHTML = getRandomLineFromFile(loadingMessages);
 
-        var intervalId = window.setInterval(function () {
-            // call your function here
-        }, 5000);
+        //var intervalId = window.setInterval(function () {
+        //    // call your function here
+        //}, 5000);
 
-        function getRandomLineFromFile(filename, callback) {
-            const fileSystem = require("fs");
-            fileSystem.readFile(filename, "utf-8", function (error, data) {
-                if (error) {
-                    throw error;
-                }
+        //function getRandomLineFromFile(filename, callback) {
+        //    const fileSystem = require("fs");
+        //    fileSystem.readFile(filename, "utf-8", function (error, data) {
+        //        if (error) {
+        //            throw error;
+        //        }
 
-                // Get all lines from file
-                var lines = data.split('\n');
-                // Choose one of the lines...
-                var line = lines[Math.floor(Math.random() * lines.length)]
+        //        // Get all lines from file
+        //        var lines = data.split('\n');
+        //        // Choose one of the lines...
+        //        var line = lines[Math.floor(Math.random() * lines.length)]
 
-                // Invoke the callback with our line
-                return line;
-            })
-        }
+        //        // Invoke the callback with our line
+        //        return line;
+        //    })
+        //}
 
-        function loadingDotAnimation() {
-            var dots = window.setInterval(function () {
-                var wait = document.getElementById("loading-dots");
-                if (wait.innerHTML.length > 3)
-                    wait.innerHTML = "";
-                else
-                    wait.innerHTML += ".";
-            }, 100);
-        }
+        //function loadingDotAnimation() {
+        //    var dots = window.setInterval(function () {
+        //        var wait = document.getElementById("loading-dots");
+        //        if (wait.innerHTML.length > 3)
+        //            wait.innerHTML = "";
+        //        else
+        //            wait.innerHTML += ".";
+        //    }, 100);
+        //}
     </script>
 </body>
 </html>
