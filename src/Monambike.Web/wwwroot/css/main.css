@@ -543,7 +543,7 @@ article {
   text-align: center;
 }
 
-.app {
+.app-format {
   background: url("../../images/karen-kujou/determined.gif") no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
@@ -552,41 +552,41 @@ article {
   height: 100%;
   width: 100%;
 }
-.app .loading {
+.app-format .loading {
   display: table-cell;
   vertical-align: middle;
 }
-.app .loading--background-filter {
+.app-format .loading--background-filter {
   background-color: #fafafa;
 }
-.app .loading--image {
+.app-format .loading--image {
   padding: 2% 0;
   text-align: center;
 }
-.app .loading--image img {
+.app-format .loading--image img {
   border: 5px solid rgb(95, 50, 155);
   border-radius: 5px;
 }
-.app .loading--title, .app .loading--body {
+.app-format .loading--title, .app-format .loading--body {
   padding: 20px;
   font-size: 16pt;
   color: white;
   font-weight: bold;
 }
-.app .loading--title {
+.app-format .loading--title {
   background-color: rgb(77, 18, 161);
 }
-.app .loading--body {
+.app-format .loading--body {
   background-color: rgb(95, 50, 155);
 }
-.app .loading--curiosity {
+.app-format .loading--curiosity {
   background-color: #fafafa;
   /*background-color: black;*/
   padding: 10px;
   font-size: 12pt;
   text-align: center;
 }
-.app .loading p, .app .loading img {
+.app-format .loading p, .app-format .loading img {
   margin: 0;
   padding: 0;
   display: inline-block;

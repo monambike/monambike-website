@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>wwwroot\images\favicon.ico</ApplicationIcon>
@@ -32,9 +32,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.10" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.10" />
-    <PackageReference Include="Microsoft.Extensions.Localization" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\monambike-data\src\Monambike.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,11 +46,6 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>GithubProjects.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Resources\SocialMediaLinks.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>SocialMediaLinks.resx</DependentUpon>
     </Compile>
     <Compile Update="Resources\KarenKujo.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -66,10 +65,6 @@
     <EmbeddedResource Update="Resources\GithubProjects.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GithubProjects.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\SocialMediaLinks.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>SocialMediaLinks.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\KarenKujo.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

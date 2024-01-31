@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monambike.Web", "Monambike.Web\Monambike.Web.csproj", "{912356AB-C1D9-40AD-A400-3FAEE982A77C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monambike.WebAPI", "Monambike.WebAPI\Monambike.WebAPI.csproj", "{1CB33139-19FB-4168-AB39-D20D1548D61C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monambike.Data", "..\lib\monambike-data\src\Monambike.Data.csproj", "{3A3D30E7-0CC5-40F9-A5D5-1B61FB075D06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +17,10 @@ Global
 		{912356AB-C1D9-40AD-A400-3FAEE982A77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{912356AB-C1D9-40AD-A400-3FAEE982A77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{912356AB-C1D9-40AD-A400-3FAEE982A77C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1CB33139-19FB-4168-AB39-D20D1548D61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1CB33139-19FB-4168-AB39-D20D1548D61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1CB33139-19FB-4168-AB39-D20D1548D61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3D30E7-0CC5-40F9-A5D5-1B61FB075D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3D30E7-0CC5-40F9-A5D5-1B61FB075D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3D30E7-0CC5-40F9-A5D5-1B61FB075D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3D30E7-0CC5-40F9-A5D5-1B61FB075D06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

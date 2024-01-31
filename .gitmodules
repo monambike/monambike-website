@@ -1,0 +1,6 @@
+[submodule "test"]
+	path = test
+	url = https://github.com/monambike/monambike-data
+[submodule "lib/monambike-data"]
+	path = lib/monambike-data
+	url = https://github.com/monambike/monambike-data
