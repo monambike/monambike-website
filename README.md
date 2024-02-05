@@ -22,4 +22,4 @@ You can find me on likedin by here [linkedin.com/in/monambike/](https://www.link
 
 # License
 
-The license for this repository is available [here](https://github.com/monambike/monambike-website/blob/main/LICENSE). Please refer to the provided link for detailed information regarding the terms and conditions governing the use of this project.
+The license for this repository is available [here](LICENSE). Please refer to the provided link for detailed information regarding the terms and conditions governing the use of this project.
