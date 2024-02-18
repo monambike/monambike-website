@@ -19,7 +19,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore src/Monambike.Website.sln
 
       - name: Build and publish
         run: dotnet publish -c Release --output ./publish-folder
