@@ -5,18 +5,16 @@ namespace Monambike.Web.Services
     /// <summary>
     /// Provides functionality for manipulating the title of the current webpage.
     /// </summary>
-    public class PageTitleService
+    /// <remarks>
+    /// Initializes a new instance of the <see cref="PageTitleService"/> class.
+    /// </remarks>
+    public class PageTitleService(IJSRuntime jsRuntime)
     {
-        private readonly IJSRuntime _jsRuntime;
-        private const string WebsiteName = "Monambike";
+        // Instance of Javascript runtime where calls may be dispatched
+        private readonly IJSRuntime _jsRuntime = jsRuntime;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="PageTitleService"/> class.
-        /// </summary>
-        public PageTitleService(IJSRuntime jsRuntime)
-        {
-            _jsRuntime = jsRuntime;
-        }
+        // Current website name
+        private const string WebsiteName = "TestMonambike";
 
         /// <summary>
         /// Sets the prefix on the title of the current webpage by setting it to
