@@ -16,14 +16,6 @@ Project containing my personal website which contains some brief information abo
 ![image](https://github.com/monambike/monambike-website/assets/35270174/b628d6f3-5166-4c6c-8c8e-f3c5a6028377)
 ![image](https://github.com/monambike/monambike-website/assets/35270174/b43a46a6-ac1f-4a1f-a74c-928dc797858c)
 
-# Contact
-
-You can find me on likedin by here [linkedin.com/in/monambike/](https://www.linkedin.com/in/monambike/). If you want to see videos about my work you can check my YouTube channel [youtube.com/@monambike_portfolio](https://www.youtube.com/@monambike_portfolio) and if you want to see my artworks you can check at my instagram [instagram.com/monambike_portfolio](https://www.instagram.com/monambike_portfolio).
-
-# License
-
-The license for this repository is available [here](LICENSE). Please refer to the provided link for detailed information regarding the terms and conditions governing the use of this project.
-
 # Blog Website
 
 You can also view my blog website [here](https://github.com/monambike/monambike-blog/).
@@ -31,3 +23,11 @@ You can also view my blog website [here](https://github.com/monambike/monambike-
 # Learn Website
 
 You can also view my learn website [here](https://github.com/monambike/monambike-learn/).
+
+# Contact
+
+You can find me on likedin by here [linkedin.com/in/monambike/](https://www.linkedin.com/in/monambike/). If you want to see videos about my work you can check my YouTube channel [youtube.com/@monambike_portfolio](https://www.youtube.com/@monambike_portfolio) and if you want to see my artworks you can check at my instagram [instagram.com/monambike_portfolio](https://www.instagram.com/monambike_portfolio).
+
+# License
+
+The license for this repository is available [here](LICENSE). Please refer to the provided link for detailed information regarding the terms and conditions governing the use of this project.
