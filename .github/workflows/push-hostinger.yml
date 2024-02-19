@@ -26,7 +26,7 @@ jobs:
         run: dotnet restore src/Monambike.Website.sln
           
       - name: Build and publish
-        run: dotnet publish -c Release --output ./publish-folder
+        run: dotnet publish src/Monambike.Website.sln -c Release -f net8.0 -r browser-wasm --self-contained --output ./publish-folder
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -34,6 +34,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./publish-folder
-          remote-dir: public_html
+          local-dir: ./publish-folder/
+          server-dir: public_html/
           passive: true
