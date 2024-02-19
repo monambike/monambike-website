@@ -23,7 +23,9 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore NuGet packages
-        run: dotnet nuget restore src/Monambike.Website.sln -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.GIT_PACKAGES_TOKEN }}
+        run: |
+          nuget restore src/Monambike.Website.sln  # Default restore
+          nuget restore src/Monambike.Website.sln -Source https://nuget.pkg.github.com/monambike/index.json -ApiKey ${{ secrets.NUGET_TOKEN }}
 
       - name: Build and publish
         run: dotnet publish -c Release --output ./publish-folder
