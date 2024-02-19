@@ -8,7 +8,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
+    env:
+      GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
+      GIT_PACKAGES_TOKEN: ${{ secrets.GIT_PACKAGES_TOKEN }}
+      
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -26,9 +30,6 @@ jobs:
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        env:
-          GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
-          GIT_PACKAGES_TOKEN: ${{ secrets.GIT_PACKAGES_TOKEN }}
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
