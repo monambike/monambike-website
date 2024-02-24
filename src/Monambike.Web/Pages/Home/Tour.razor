@@ -1,4 +1,6 @@
-﻿<section class="site-section site-section--tour">
+﻿@using Monambike.Core.Data;
+
+<section class="site-section site-section--tour">
     <h2 class="site-section--title">POR ONDE COMEÇAR?</h2>
     <div class="site-section--body">
         <!-- Left Column -->
@@ -14,7 +16,7 @@
         </a>
 
         <!-- Center Column -->
-        <a href="https://blog.monambike.com" target="_blank">
+        <a href="@Links.WebsiteBlog" target="_blank">
             <div class="three-columns three-columns--intern-column site-section--tour--intern-column">
                 <h3 class="column-title">Blog</h3>
                 <p>Dar uma passadinha do meu blog.</p>
@@ -25,7 +27,7 @@
         </a>
 
         <!-- Right Column -->
-        <a href="https://studies.monambike.com" target="_blank">
+        <a href="@Links.WebsiteLearn" target="_blank">
             <div class="three-columns three-columns site-section--tour--extern-column">
                 <h3 class="column-title">Notas e Estudos</h3>
                 <p>Consultar minhas anotações e guias de referência que eu uso pra estudo.</p>

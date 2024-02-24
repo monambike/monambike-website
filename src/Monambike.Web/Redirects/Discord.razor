@@ -1,0 +1,7 @@
+﻿@page "/discord"
+@using Monambike.Core.Data;
+@inject NavigationManager NavManager
+
+@code {
+    protected override void OnInitialized() => NavManager.NavigateTo($"{Links.DiscordServer}");
+}

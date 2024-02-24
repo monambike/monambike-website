@@ -7,6 +7,14 @@
     <ApplicationIcon>wwwroot\images\favicon.ico</ApplicationIcon>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Remove="Utilities\Project.cs" />
   </ItemGroup>
@@ -74,10 +82,6 @@
     <None Update="Resources\Curiosities.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Redirects\" />
   </ItemGroup>
 
 </Project>
