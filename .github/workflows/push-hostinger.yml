@@ -23,7 +23,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Add sources
-        run: dotnet nuget add source --username GIT_USERNAME --password ${{ secrets.GIT_PACKAGES_TOKEN }} --store-password-in-clear-text --name Monambike GitHub "https://nuget.pkg.github.com/monambike/index.json"
+        run: dotnet nuget add source --username GIT_USERNAME --password ${{ secrets.GIT_PACKAGES_TOKEN }} --store-password-in-clear-text --name "Monambike GitHub" "https://nuget.pkg.github.com/monambike/index.json"
 
       - name: Restore dependencies
         run: dotnet restore src/Monambike.Website.sln
