@@ -3,45 +3,33 @@
     "Home Page": {
       "commandName": "Project",
       "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
       "dotnetRunMessages": true,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": "https://localhost:7108;http://localhost:5108"
+      "applicationUrl": ""
     },
     "Login Page": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "login",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
       "dotnetRunMessages": true,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": "https://localhost:7108;http://localhost:5108"
+      "applicationUrl": ""
     },
     "Blog Page": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "blog",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
       "dotnetRunMessages": true,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": "https://localhost:7108;http://localhost:5108"
+      "applicationUrl": ""
     },
     "About Me Page": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "about",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
       "dotnetRunMessages": true,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": "https://localhost:7108;http://localhost:5108"
+      "applicationUrl": ""
     }
   }
 }
