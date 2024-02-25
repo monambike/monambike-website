@@ -16,27 +16,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Utilities\Project.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <Content Remove="C:\Users\vinic\.nuget\packages\monambike.core\1.2.0\contentFiles\any\net8.0\Resources\Phrases.txt" />
     <Content Remove="wwwroot\fonts\LICENSE.txt" />
     <Content Remove="wwwroot\fonts\PermanentMarker-Regular.ttf" />
-    <Content Remove="wwwroot\javascript\fixIframeFunctions.js" />
-    <Content Remove="wwwroot\javascript\headerFunctions.js" />
-    <Content Remove="wwwroot\javascript\translationFunctions.js" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Utilities\Project.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\fonts\LICENSE.txt" />
     <None Include="wwwroot\fonts\PermanentMarker-Regular.ttf" />
-    <None Include="wwwroot\javascript\fixIframeFunctions.js" />
-    <None Include="wwwroot\javascript\headerFunctions.js" />
-    <None Include="wwwroot\javascript\translationFunctions.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -53,11 +40,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>GithubProjects.resx</DependentUpon>
     </Compile>
-    <Compile Update="Resources\KarenKujo.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>KarenKujo.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -72,16 +54,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GithubProjects.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\KarenKujo.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>KarenKujo.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Resources\Curiosities.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Folder Include="Utilities\" />
   </ItemGroup>
 
 </Project>

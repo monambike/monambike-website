@@ -1,4 +1,4 @@
-@import "../abstract/variables/_colors.scss";
+﻿@import "../abstract/variables/_colors.scss";
 
 $LINK-COLOR: $COLOR-PURPLE-3;
 
@@ -21,6 +21,7 @@ a {
 
 p, li {
   a[target=_blank]:after {
-    content: "\2197" // Represents a diagonal up arrow symbol
+    content: "🡥"; // Represents a diagonal up arrow symbol
+    margin-left: 5px;
   }
 }

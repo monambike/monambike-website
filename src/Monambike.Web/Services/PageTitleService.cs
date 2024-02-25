@@ -1,4 +1,5 @@
 ﻿using Microsoft.JSInterop;
+using Monambike.Core.Data;
 
 namespace Monambike.Web.Services
 {
@@ -14,7 +15,7 @@ namespace Monambike.Web.Services
         private readonly IJSRuntime _jsRuntime = jsRuntime;
 
         // Current website name
-        private const string WebsiteName = "Monambike";
+        private readonly string WebsiteName = Core.Data.Monambike.Username;
 
         /// <summary>
         /// Sets the prefix on the title of the current webpage by setting it to

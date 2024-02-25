@@ -74,7 +74,8 @@ a:hover {
 }
 
 p a[target=_blank]:after, li a[target=_blank]:after {
-  content: "↗";
+  content: "🡥";
+  margin-left: 5px;
 }
 
 /* Scrollbar Width */

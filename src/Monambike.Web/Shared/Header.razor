@@ -21,6 +21,7 @@
 </header>
 
 @code{
-    bool UISwitcher;
-    string Display => UISwitcher ? "ul-navigation__active" : ""; 
+    private static bool UISwitcher;
+
+    private static string Display => UISwitcher ? "ul-navigation__active" : ""; 
 }
