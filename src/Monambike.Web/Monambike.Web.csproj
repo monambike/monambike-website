@@ -16,6 +16,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\**" />
+    <Compile Remove="Enitities\**" />
+    <Compile Remove="Utilities\**" />
+    <Content Remove="Data\**" />
+    <Content Remove="Enitities\**" />
+    <Content Remove="Utilities\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <EmbeddedResource Remove="Enitities\**" />
+    <EmbeddedResource Remove="Utilities\**" />
+    <None Remove="Data\**" />
+    <None Remove="Enitities\**" />
+    <None Remove="Utilities\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="C:\Users\vinic\.nuget\packages\monambike.core\1.2.0\contentFiles\any\net8.0\Resources\Phrases.txt" />
     <Content Remove="wwwroot\fonts\LICENSE.txt" />
     <Content Remove="wwwroot\fonts\PermanentMarker-Regular.ttf" />
@@ -54,12 +69,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GithubProjects.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="Enitities\" />
-    <Folder Include="Utilities\" />
   </ItemGroup>
 
 </Project>
