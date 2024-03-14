@@ -28,8 +28,11 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore src/Monambike.Website.sln
           
-      - name: Build and publish
-        run: dotnet publish src/Monambike.Website.sln -c Release -f net8.0 -r browser-wasm --self-contained --output ./publish-folder
+      - name: Build and publish (www)
+        run: dotnet publish src/Monambike.Web/Monambike.Web.csproj -c Release -f net8.0 -r browser-wasm --self-contained --output ./publish-folder
+
+      - name: Build and publish (links)
+        run: dotnet publish src/Monambike.Links/Monambike.Links/Monambike.Links.csproj -c Release -f net8.0 -r browser-wasm --self-contained --output ./publish-folder/links
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
