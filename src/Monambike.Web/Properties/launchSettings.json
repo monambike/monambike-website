@@ -1,32 +1,12 @@
 {
   "profiles": {
-    "Home Page": {
-      "commandName": "Project",
+    "WSL": {
+      "commandName": "WSL2",
       "launchBrowser": true,
-      "dotnetRunMessages": true,
-      "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": ""
+      "distributionName": ""
     },
-    "Login Page": {
+    "Start Website": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "login",
-      "dotnetRunMessages": true,
-      "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": ""
-    },
-    "Blog Page": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "blog",
-      "dotnetRunMessages": true,
-      "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": ""
-    },
-    "About Me Page": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "about",
       "dotnetRunMessages": true,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
       "applicationUrl": ""
