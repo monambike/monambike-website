@@ -32,8 +32,17 @@
 
   <ItemGroup>
     <Content Remove="C:\Users\vinic\.nuget\packages\monambike.core\1.2.0\contentFiles\any\net8.0\Resources\Phrases.txt" />
+    <Content Remove="C:\Users\vinic\.nuget\packages\monambike.core\1.4.0\contentFiles\any\net8.0\Resources\Phrases.txt" />
     <Content Remove="wwwroot\fonts\LICENSE.txt" />
     <Content Remove="wwwroot\fonts\PermanentMarker-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ErrorPages\404Page.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ErrorPages\404Page.html" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,14 +51,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.2" />
-    <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.2" />
-    <PackageReference Include="Monambike.Core" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.3" />
+    <PackageReference Include="Monambike.Core" Version="1.4.1" />
     <PackageReference Include="Notion.Net" Version="4.2.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Locale\Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
     <Compile Update="Resources\GithubProjects.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -65,10 +80,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Locale\Resource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resources\GithubProjects.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>GithubProjects.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\featured\art2d\" />
   </ItemGroup>
 
 </Project>

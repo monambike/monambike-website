@@ -44,8 +44,5 @@
 </div>
 
 @code {
-    protected override async Task OnInitializedAsync()
-    {
-        await PageTitleService.SetPrefixOnPageTitle("About");
-    }
+    protected override async Task OnInitializedAsync() => await PageTitleService.SetPrefixOnPageTitle("About");
 }

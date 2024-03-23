@@ -15,7 +15,7 @@ namespace Monambike.Web.Services
         private readonly IJSRuntime _jsRuntime = jsRuntime;
 
         // Current website name
-        private readonly string WebsiteName = Core.Data.Monambike.Username;
+        private readonly string WebsiteName = BasicInfo.Username;
 
         /// <summary>
         /// Sets the prefix on the title of the current webpage by setting it to

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Monambike.Web.Resources {
+namespace Monambike.Web.Locale {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace Monambike.Web.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class GithubProjects {
+    public class Resource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal GithubProjects() {
+        internal Resource() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Monambike.Web.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Monambike.Web.Resources.GithubProjects", typeof(GithubProjects).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Monambike.Web.Locale.Resource", typeof(Resource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,56 +61,11 @@ namespace Monambike.Web.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/monambike/diversao-inclusiva.
+        ///   Looks up a localized string similar to dada.
         /// </summary>
-        public static string DiversaoInclusiva {
+        public static string String1 {
             get {
-                return ResourceManager.GetString("DiversaoInclusiva", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://github.com/monambike/doce-do-bom-mobile.
-        /// </summary>
-        public static string DoceDoBom {
-            get {
-                return ResourceManager.GetString("DoceDoBom", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://github.com/monambike/kwijisho-discord-bot.
-        /// </summary>
-        public static string KWIJisho {
-            get {
-                return ResourceManager.GetString("KWIJisho", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://github.com/monambike/pdfconverter-pdftables-to-csv.
-        /// </summary>
-        public static string PDFConverter {
-            get {
-                return ResourceManager.GetString("PDFConverter", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://github.com/monambike/project-hanabi-web.
-        /// </summary>
-        public static string ProjectHanabi {
-            get {
-                return ResourceManager.GetString("ProjectHanabi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://github.com/monambike/yotsuki-web.
-        /// </summary>
-        public static string YotsukiWeb {
-            get {
-                return ResourceManager.GetString("YotsukiWeb", resourceCulture);
+                return ResourceManager.GetString("String1", resourceCulture);
             }
         }
     }
