@@ -1,0 +1,7 @@
+﻿@page "/destinations"
+@using Monambike.Core.Data;
+@inject NavigationManager NavManager
+
+@code {
+    protected override void OnInitialized() => NavManager.NavigateTo("https://monambike.notion.site/1aabc77db21741cca4276e83634c74c3");
+}
