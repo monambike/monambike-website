@@ -16,12 +16,12 @@
 @import "core/_reset.scss";
 @import "core/_typography.scss";
 
-// (layout) Loading Layout Classes (Footer, Header, Navigation Bar)
-@import "layout/_footer.scss";
-@import "layout/_header.scss";
-@import "layout/_navigation.scss";
+// (shared) Loading shared Classes (Footer, Header, Navigation Bar)
+@import "shared/_footer.scss";
+@import "shared/_header.scss";
+@import "shared/_navigation.scss";
 
-// (mediaquery) Loading Website Layout For Specific Platforms
+// (mediaquery) Loading Website shared For Specific Platforms
 @import "mediaquery/_mobile.scss";
 
 // (pages) // Loading All Stylish for Every Page and Section
@@ -33,11 +33,9 @@
 @import "pages/home/_about-me.scss";
 @import "pages/home/_contact.scss";
 @import "pages/home/_home.scss";
-@import "pages/home/_my-projects.scss";
 @import "pages/home/_presentation.scss";
 @import "pages/home/_social-media.scss";
 @import "pages/home/_tour.scss";
 @import "pages/home/_warning.scss";
 // (pages)
 @import "pages/_loading.scss";
-@import "pages/_login.scss";
