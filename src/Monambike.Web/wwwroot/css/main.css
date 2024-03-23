@@ -1,13 +1,14 @@
 @charset "UTF-8";
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 /* Actually being used on Footer and "Tour" Index Page Section, it
   makes possible to have three columns */
 .three-columns {
@@ -26,42 +27,26 @@
   user-select: none; /* Standard */
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 a.button {
   background-color: rgb(77, 18, 161);
   padding: 10px;
@@ -81,15 +66,11 @@ a.button::before {
   content: "Clique aqui: ";
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 img {
   max-width: 100%;
   transition: 0.5s;
@@ -113,24 +94,16 @@ figure {
   width: auto;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 a {
   /* Variables that hold values from the line under links when hovered */
   /* Link attributes */
@@ -150,24 +123,16 @@ p a[target=_blank]:after, li a[target=_blank]:after {
   margin-left: 5px;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 /* Scrollbar Width */
 ::-webkit-scrollbar {
   width: 14px;
@@ -191,24 +156,16 @@ p a[target=_blank]:after, li a[target=_blank]:after {
   background: rgb(77, 18, 161);
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 select {
   background-color: rgb(30, 30, 30);
   color: #fafafa;
@@ -228,24 +185,16 @@ select option {
   transition: 2s;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 ::selection {
   background: rgb(95, 50, 155);
   color: #fafafa;
@@ -256,15 +205,11 @@ select option {
   color: #fafafa;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .reveal__translate {
   position: relative;
   transform: translateY(144px);
@@ -325,15 +270,11 @@ li {
   * reproduction or distribution of this material without express and written
   * permission from the author is strictly prohibited.
 **/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 * {
   font-family: "Arial", sans-serif;
 }
@@ -345,24 +286,16 @@ p {
   word-break: break-word;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .footer {
   background-color: rgb(30, 30, 30);
   display: flex;
@@ -405,24 +338,16 @@ p {
   margin: 2.5% 0% 2.5% 0%;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .header {
   background-color: rgb(15, 15, 15);
   display: flex;
@@ -504,24 +429,16 @@ p {
     left: 0px;
   }
 }
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .site-section {
   /* Purple cross animation at dark gray background */
 }
@@ -614,24 +531,16 @@ p {
   margin-bottom: 20px;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .site-section--contact {
   background-color: rgb(245, 245, 245);
 }
@@ -643,33 +552,21 @@ p {
   color: rgb(77, 18, 161);
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .iframe-import-section {
   height: 100%;
   width: 100%;
@@ -699,24 +596,16 @@ p {
   padding: 20px;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .site-section--presentation {
   /*background-color: $COLOR-PURPLE-1;*/
   background: -webkit-linear-gradient(rgb(77, 18, 161), rgb(95, 50, 155));
@@ -746,24 +635,16 @@ p {
   }
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .site-section--social-media {
   height: 130vh !important;
   background-color: rgb(95, 50, 155);
@@ -782,33 +663,21 @@ p {
   text-align: left;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .site-section--tour {
   background-color: rgb(77, 18, 161);
 }
@@ -858,24 +727,16 @@ p {
   justify-content: center;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .warning {
   background-color: rgb(200, 20, 20);
   color: #fafafa;
@@ -883,24 +744,16 @@ p {
   text-align: center;
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .app-format {
   background: url("../../images/karen-kujou/determined.gif") no-repeat;
   background-size: cover;
