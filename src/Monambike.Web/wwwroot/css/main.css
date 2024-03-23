@@ -225,30 +225,40 @@ p {
   margin: 2.5% 0% 2.5% 0%;
 }
 
-.website-header {
+/**
+  * Vinicius Gabriel Personal Website
+  * Author: Vinicius Gabriel
+  * Contact: contact@monambike.com
+  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+  * This website and its contents are protected by copyright law. Unauthorized
+  * reproduction or distribution of this material without express and written
+  * permission from the author is strictly prohibited.
+**/
+.header {
   background-color: rgb(15, 15, 15);
   display: flex;
   padding: 10px;
   z-index: 999; /* Add z-index to make sure it appears above other elements */
 }
-.website-header--presentation {
+.header ul * {
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
+}
+
+.header-presentation {
   flex: 1;
   margin: auto;
-  margin-left: 10px;
   display: flex;
+  margin-left: 10px;
   align-items: center;
   /* Vertical Line */
 }
-.website-header--presentation--profession::before {
+.header-presentation__subtitle::before {
   content: "";
-  height: 1.5rem;
   border-left: 2px solid #fafafa;
+  height: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-}
-.website-header ul * {
-  display: inline-block;
-  margin: 0px 5px 0px 5px;
 }
 
 .hamburguer {
@@ -261,13 +271,13 @@ p {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkite-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background: #fafafa;
 }
 
 @media (max-width: 800px) {
-  .website-header {
+  .header {
     position: fixed;
     width: 100%;
   }
@@ -284,7 +294,7 @@ p {
   .hamburguer.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  .ul-navigation {
+  .navigation {
     position: fixed;
     left: -100%;
     top: 35px;
@@ -297,11 +307,11 @@ p {
     z-index: 999; /* Add z-index to make sure it appears above other elements */
     padding: 20px 0;
   }
-  .ul-navigation li {
+  .navigation li {
     display: block;
     margin: 10px 0;
   }
-  .ul-navigation__active {
+  .navigation--active {
     left: 0px;
   }
 }

@@ -1,32 +1,34 @@
 @import "../abstract/variables/_colors.scss";
 
-.website-header {
+.header {
   background-color: $COLOR-BLACK;
   display: flex;
   padding: 10px;
   z-index: 999; /* Add z-index to make sure it appears above other elements */
-
-  &--presentation {
-    flex: 1; // Makes it align to left
-    margin: auto; // Align text to the center
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
-    /* Vertical Line */
-    &--profession::before {
-      content: "";
-      height: 1.5rem;
-      border-left: 2px solid $COLOR-WHITE;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
-    }
-  }
 
   ul {
     * {
       display: inline-block; // Displaying links single line
       margin: 0px 5px 0px 5px; // Keeps a distance of 10 pixels between list items
     }
+  }
+}
+
+// Style for the presentation header
+.header-presentation {
+  flex: 1; // Makes the element flexible to align to the left
+  margin: auto; // Aligns text to the center horizontally
+  display: flex; // Utilizes flexbox for layout
+  margin-left: 10px;
+  align-items: center;
+
+  /* Vertical Line */
+  &__subtitle::before {
+    content: ""; // Creates an empty content element
+    border-left: 2px solid $COLOR-WHITE; // Adds a left border (vertical line)
+    height: 1.5rem; // Sets the height of the line
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
 
@@ -40,14 +42,14 @@
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkite-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background: $COLOR-WHITE;
 }
 
 // Smaller devices
 @media(max-width:800px){
-  .website-header {
+  .header {
     position: fixed;
     width: 100%;
   }
@@ -67,7 +69,7 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .ul-navigation {
+  .navigation {
     position: fixed;
     left: -100%;
     top: 35px;
@@ -87,7 +89,7 @@
       margin: 10px 0;
     }
 
-    &__active {
+    &--active {
       left: 0px;
     }
   }
