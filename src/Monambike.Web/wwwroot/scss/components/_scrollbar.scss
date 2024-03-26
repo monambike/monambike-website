@@ -13,20 +13,20 @@ For license information, please see the LICENSE file in the root directory.
 
 /* Scrollbar Track */
 ::-webkit-scrollbar-track {
-  background: $COLOR-PURPLE-4;
+  background: $purple-light;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $COLOR-PURPLE-3;
+  background: $purple-medium;
   
   /* Handle on hover */
   &:hover {
-    background: $COLOR-PURPLE-2;
+    background: $purple-dark;
   }
 
   /* Handle when dragged */
   &:active {
-    background: $COLOR-PURPLE-1;
+    background: $purple-deep;
   }
 }

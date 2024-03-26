@@ -6,24 +6,24 @@ For license information, please see the LICENSE file in the root directory.
 
 @import "../../abstract/variables/_colors.scss";
 
-.site-section {
+.section {
   &--social-media {
     height: 130vh !important;
 
-    background-color: $COLOR-PURPLE-2;
-    color: $COLOR-BLACK;
+    background-color: $purple-dark;
+    color: $secondary-color;
     height: auto;
 
     &--containers {
       padding: 20px;
       margin-bottom: 20px;
-      background-color: $COLOR-WHITE;
+      background-color: $primary-color;
       text-align: right;
     }
 
     &--containers:nth-child(odd) {
-      color: $COLOR-WHITE;
-      background-color: $COLOR-PURPLE-3;
+      color: $primary-color;
+      background-color: $purple-medium;
       text-align: left;
     }
   }

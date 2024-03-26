@@ -7,7 +7,7 @@ For license information, please see the LICENSE file in the root directory.
 @import "../abstract/variables/_colors.scss";
 
 a.button {
-  background-color: $COLOR-PURPLE-1;
+  background-color: $purple-deep;
   padding: 10px;
   border-radius: 5px;
   white-space: nowrap; /* Prevent text from wrapping to the next line */
@@ -19,7 +19,7 @@ a.button {
   display: inline-block; /* Make the link behave like a block-level element */
 
   &:hover {
-    background-color: $COLOR-PURPLE-4;
+    background-color: $primary-color;
   }
 
   &::before {

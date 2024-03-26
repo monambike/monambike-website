@@ -23,7 +23,7 @@ For license information, please see the LICENSE file in the root directory.
     vertical-align: middle;
 
     &--background-filter {
-      background-color: $COLOR-WHITE;
+      background-color: $primary-color;
     }
 
     &--image {
@@ -31,7 +31,7 @@ For license information, please see the LICENSE file in the root directory.
       text-align: center;
 
       img {
-        border: 5px solid $COLOR-PURPLE-2;
+        border: 5px solid $purple-dark;
         border-radius: 5px;
       }
     }
@@ -44,15 +44,15 @@ For license information, please see the LICENSE file in the root directory.
     }
 
     &--title {
-      background-color: $COLOR-PURPLE-1;
+      background-color: $purple-deep;
     }
 
     &--body {
-      background-color: $COLOR-PURPLE-2;
+      background-color: $purple-dark;
     }
 
     &--curiosity {
-      background-color: $COLOR-WHITE;
+      background-color: $primary-color;
       /*background-color: black;*/
       padding: 10px;
       font-size: 12pt;

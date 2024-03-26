@@ -5,19 +5,36 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 // Neutral Colors
-$COLOR-BLACK: rgba(15, 15, 15, 1);
-$COLOR-GRAY-1: rgba(30, 30, 30, 1);
-$COLOR-GRAY-2: rgba(40, 40, 40, 1);
-$COLOR-WHITE: #fafafa;
+$black: rgba(25, 25, 25, 1);
+$gray-dark: rgba(30, 30, 30, 1);
+$gray-dark-light: rgba(40, 40, 40, 1);
+$gray-light: rgba(245, 245, 245, 1);
+$gray-light-dark: rgba(235, 235, 235, 1);
+$white: rgba(250, 250, 250, 1);
 
 // Purple Colors
-$COLOR-PURPLE-1: rgba(77, 18, 161);
-$COLOR-PURPLE-2: rgba(95, 50, 155);
-$COLOR-PURPLE-3: rgba(144, 100, 202);
-$COLOR-PURPLE-4: rgba(227, 222, 236);
-
-// Color For Text Selection
-$SELECT-COLOR: rgba(95, 50, 155);
+$purple-light: rgba(227, 222, 236);
+$purple-medium: rgba(144, 100, 202);
+$purple-dark: rgba(95, 50, 155);
+$purple-deep: rgba(77, 18, 161);
 
 // Warning Color
-$COLOR-RED: rgba(200, 20, 20);
+$red: rgba(200, 20, 20);
+
+// Color For Text Selection
+$selection-color: $purple-dark;
+
+// Elements Colors
+$primary-color: $white;
+$secondary-color: $black;
+$primary-gray-color: $gray-light;
+$secondary-gray-color: $gray-light-dark;
+/*
+// Dark Mode Elements Colors
+.dark-theme {
+  $primary-color: $black;
+  $secondary-color: $white;
+  $primary-gray-color: $gray-dark;
+  $secondary-gray-color: $gray-dark-light;
+}
+*/

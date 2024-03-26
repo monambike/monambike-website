@@ -5,13 +5,18 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 // Font Family
-$font-family-default: 'Arial', sans-serif;
+$font-family-default: "Segoe UI", Arial, sans-serif;
 
-// Font Sizes
+
 // Title Font Sizes
-$FONT-SIZE-H1: 5vw;
-$FONT-SIZE-H2: 34pt;
-$FONT-SIZE-H3: 20pt;
-// Other Controllers Font Sizes
-$FONT-SIZE-P: 16pt;
-$FONT-SIZE-NAV: 2vw;
+$font-size-h1: 6rem;
+$font-size-h2: 5rem;
+$font-size-h3: 2rem;
+
+// Paragraph Font Sizes
+$font-size-p: 16rem;
+
+// Navigation Bar Font Sizes
+$font-size-nav: 2vw;
+
+

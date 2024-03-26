@@ -7,6 +7,14 @@ For license information, please see the LICENSE file in the root directory.
 @import '../../abstract/variables/_colors.scss';
 @import '../../abstract/variables/_fonts.scss';
 
+html body {
+  background-color: $primary-color;
+}
+
+* {
+  transition: background-color 1s ease, color 1s ease;
+}
+
 .iframe-import-section {
   height: 100%;
   width: 100%;
@@ -15,24 +23,22 @@ For license information, please see the LICENSE file in the root directory.
 
 .body-page {
   background: url(/resources/images/wallpaper_code.jpg) no-repeat fixed center/cover;
-  color: $COLOR-GRAY-1;
+  color: $gray-dark;
 }
 
-.site-section {
-  padding: 10px 0px 10px 0px;
-  min-height: 50vh;
-  height: 100% !important;
+.section {
   display: block;
+  height: 100% !important;
+  min-height: 50vh;
   overflow: hidden; // Hide scrollbars for text animation
+  padding: 10px 0px 10px 0px;
 
-  &--title {
-    // Text
-    color: $COLOR-WHITE;
-    font-size: $FONT-SIZE-H2;
-    text-shadow: 2px 2px $COLOR-BLACK;
-    // Position and Size
+  &__title {
+    color: $white;
+    font-size: $font-size-h2;
     padding: 20px;
     text-align: center;
+    text-shadow: 1px 1px 1px $black;
   }
 
   &--body {

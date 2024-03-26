@@ -1,0 +1,92 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>wwwroot\images\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\**" />
+    <Compile Remove="Enitities\**" />
+    <Compile Remove="Utilities\**" />
+    <Content Remove="Data\**" />
+    <Content Remove="Enitities\**" />
+    <Content Remove="Utilities\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <EmbeddedResource Remove="Enitities\**" />
+    <EmbeddedResource Remove="Utilities\**" />
+    <None Remove="Data\**" />
+    <None Remove="Enitities\**" />
+    <None Remove="Utilities\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\vinic\.nuget\packages\monambike.core\1.2.0\contentFiles\any\net8.0\Resources\Phrases.txt" />
+    <Content Remove="C:\Users\vinic\.nuget\packages\monambike.core\1.4.0\contentFiles\any\net8.0\Resources\Phrases.txt" />
+    <Content Remove="wwwroot\fonts\LICENSE.txt" />
+    <Content Remove="wwwroot\fonts\PermanentMarker-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ErrorPages\404Page.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ErrorPages\404Page.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\fonts\LICENSE.txt" />
+    <None Include="wwwroot\fonts\PermanentMarker-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.3" />
+    <PackageReference Include="Monambike.Core" Version="1.4.1" />
+    <PackageReference Include="Notion.Net" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Locale\Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\index.html">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Locale\Resource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\featured\art2d\" />
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="start cd" />
+  </Target>
+
+</Project>

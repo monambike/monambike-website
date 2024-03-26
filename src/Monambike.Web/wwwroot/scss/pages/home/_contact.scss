@@ -6,15 +6,20 @@ For license information, please see the LICENSE file in the root directory.
 
 @import '../../abstract/variables/_colors.scss';
 
-.site-section--contact {
-  background-color: rgba(245, 245, 245);
+.section--contact {
+  background-color: $primary-color;
 
-  p {
-    background-color: $COLOR-WHITE;
-    padding: 20px;
-    a {
-      color: $COLOR-PURPLE-1;
-    }
+  .section__title {
+    color: $gray-light;
   }
 
+  p {
+    background-color: $secondary-gray-color;
+    color: $secondary-color;
+    padding: 20px;
+
+    a {
+      color: $purple-deep;
+    }
+  }
 }

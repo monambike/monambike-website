@@ -1,4 +1,4 @@
-// Handle the scroll event
+// Registers scroll events for the window
 window.registerScrollEvent = (dotNetObjRef) => {
     window.onscroll = () => {
         dotNetObjRef.invokeMethodAsync('OnScroll');
@@ -6,34 +6,36 @@ window.registerScrollEvent = (dotNetObjRef) => {
 };
 
 /**
- * Checks and applies or undo a reveal effect to elements starting with "reveal__" on
+ * Checks and applies or undo a reveal effect to elements with reveal-animation on 
  * their class names.
- * E.g.: Bypass "translate" if desired to check animation for .reveal__translate,
- * and activate animation with active
  *
  * @param {string} propertyName - The property name to apply the reveal effect.
  */
 function checkAndApplyRevealEffect() {
-    // Select all elements with the specified property name "reveal__{any suffix}"
-    var revealClasses = document.querySelectorAll('[class*="reveal__"],[class*=" page"]');
+    // Select all elements with reveal-animation
+    var revealClasses = document.querySelectorAll('[class*="reveal-animation"]');
 
     // Constantly checks all elements
     revealClasses.forEach((revealClass) => {
-        // Get the height of the viewport
+        // Gets the height of the viewport
         var windowHeight = window.innerHeight;
-        // Get the top position of the current element relative to the viewport
+
+        // Gets the top position of the current element relative to the viewport (where the element should have its end position)
         var elementTop = revealClass.getBoundingClientRect().top;
-        // The number of pixels from the bottom of the viewport where the element should start revealing
+
+        // Sets the number of pixels from the bottom of the viewport (where the element should start revealing)
         var elementVisible = 100;
 
-        // Check if the element is within the reveal range
+        // Checks if the element is within the reveal range for revealing it
         if (elementTop > 0 && elementTop < windowHeight - elementVisible) {
-            revealClass.classList.add(`active`); // // Make the effect active
+            // Makes the element revealed
+            revealClass.classList.add('revealed');
         } else {
-            revealClass.classList.remove(`active`); // Make the effect inactive
+            // Removes revealed from elemenet
+            revealClass.classList.remove('revealed'); // Make the effect inactive
         }
     });
 }
 
-// When scrolling it checks all elements for applying scroll reveal effects
+// Adds methods triggered on window scroll event
 window.addEventListener("scroll", checkAndApplyRevealEffect)

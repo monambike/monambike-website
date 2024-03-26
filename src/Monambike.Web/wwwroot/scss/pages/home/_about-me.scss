@@ -6,76 +6,85 @@ For license information, please see the LICENSE file in the root directory.
 
 @import '../../abstract/variables/_colors.scss';
 
-.site-section {
-  &--about {
-    &--body {
-      p {
-        background-color: $COLOR-WHITE;
-        padding: 20px;
+// Styles for About Section
+.section--about {
 
-        a {
-          color: $COLOR-PURPLE-1;
-        }
+  // Container Styling
+  &__container {
+    padding: 0px 15% 0px 15%;
 
-        span {
-          background: -webkit-linear-gradient($COLOR-PURPLE-2, $COLOR-PURPLE-3);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-      }
-    }
-
-    &__filter {
-      padding: 0px 15% 0px 15%;
-      // Adjust layout for smaller devices
-      @media(max-width:800px) {
-        padding: 0;
-      }
-    }
-    /* Purple cross animation at dark gray background */
-    @keyframes animatedBackground {
-      from {
-        background-position: 0 0;
-      }
-      /*use negative width if you want it to flow right to left else and positive for left to right*/
-      to {
-        background-position: -10000px 0;
-      }
+    // Remove Padding for Smaller Screens
+    @media(max-width:800px) {
+      padding: 0;
     }
   }
-  /* Purple cross animation at dark gray background */
-  &--about::before {
+
+  // Content Styling
+  &__content {
+
+    // Custom Paragraph Styles
+    p {
+      background-color: $secondary-gray-color;
+      color: $secondary-color;
+      padding: 20px;
+    }
+
+    // Custom Link Styles
+    a {
+      color: $purple-deep;
+    }
+  }
+
+  // Animated Purple Cross Background
+  @keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+
+    to {
+      background-position: -10000px 0;
+    }
+
+  }
+
+  // About Section Pseudo-Element for Animated Background
+  &::before {
     content: "";
-    position: absolute;
-    width: 100%;
     height: 100%;
-    z-index: -1;
     opacity: 1;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    // Creates a radial gradient with an animated cross pattern on top
     background: radial-gradient(circle, transparent 20%, rgba(30,30,30,1) 20%, rgba(30,30,30,1) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgba(30,30,30,1) 20%, rgba(30,30,30,1) 80%, transparent 80%, transparent) 80px 80px, linear-gradient(rgba(95,50,155,1) 6.4px, transparent 6.4px) 0 -3.2px, linear-gradient(90deg, rgba(95,50,155,1) 6.4px, rgba(30,30,30,1) 6.4px) -3.2px 0;
     background-size: 160px 160px, 160px 160px, 80px 80px, 80px 80px;
     animation: animatedBackground 75s linear infinite;
-    /*transform: rotate(30deg);*/
   }
 }
 
-.i-love {
+// Styles for Interest Lists
+.interests-list {
   margin: 30px 10px 30px 10px;
 
-  span, li {
-    border: 1.82px solid $COLOR-GRAY-1;
+  // Shared Styles for Headings and List Items
+  &__title, li {
+    border: 1.82px solid $gray-dark;
     border-radius: 2px;
+    font-weight: 600;
     padding: 5px;
     margin: 2px 0px 2px 0px;
   }
 
-  span {
-    background-color: $COLOR-PURPLE-2;
-    color: $COLOR-WHITE;
+  // Heading Styles
+  &__title {
+    background-color: $purple-dark;
+    color: $white;
     display: block;
     padding: 5px;
     font-weight: bold;
   }
 
+  // List Item Styles with Hover Effect
   li {
     transition: 0.5s;
 
@@ -83,27 +92,52 @@ For license information, please see the LICENSE file in the root directory.
       transform: scale(1.050);
     }
   }
-
-  li:nth-child(odd) {
-    background: $COLOR-PURPLE-4;
-    border-color: $COLOR-GRAY-1;
-  }
-
+  // Styles for Even List Items
   li:nth-child(even) {
-    background: $COLOR-PURPLE-3;
-    border-color: $COLOR-PURPLE-1;
-    color: $COLOR-WHITE;
+    background: $purple-medium;
+    border-color: $purple-deep;
+    color: $white;
+  }
+  // Styles for Odd List Items
+  li:nth-child(odd) {
+    background: $purple-light;
+    border-color: $gray-dark;
   }
 }
 
+// Styles for Button Container
 .button-container {
-  text-align: center;
   padding: 20px 0px;
+  text-align: center;
 }
 
-.karen-kujou-staring-happy {
+// Styles for Karen Kujou Image
+.featured-image {
+  border-left: 18px double rgb(120, 20, 220, 1);
   display: table;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 20px auto;
   padding: 20px;
-  margin-bottom: 20px;
+  width: auto;
+
+  &__caption {
+    color: rgba(120, 20, 220, 1);
+    text-align: center;
+    transition: 0.25s;
+  }
+
+  &__image:hover {
+    transform: scale(1.050);
+  }
+}
+
+// Style for Uppercase Text
+.uppercase {
+  text-transform: uppercase;
+}
+
+// Gradient Text Effect
+.highlight-purple {
+  background: -webkit-linear-gradient($purple-dark, $purple-medium);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

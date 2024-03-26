@@ -4,16 +4,9 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import '../abstract/variables/_colors.scss';
+@import "../abstract/variables/_colors.scss";
 
-// Change website selection color (when you select a text)
-::selection {
-  background: $selection-color;
-  color: $primary-color;
-}
-
-// For Firefox
-::-moz-selection {
-  background: $purple-medium;
+dark-mode {
+  background-color: $secondary-color;
   color: $primary-color;
 }

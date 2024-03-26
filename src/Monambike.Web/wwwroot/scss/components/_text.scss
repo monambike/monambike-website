@@ -4,16 +4,14 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-.reveal__ {
-  &translate { // "reveal__translate"
-    position: relative;
-    transform: translateY(144px);
-    opacity: 0;
-    transition: 1s all ease;
+.reveal-animation {
+  position: relative;
+  transform: translateY(144px);
+  opacity: 0;
+  transition: transform 1s ease, opacity 1s ease;
 
-    &.active { // "reveal__translate" and "active" {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  &.revealed { // "reveal__translate" and "active" {
+    transform: translateY(0);
+    opacity: 1;
   }
 }

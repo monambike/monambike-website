@@ -9,7 +9,7 @@ For license information, please see the LICENSE file in the root directory.
     <div class="header-presentation">
         <a href="/" target="_top">
             <span class="header-presentation__name">Monambike</span>
-            <span class="header-presentation__subtitle">Desenvolvedor&nbsp;de&nbsp;Software</span>
+            <span class="header-presentation__subtitle">Software&nbsp;Developer</span>
         </a>
     </div>
 
@@ -18,7 +18,7 @@ For license information, please see the LICENSE file in the root directory.
             <li><a href="/" target="_top">Início</a></li>
             <li><a href="https://blog.monambike.com" target="_blank" title="Veja minhas histórias, viagens e momentos da minha vida.">Blog</a></li>
             <li><a href="https://learn.monambike.com" target="_blank" title="Veja minhas anotações e aprenda comigo.">Learn</a></li>
-            <TranslationButton/>
+            <li><TranslationButton/></li>
         </ul>
         <div class="hamburguer" @onclick="() => UISwitcher = !UISwitcher">
             <span class="bar"></span>
@@ -28,6 +28,7 @@ For license information, please see the LICENSE file in the root directory.
     </nav>
 </header>
 
+<script src="javascript/theme.js"></script>
 @code{
     private static bool UISwitcher;
 

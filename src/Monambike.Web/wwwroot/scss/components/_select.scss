@@ -7,20 +7,20 @@ For license information, please see the LICENSE file in the root directory.
 @import "../abstract/variables/_colors.scss";
 
 select{
-  background-color: $COLOR-GRAY-1;
-  color: $COLOR-WHITE;
+  background-color: $gray-dark;
+  color: $white;
   cursor: pointer;
   padding: 5px;
   transition: 0.1s;
   &:hover {
-    background-color: $COLOR-GRAY-2;
+    background-color: $gray-dark-light;
   }
   &:active {
-    background-color: $COLOR-GRAY-1;
+    background-color: $gray-dark;
   }
   
   option{
-    background-color: $COLOR-PURPLE-2;
+    background-color: $purple-dark;
     color: rgba(255,255,255,1);
     transition: 2s;
   }

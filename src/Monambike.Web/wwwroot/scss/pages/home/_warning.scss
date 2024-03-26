@@ -7,8 +7,8 @@ For license information, please see the LICENSE file in the root directory.
 @import '../../abstract/variables/_colors.scss';
 
 .warning {
-  background-color: $COLOR-RED;
-  color: $COLOR-WHITE;
+  background-color: $red;
+  color: $white;
   padding: 5px;
   text-align: center;
 }

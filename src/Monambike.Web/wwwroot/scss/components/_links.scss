@@ -6,22 +6,22 @@ For license information, please see the LICENSE file in the root directory.
 
 @import "../abstract/variables/_colors.scss";
 
-$LINK-COLOR: $COLOR-PURPLE-3;
+$link-color: $purple-medium;
 
 a {
   /* Variables that hold values from the line under links when hovered */
-  $LINE-THICKNESS: 0.15em;
-  $LINE-COLOR: $LINK-COLOR;
+  $line-thickness: 0.15em;
+  $line-color: $link-color;
   /* Link attributes */
-  color: $COLOR-WHITE;
-  padding-bottom: var($LINE-THICKNESS);
-  background: linear-gradient(90deg,$LINE-COLOR 50%, $COLOR-WHITE 0) calc(100% - var(--_p,0%)) / 200% 100%, linear-gradient($LINE-COLOR 0 0) 0% 100%/var(--_p,0%) $LINE-THICKNESS no-repeat;
+  color: $white;
+  padding-bottom: var($line-thickness);
+  background: linear-gradient(90deg,$line-color 50%, $primary-color 0) calc(100% - var(--_p,0%)) / 200% 100%, linear-gradient($line-color 0 0) 0% 100%/var(--_p,0%) $line-thickness no-repeat;
   -webkit-background-clip: text, padding-box;
   transition: 0.5s;
   // Links text color
   &:hover {
     --_p: 100%;
-    color: $LINK-COLOR
+    color: $link-color
   }
 }
 
