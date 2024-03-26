@@ -4,12 +4,14 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-// (abstract) Loading Variables and Mixins
-@import "abstract/_mixins.scss";
-@import "abstract/variables/_colors.scss";
-@import "abstract/variables/_fonts.scss";
+// base
+@import "base/_colors.scss";
+@import "base/_fonts.scss";
+@import "base/_mixins.scss";
+@import "base/_reset.scss";
+@import "base/_typography.scss";
 
-// (components) Loading Images, Links and Other Components
+// components
 @import "components/_button.scss";
 @import "components/_images.scss";
 @import "components/_links.scss";
@@ -18,22 +20,10 @@ For license information, please see the LICENSE file in the root directory.
 @import "components/_selection.scss";
 @import "components/_text.scss";
 
-// (core) Loading Typography and Reset Classes
-@import "core/_reset.scss";
-@import "core/_typography.scss";
-
-// (shared) Loading shared Classes (Footer, Header, Navigation Bar)
-@import "shared/_footer.scss";
-@import "shared/_header.scss";
-@import "shared/_navigation.scss";
-
-// (mediaquery) Loading Website shared For Specific Platforms
-@import "mediaquery/_mobile.scss";
-
-// (pages) // Loading All Stylish for Every Page and Section
-// (pages/about) About
+// pages
+// pages/about
 @import "pages/about/_about.scss";
-// (pages/index) Home Page
+// pages/home
 @import "pages/home/_about-me.scss";
 @import "pages/home/_contact.scss";
 @import "pages/home/_home.scss";
@@ -41,5 +31,9 @@ For license information, please see the LICENSE file in the root directory.
 @import "pages/home/_social-media.scss";
 @import "pages/home/_tour.scss";
 @import "pages/home/_warning.scss";
-// (pages)
-@import "pages/_loading.scss";
+
+// shared
+@import "shared/_footer.scss";
+@import "shared/_header.scss";
+@import "shared/_loading.scss";
+@import "shared/_navigation.scss";

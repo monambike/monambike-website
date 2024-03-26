@@ -4,8 +4,8 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import '../../abstract/variables/_colors.scss';
-@import '../../abstract/variables/_fonts.scss';
+@import '../../base/_colors.scss';
+@import '../../base/_fonts.scss';
 
 html body {
   background-color: $primary-color;
@@ -26,6 +26,7 @@ html body {
   color: $gray-dark;
 }
 
+// Styles for Sections
 .section {
   display: block;
   height: 100% !important;
@@ -33,16 +34,13 @@ html body {
   overflow: hidden; // Hide scrollbars for text animation
   padding: 10px 0px 10px 0px;
 
+  // Section Title
   &__title {
     color: $white;
     font-size: $font-size-h2;
     padding: 20px;
     text-align: center;
     text-shadow: 1px 1px 1px $black;
-  }
-
-  &--body {
-    padding: 20px;
   }
 }
 
