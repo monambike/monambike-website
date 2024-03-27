@@ -21,11 +21,6 @@ html body {
   position: absolute;
 }
 
-.body-page {
-  background: url(/resources/images/wallpaper_code.jpg) no-repeat fixed center/cover;
-  color: $gray-dark;
-}
-
 // Styles for Sections
 .section {
   display: block;
@@ -44,3 +39,14 @@ html body {
   }
 }
 
+// Paragraph Block
+.paragraph-block {
+  background-color: $secondary-gray-color;
+  color: $secondary-color;
+  padding: 20px;
+
+  // Paragraph Block Links
+  a {
+    color: $purple-deep;
+  }
+}

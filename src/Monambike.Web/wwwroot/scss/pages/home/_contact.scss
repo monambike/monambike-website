@@ -6,20 +6,12 @@ For license information, please see the LICENSE file in the root directory.
 
 @import '../../base/_colors.scss';
 
+// Styles for Contact Section
 .section--contact {
   background-color: $primary-color;
 
+  // Title
   .section__title {
     color: $gray-light;
-  }
-
-  p {
-    background-color: $secondary-gray-color;
-    color: $secondary-color;
-    padding: 20px;
-
-    a {
-      color: $purple-deep;
-    }
   }
 }

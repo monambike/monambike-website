@@ -19,22 +19,6 @@ For license information, please see the LICENSE file in the root directory.
     }
   }
 
-  // Content Styling
-  &__content {
-
-    // Custom Paragraph Styles
-    p {
-      background-color: $secondary-gray-color;
-      color: $secondary-color;
-      padding: 20px;
-    }
-
-    // Custom Link Styles
-    a {
-      color: $purple-deep;
-    }
-  }
-
   // Animated Purple Cross Background
   @keyframes animatedBackground {
     from {

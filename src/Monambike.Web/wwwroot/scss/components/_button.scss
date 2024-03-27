@@ -6,23 +6,20 @@ For license information, please see the LICENSE file in the root directory.
 
 @import "../base/_colors.scss";
 
-a.button {
+.round-purple-button {
   background-color: $purple-deep;
-  padding: 10px;
   border-radius: 5px;
-  white-space: nowrap; /* Prevent text from wrapping to the next line */
-  overflow: hidden; /* Hide any overflow text that doesn't fit */
-  text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */
-  position: relative;
-  text-align: center;
-  margin: auto;
   display: inline-block; /* Make the link behave like a block-level element */
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  overflow: hidden; /* Hide any overflow text that doesn't fit */
+  text-align: center;
+  text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
 
+  // Hovering The Button
   &:hover {
     background-color: $primary-color;
-  }
-
-  &::before {
-    content: "Clique aqui: ";
   }
 }

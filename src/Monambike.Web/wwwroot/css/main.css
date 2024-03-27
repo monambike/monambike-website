@@ -9,15 +9,84 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
+.rainstorm-animation,
+.rainstorm-animation-hover {
+  align-items: center;
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
 }
-*/
+.rainstorm-animation hr.thunder,
+.rainstorm-animation-hover hr.thunder {
+  animation-name: thunder;
+  animation-delay: 5s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border: unset;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+@keyframes thunder {
+  0% {
+    background-color: transparent;
+  }
+  1% {
+    background-color: white;
+  }
+  2% {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  8% {
+    background-color: transparent;
+  }
+}
+.rainstorm-animation hr:not(.thunder),
+.rainstorm-animation-hover hr:not(.thunder) {
+  animation-name: rain;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-color: rgb(250, 250, 250);
+  border-color: transparent;
+  border-right-color: rgba(255, 255, 255, 0.7);
+  border-right-width: 50px;
+  bottom: 100%;
+  position: absolute;
+  transform-origin: 100% 50%;
+  width: 50px;
+}
+@keyframes rain {
+  from {
+    transform: rotate(105deg) translateX(0);
+  }
+  to {
+    transform: rotate(105deg) translateX(calc(100vh + 20px));
+  }
+}
+
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 /**************************************************************************
 Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
@@ -125,32 +194,24 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
-a.button {
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
+.round-purple-button {
   background-color: rgb(77, 18, 161);
-  padding: 10px;
   border-radius: 5px;
-  white-space: nowrap; /* Prevent text from wrapping to the next line */
-  overflow: hidden; /* Hide any overflow text that doesn't fit */
-  text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */
-  position: relative;
-  text-align: center;
-  margin: auto;
   display: inline-block; /* Make the link behave like a block-level element */
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  overflow: hidden; /* Hide any overflow text that doesn't fit */
+  text-align: center;
+  text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
 }
-a.button:hover {
+.round-purple-button:hover {
   background-color: rgb(250, 250, 250);
-}
-a.button::before {
-  content: "Clique aqui: ";
 }
 
 /**************************************************************************
@@ -177,15 +238,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 a {
   /* Variables that hold values from the line under links when hovered */
   /* Link attributes */
@@ -215,15 +271,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 /* Scrollbar Width */
 ::-webkit-scrollbar {
   width: 14px;
@@ -257,15 +308,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 select {
   background-color: rgb(30, 30, 30);
   color: rgb(250, 250, 250);
@@ -295,15 +341,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 ::selection {
   background: rgb(95, 50, 155);
   color: rgb(250, 250, 250);
@@ -321,11 +362,13 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 .reveal-animation {
   position: relative;
-  transform: translateY(144px);
+}
+.reveal-animation.translateY {
   opacity: 0;
+  transform: translateY(144px);
   transition: transform 1s ease, opacity 1s ease;
 }
-.reveal-animation.revealed {
+.reveal-animation.translateY.revealed {
   transform: translateY(0);
   opacity: 1;
 }
@@ -340,15 +383,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 .section--about__container {
   padding: 0px 15% 0px 15%;
 }
@@ -356,14 +394,6 @@ For license information, please see the LICENSE file in the root directory.
   .section--about__container {
     padding: 0;
   }
-}
-.section--about__content p {
-  background-color: rgb(235, 235, 235);
-  color: rgb(25, 25, 25);
-  padding: 20px;
-}
-.section--about__content a {
-  color: rgb(77, 18, 161);
 }
 @keyframes animatedBackground {
   from {
@@ -459,28 +489,15 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 .section--contact {
   background-color: rgb(250, 250, 250);
 }
 .section--contact .section__title {
   color: rgb(245, 245, 245);
-}
-.section--contact p {
-  background-color: rgb(235, 235, 235);
-  color: rgb(25, 25, 25);
-  padding: 20px;
-}
-.section--contact p a {
-  color: rgb(77, 18, 161);
 }
 
 /**************************************************************************
@@ -493,15 +510,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 /**************************************************************************
 Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
@@ -521,11 +533,6 @@ html body {
   position: absolute;
 }
 
-.body-page {
-  background: url(/resources/images/wallpaper_code.jpg) no-repeat fixed center/cover;
-  color: rgb(30, 30, 30);
-}
-
 .section {
   display: block;
   height: 100% !important;
@@ -541,25 +548,29 @@ html body {
   text-shadow: 1px 1px 1px rgb(25, 25, 25);
 }
 
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
+.paragraph-block {
+  background-color: rgb(235, 235, 235);
+  color: rgb(25, 25, 25);
+  padding: 20px;
 }
-*/
+.paragraph-block a {
+  color: rgb(77, 18, 161);
+}
+
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 .section--presentation {
   align-items: center;
   color: rgb(250, 250, 250);
@@ -593,15 +604,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 .section--social-media {
   height: 130vh !important;
   background-color: rgb(95, 50, 155);
@@ -630,15 +636,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 /**************************************************************************
 Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
@@ -727,15 +728,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 .warning {
   background-color: rgb(200, 20, 20);
   color: rgb(250, 250, 250);
@@ -753,15 +749,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 .footer {
   background-color: rgb(30, 30, 30);
   display: flex;
@@ -814,15 +805,10 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
 .header {
   background-color: rgb(25, 25, 25);
   display: flex;
@@ -914,16 +900,11 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*
-// Dark Mode Elements Colors
-.dark-theme {
-  $primary-color: $black;
-  $secondary-color: $white;
-  $primary-gray-color: $gray-dark;
-  $secondary-gray-color: $gray-dark-light;
-}
-*/
-.app-format {
+/*$primary-color: $black;
+$secondary-color: $white;
+$primary-gray-color: $gray-dark;
+$secondary-gray-color: $gray-dark-light;*/
+.loading {
   background: url("../../images/karen-kujou/determined.gif") no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
@@ -932,41 +913,41 @@ For license information, please see the LICENSE file in the root directory.
   height: 100%;
   width: 100%;
 }
-.app-format .loading {
+.loading .loading {
   display: table-cell;
   vertical-align: middle;
 }
-.app-format .loading--background-filter {
+.loading .loading--background-filter {
   background-color: rgb(250, 250, 250);
 }
-.app-format .loading--image {
+.loading .loading--image {
   padding: 2% 0;
   text-align: center;
 }
-.app-format .loading--image img {
+.loading .loading--image img {
   border: 5px solid rgb(95, 50, 155);
   border-radius: 5px;
 }
-.app-format .loading--title, .app-format .loading--body {
+.loading .loading--title, .loading .loading--body {
   padding: 20px;
   font-size: 16pt;
   color: white;
   font-weight: bold;
 }
-.app-format .loading--title {
+.loading .loading--title {
   background-color: rgb(77, 18, 161);
 }
-.app-format .loading--body {
+.loading .loading--body {
   background-color: rgb(95, 50, 155);
 }
-.app-format .loading--curiosity {
+.loading .loading--curiosity {
   background-color: rgb(250, 250, 250);
   /*background-color: black;*/
   padding: 10px;
   font-size: 12pt;
   text-align: center;
 }
-.app-format .loading p, .app-format .loading img {
+.loading .loading p, .loading .loading img {
   margin: 0;
   padding: 0;
   display: inline-block;
