@@ -395,6 +395,10 @@ $secondary-gray-color: $gray-dark-light;*/
     padding: 0;
   }
 }
+.section--about .button-container {
+  padding: 20px 0px;
+  text-align: center;
+}
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
@@ -446,11 +450,6 @@ $secondary-gray-color: $gray-dark-light;*/
 .interests-list li:nth-child(odd) {
   background: rgb(227, 222, 236);
   border-color: rgb(30, 30, 30);
-}
-
-.button-container {
-  padding: 20px 0px;
-  text-align: center;
 }
 
 .featured-image {

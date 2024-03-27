@@ -22,8 +22,9 @@
 </head>
 
 <body>
+    <!-- App Body Content -->
     <div id="app">
-        <!-- Loading -->
+        <!-- Loading Screen -->
         <div class="app-format">
             <div class="loading">
                 <div class="loading--background-filter">
@@ -44,54 +45,18 @@
         </div>
     </div>
 
+    <!-- Blazor error message -->
     <div id="blazor-error-ui">
         An unhandled error has occurred.
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+
+    <!-- Loads Blazor Frameswork -->
     <script src="_framework/blazor.webassembly.js"></script>
+    <!-- JavaScript Files -->
     <script src="javascript/animation-rainstorm.js"></script>
     <script src="javascript/scroll.js"></script>
-
-    <script>
-        //// File with random loading messages
-        //loadingMessages = "../Resources/LoadingMessages.txt";
-
-        //// Setting a random message to the loading pager
-        //var loadingMessageInnerHTML = document.getElementById("loading-message").innerHTML
-        //loadingMessageInnerHTML = getRandomLineFromFile(loadingMessages);
-
-        //var intervalId = window.setInterval(function () {
-        //    // call your function here
-        //}, 5000);
-
-        //function getRandomLineFromFile(filename, callback) {
-        //    const fileSystem = require("fs");
-        //    fileSystem.readFile(filename, "utf-8", function (error, data) {
-        //        if (error) {
-        //            throw error;
-        //        }
-
-        //        // Get all lines from file
-        //        var lines = data.split('\n');
-        //        // Choose one of the lines...
-        //        var line = lines[Math.floor(Math.random() * lines.length)]
-
-        //        // Invoke the callback with our line
-        //        return line;
-        //    })
-        //}
-
-        //function loadingDotAnimation() {
-        //    var dots = window.setInterval(function () {
-        //        var wait = document.getElementById("loading-dots");
-        //        if (wait.innerHTML.length > 3)
-        //            wait.innerHTML = "";
-        //        else
-        //            wait.innerHTML += ".";
-        //    }, 100);
-        //}
-    </script>
 </body>
 
 </html>

@@ -18,6 +18,12 @@ For license information, please see the LICENSE file in the root directory.
       padding: 0;
     }
   }
+  
+  // Styles for Button Container
+  .button-container {
+    padding: 20px 0px;
+    text-align: center;
+  }
 
   // Animated Purple Cross Background
   @keyframes animatedBackground {
@@ -87,12 +93,6 @@ For license information, please see the LICENSE file in the root directory.
     background: $purple-light;
     border-color: $gray-dark;
   }
-}
-
-// Styles for Button Container
-.button-container {
-  padding: 20px 0px;
-  text-align: center;
 }
 
 // Styles for Karen Kujou Image
