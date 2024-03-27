@@ -1,3 +1,10 @@
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+// Source: https://codepen.io/datCloud/pen/BaKEEqq
+
 // Registers scroll events for the window
 window.registerScrollEvent = (dotNetObjRef) => {
     window.onscroll = () => {
