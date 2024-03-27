@@ -1,0 +1,77 @@
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+// Source: https://codepen.io/datCloud/pen/BaKEEqq
+
+@import "../base/_colors.scss";
+
+// Rainstorm Animation
+.rainstorm-animation,
+.rainstorm-animation-hover {
+	align-items: center;
+	background-color: $black;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	overflow: hidden;
+	width: 100vw;
+	
+	// Thunder
+	hr.thunder {
+		animation-name: thunder;
+		animation-delay: 5s;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		border: unset;
+		height: 100%;
+		position: absolute;
+		width: 100%;
+
+		@keyframes thunder {
+			0% {
+				background-color: transparent;
+			}
+	
+			1% {
+				background-color: white;
+			}
+	
+			2% {
+				background-color: rgba(255, 255, 255, 0.8);
+			}
+	
+			8% {
+				background-color: transparent;
+			}
+		}
+	}
+
+	// Rain Elements (HR)
+	hr:not(.thunder) {
+		animation-name: rain;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		background-color: $white;
+		border-color: transparent;
+		border-right-color: rgba(255, 255, 255, 0.7);
+		border-right-width: 50px;
+		bottom: 100%;
+		position: absolute;
+		transform-origin: 100% 50%;
+		width: 50px;
+
+		@keyframes rain {
+			from {
+				transform: rotate(105deg) translateX(0);
+			}
+
+			to {
+				transform: rotate(105deg) translateX(calc(100vh + 20px));
+			}
+		}
+	}
+}
