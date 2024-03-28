@@ -124,11 +124,7 @@ For license information, please see the LICENSE file in the root directory.
   * reproduction or distribution of this material without express and written
   * permission from the author is strictly prohibited.
 **/
-h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
-}
-
-p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
 }
 

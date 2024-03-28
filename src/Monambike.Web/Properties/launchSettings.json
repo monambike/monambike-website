@@ -1,15 +1,7 @@
 {
   "profiles": {
-    "WSL": {
-      "commandName": "WSL2",
-      "launchBrowser": true,
-      "distributionName": ""
-    },
     "Start Website": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
-      "applicationUrl": ""
+      "commandName": "Project"
     }
   }
 }
