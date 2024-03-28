@@ -1,0 +1,148 @@
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+
+@import "../base/_colors.scss";
+@import "../base/_fonts.scss";
+
+body {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.profile {
+  background-color: $primary-color;
+  border-radius: 50px 0;
+  padding: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &__picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  &__name {
+    font-size: $text-size-large;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__username {
+    color: $purple-medium;
+    font-size: $text-size-medium;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__bio {
+    font-size: $text-size-small;
+  }
+
+  &__link {
+    font-size: $text-size-small;
+    white-space: nowrap;
+
+    a {
+      color: $purple-dark;
+
+      &:hover {
+        color: $purple-medium;
+      }
+
+      &:active {
+        color: $purple-light;
+      }
+    }
+  }
+}
+
+.page-container {
+  background: url(../images/background.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  &__foreground {
+    backdrop-filter: brightness(10%);
+    height: 100%;
+    padding: 20px 0;
+  }
+}
+
+.content-container {
+  color: $secondary-color;
+  padding: 0 25%;
+
+  // Remove Padding for Smaller Screens
+  @media(max-width:800px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.link-group {
+  width: 100%;
+
+  &__title {
+    border-bottom: 5px solid $purple-dark;
+    color: $primary-color;
+    font-size: $text-size-large;
+    padding: 10px 0;
+    margin: 30px 0;
+  }
+}
+
+// Card Container
+.card-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+$border-radius: 20px;
+// Cards
+.card {
+  align-items: center;
+  background-color: $primary-color;
+  border-radius: $border-radius;
+  color: $secondary-color;
+  display: flex;
+  position: relative;
+
+  &__title {
+    font-size: $text-size-medium;
+  }
+
+  &__image {
+    $fixed-image-size: 80px;
+    color: white;
+    max-width: $fixed-image-size;
+    min-width: $fixed-image-size;
+    padding: 20px;
+  }
+
+  &__overlay {
+    align-items: center;
+    background-color: rgba(95, 50, 155, 0.85);
+    border-radius: $border-radius;
+    color: $primary-color;
+    display: flex;
+    font-size: $text-size-medium;
+    font-weight: 600;
+    height: 100%;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    text-transform: uppercase;
+    transition: opacity 0.3s ease;
+    width: 100%;
+  }
+
+  &:hover .card__overlay {
+    opacity: 1;
+  }
+}

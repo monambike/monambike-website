@@ -2,125 +2,118 @@
 @using Monambike.Core.Data;
 <PageTitle>Links | Monambike</PageTitle>
 
-<div>
-    <header class="acrylic shadow">
-        <img class="profile-picture" src="images/profile-picture.jpg" alt="Photo from Vinicius Gabriel." />
-        <h1>Vinícius Gabriel</h1>
-        <h2>@@monambike</h2>
-        <p class="description">Hello :) I'm a Software Developer now willing to be a Game Designer and 3D model animator.</p>
-        <span><a href="@Emails.Contact.Link">@Emails.Contact</a></span>
-    </header>
-    <hr />
-    <section class="acrylic shadow">
-        <h3 class="solid shadow">Links Gamers</h3>
-        <ul>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.YouTubeMonambike">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/youtube.svg" alt="YouTube logo." />
-                        <div class="text-container">
-                            <span>Canal de Vídeos Editados</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.YouTubeMonambikeLive">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/youtube.svg" alt="YouTube logo." />
-                        <div class="text-container">
-                            <span>Canal de Lives e Shorts</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.InstagramMonambike">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/instagram.svg" alt="Instagram logo." />
-                        <div class="text-container">
-                            <span>Instagram (Main)</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.Steam">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/steam.svg" alt="Steam logo." />
-                        <div class="text-container">
-                            <span>Steam Profile</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.DiscordServer">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/discord.svg" alt="Discord logo." />
-                        <div class="text-container">
-                            <span>Discord Server</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            @* <li><a target="_blank" rel="nofollow" href="@Links.Facebook">Conta da Facebook</a></li> *@
-        </ul>
-    </section>
-    <hr />
-    <section class="acrylic shadow">
-        <h3 class="solid shadow">Links Profissionais</h3>
-        <ul>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.LinkedIn">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/linkedin.svg" alt="LinkedIn logo." />
-                        <div class="text-container">
-                            <span>LinkedIn</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.GitHub">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/github.svg" alt="GitHub logo." />
-                        <div class="text-container">
-                            <span>GitHub</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.InstagramMonambikePortfolio">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/instagram.svg" alt="Instagram logo." />
-                        <div class="text-container">
-                            <span>Instagram (Portfolio)</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.YouTubeMonambikePortfolio">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/youtube.svg" alt="YouTube logo." />
-                        <div class="text-container">
-                            <span>YouTube (Portfolio)</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="nofollow" href="@Links.ItchIo">
-                    <div class="container solid shadow">
-                        <img class="social-image" src="images/social/itch-io.svg" alt="Itch.Io logo." />
-                        <div class="text-container">
-                            <span>Itch.Io</span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </section>
+<div class="page-container">
+    <div class="page-container__foreground">
+        <div class="content-container">
+            <header class="profile">
+                <img class="profile__picture" src="images/profile-picture.jpg" alt="Photo from Vinicius Gabriel." />
+                <h1 class="profile__name">Vinícius Gabriel</h1>
+                <h2 class="profile__username">@@monambike</h2>
+                <p class="profile__bio">Hello :) I'm a Software Developer now willing to be a Game Designer and 3D model animator.</p>
+                <span class="profile__link"><a href="@Emails.Contact.Link">@Emails.Contact</a></span>
+                <span class="profile__link"><a href="@Links.Website.Url">@Links.Website.BaseUrl</a></span>
+            </header>
+            <section class="link-group">
+                <h2 class="link-group__title">Links Gamers</h2>
+                <ul class="card-container">
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.YouTubeMonambike">
+                            <div class="card">
+                                <img class="card__image" src="images/social/youtube.svg" alt="YouTube logo." />
+                                <h3 class="card__title">Canal de Vídeos Editados</h3>
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.YouTubeMonambikeLive">
+                            <div class="card">
+                                <img class="card__image" src="images/social/youtube.svg" alt="YouTube logo." />
+                                <h3 class="card__title">Canal de Lives e Shorts</h3>
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.InstagramMonambike">
+                            <div class="card">
+                                <img class="card__image" src="images/social/instagram.svg" alt="Instagram logo." />
+                                <h3 class="card__title">Instagram (Main)</h3>
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.Steam">
+                            <div class="card">
+                                <img class="card__image" src="images/social/steam.svg" alt="Steam logo." />
+                                <h3 class="card__title">Steam Profile</h3>
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.DiscordServer">
+                            <div class="card">
+                                <img class="card__image" src="images/social/discord.svg" alt="Discord logo." />
+                                <h3 class="card__title">Discord Server</h3>
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                    @* <li><a target="_blank" rel="nofollow" href="@Links.Facebook">Conta da Facebook</a></li> *@
+                </ul>
+            </section>
+            <section class="link-group">
+                <h2 class="link-group__title">Links Profissionais</h2>
+                <ul class="card-container">
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.LinkedIn">
+                            <div class="card">
+                                <img class="card__image" src="images/social/linkedin.svg" alt="LinkedIn logo." />
+                                <h3 class="card__title">LinkedIn</h3>
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.GitHub">
+                            <div class="card">
+                                <img class="card__image" src="images/social/github.svg" alt="GitHub logo." />
+                                <h3 class="card__title">GitHub</h3
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.InstagramMonambikePortfolio">
+                            <div class="card">
+                                <img class="card__image" src="images/social/instagram.svg" alt="Instagram logo." />
+                                <h3 class="card__title">Instagram (Portfolio)</h3>
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.YouTubeMonambikePortfolio">
+                            <div class="card">
+                                <img class="card__image" src="images/social/youtube.svg" alt="YouTube logo." />
+                                <h3 class="card__title">YouTube (Portfolio)</h3>
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel="nofollow" href="@Links.ItchIo">
+                            <div class="card">
+                                <img class="card__image" src="images/social/itch-io.svg" alt="Itch.Io logo." />
+                                <h3 class="card__title">Itch.Io</h3>
+                                <div class="card__overlay">Go To Link</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
 </div>
