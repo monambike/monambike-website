@@ -24,7 +24,7 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Publish
-        run: dotnet publish monambike-website/src/Monambike.Web/Monambike.Web.csproj -c Release -o release
+        run: dotnet publish src/Monambike.Web/Monambike.Web.csproj -c Release -o release
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
