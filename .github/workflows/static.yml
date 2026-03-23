@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  packages: read
   pages: write
   id-token: write
 
@@ -22,6 +23,14 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
+      
+      - name: Authenticate to GitHub Packages
+        run: echo "${{ secrets.GIT_PACKAGES_TOKEN }}" | dotnet nuget add source \
+          --username ${{ github.actor }} \
+          --password-stdin \
+          --store-password-in-clear-text \
+          --name github \
+          "https://nuget.pkg.github.com/monambike/index.json"
 
       - name: Publish
         run: dotnet publish src/Monambike.Web/Monambike.Web.csproj -c Release -o release
