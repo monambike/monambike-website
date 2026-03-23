@@ -28,7 +28,6 @@ jobs:
         run: >
           echo "${{ secrets.GIT_PACKAGES_TOKEN }}" | dotnet nuget add source
           --username ${{ github.actor }}
-          --password-stdin
           --store-password-in-clear-text
           --name github
           "https://nuget.pkg.github.com/monambike/index.json"
