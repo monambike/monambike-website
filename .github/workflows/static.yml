@@ -26,7 +26,6 @@ jobs:
   
       - name: Authenticate to GitHub Packages
         run: |
-          dotnet nuget remove source monambike || true
           dotnet nuget add source \
             --name github "https://nuget.pkg.github.com/monambike/index.json" \
             --username ${{ github.actor }} \
@@ -34,7 +33,7 @@ jobs:
             --store-password-in-clear-text
 
       - name: Publish
-        run: dotnet publish src/Monambike.Web/Monambike.Web.csproj -c Release -o release
+        run: dotnet publish src/Monambike.Web/Monambike.Web.csproj -c Release -o release --configfile /dev/null
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
