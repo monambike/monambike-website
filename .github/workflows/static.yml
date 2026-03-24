@@ -30,6 +30,7 @@ jobs:
           <configuration>
             <packageSources>
                 <add key="monambike" value="https://nuget.pkg.github.com/monambike/index.json" />
+                <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
             </packageSources>
             <packageSourceCredentials>
               <monambike>
