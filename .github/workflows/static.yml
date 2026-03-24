@@ -23,6 +23,17 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
+
+      - name: Create temp nuget.config
+        run: |
+          echo '<?xml version="1.0" encoding="utf-8"?>
+          <configuration>
+            <packageSources>
+              <clear />
+              <add key="github" value="https://nuget.pkg.github.com/monambike/index.json" />
+              <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
+            </packageSources>
+          </configuration>' > nuget.temp.config
   
       - name: Authenticate to GitHub Packages
         run: |
@@ -33,7 +44,7 @@ jobs:
             --store-password-in-clear-text
 
       - name: Publish
-        run: dotnet publish src/Monambike.Web/Monambike.Web.csproj -c Release -o release --configfile /dev/null
+        run: dotnet publish src/Monambike.Web/Monambike.Web.csproj -c Release -o release --configfile nuget.temp.config
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
