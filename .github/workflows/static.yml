@@ -26,7 +26,7 @@ jobs:
   
       - name: Authenticate to GitHub Packages
         run: |
-          dotnet nuget add source "https://nuget.pkg.github.com/monambike/index.json"" \
+          dotnet nuget add source "https://nuget.pkg.github.com/monambike/index.json" \
             --name github \
             --username monambike \
             --password "${{ secrets.GIT_PACKAGES_TOKEN }}" \
