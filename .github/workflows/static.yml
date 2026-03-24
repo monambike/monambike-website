@@ -26,6 +26,7 @@ jobs:
   
       - name: Authenticate to GitHub Packages
         run: |
+          dotnet nuget remove source monambike || true
           dotnet nuget add source \
             --name github "https://nuget.pkg.github.com/monambike/index.json" \
             --username ${{ github.actor }} \
