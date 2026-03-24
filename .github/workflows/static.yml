@@ -29,10 +29,14 @@ jobs:
           echo '<?xml version="1.0" encoding="utf-8"?>
           <configuration>
             <packageSources>
-              <clear />
-              <add key="github" value="https://nuget.pkg.github.com/monambike/index.json" />
-              <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
+                <add key="monambike" value="https://nuget.pkg.github.com/monambike/index.json" />
             </packageSources>
+            <packageSourceCredentials>
+              <monambike>
+                <add key="Username" value="${{ github.actor }}" />
+                <add key="ClearTextPassword" value="${{ secrets.GIT_PACKAGES_TOKEN }}" />
+              </monambike>
+            </packageSourceCredentials>
           </configuration>' > nuget.temp.config
   
       - name: Authenticate to GitHub Packages
