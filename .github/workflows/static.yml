@@ -23,7 +23,10 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-      
+          
+      - name: Clear NuGet sources
+        run: dotnet nuget remove source nuget.org || true
+  
       - name: Authenticate to GitHub Packages
         run: | 
           dotnet nuget remove source github || true
