@@ -27,7 +27,7 @@ a {
 
 p, li {
   a[target=_blank]:after {
-    content: "🡥"; // Represents a diagonal up arrow symbol
+    content: "↗"; // Represents a diagonal up arrow symbol
     margin-left: 5px;
   }
 }

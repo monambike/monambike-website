@@ -253,7 +253,7 @@ a:hover {
 }
 
 p a[target=_blank]:after, li a[target=_blank]:after {
-  content: "🡥";
+  content: "↗";
   margin-left: 5px;
 }
 
@@ -285,10 +285,12 @@ $secondary-gray-color: $gray-dark-light;*/
 ::-webkit-scrollbar-thumb {
   background: rgb(144, 100, 202);
   /* Handle on hover */
-  /* Handle when dragged */
 }
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(95, 50, 155);
+}
+::-webkit-scrollbar-thumb {
+  /* Handle when dragged */
 }
 ::-webkit-scrollbar-thumb:active {
   background: rgb(77, 18, 161);
@@ -762,14 +764,18 @@ $secondary-gray-color: $gray-dark-light;*/
   padding: 20px;
   /* Footer Links */
   /* Container List Title */
-  /* Container List */
-  /* Every Item on the Container List */
 }
 .footer--links--three-columns span {
   color: rgb(144, 100, 202);
 }
+.footer--links--three-columns {
+  /* Container List */
+}
 .footer--links--three-columns ul {
   margin-top: 8%;
+}
+.footer--links--three-columns {
+  /* Every Item on the Container List */
 }
 .footer--links--three-columns li {
   margin: 5% 0% 5% 0%;
