@@ -21,10 +21,14 @@ For license information, please see the LICENSE file in the root directory.
     align-self: flex-end;
     text-align: left;
     text-shadow: 5px 5px $purple-dark;
+    text-wrap: balance;
+    word-break: break-all;
   }
 
   &__profession {
     text-shadow: 5px 5px $purple-dark;
+    text-wrap: balance;
+    word-break: break-all;
   }
 
   &__skill {
