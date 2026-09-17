@@ -16,16 +16,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Data\**" />
     <Compile Remove="Enitities\**" />
     <Compile Remove="Utilities\**" />
-    <Content Remove="Data\**" />
     <Content Remove="Enitities\**" />
     <Content Remove="Utilities\**" />
-    <EmbeddedResource Remove="Data\**" />
     <EmbeddedResource Remove="Enitities\**" />
     <EmbeddedResource Remove="Utilities\**" />
-    <None Remove="Data\**" />
     <None Remove="Enitities\**" />
     <None Remove="Utilities\**" />
   </ItemGroup>
@@ -55,7 +51,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.3" />
-    <PackageReference Include="Monambike.Core" Version="1.4.1" />
     <PackageReference Include="Notion.Net" Version="4.2.0" />
   </ItemGroup>
 
@@ -83,6 +78,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\featured\art2d\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Monambike.Core\Monambike.Core.csproj" />
   </ItemGroup>
 
 </Project>
