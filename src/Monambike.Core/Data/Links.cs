@@ -95,6 +95,11 @@ namespace Monambike.Core.Data
         public static Link Facebook => new($"facebook.com/{monambike}");
 
         /// <summary>
+        /// Represents a link for my Notion Medias page.
+        /// </summary>
+        public static Link NotionMedia => new($"{monambike}.notion.site/a4f651d1cf7143fa93dd8158e979ade4?v=1829d81a3f5f4483b7d462e729b9f2bf&pvs=74");
+
+        /// <summary>
         /// Represents a link for my Notion Destinations page.
         /// </summary>
         public static Link NotionDestinations => new($"{monambike}.notion.site/1aabc77db21741cca4276e83634c74c3");

@@ -3,7 +3,9 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************@
+
 @inherits LayoutComponentBase
+
 
 <header class="header">
     <div class="header-presentation">
@@ -16,8 +18,8 @@ For license information, please see the LICENSE file in the root directory.
     <nav class="navigation">
         <ul class="menu @Display">
             <li><a href="/" target="_top">Início</a></li>
-            <li><a href="https://blog.monambike.com" target="_blank" title="Veja minhas histórias, viagens e momentos da minha vida.">Blog</a></li>
-            <li><a href="https://learn.monambike.com" target="_blank" title="Veja minhas anotações e aprenda comigo.">Learn</a></li>
+            <li><a href="/blog" target="_blank" title="Veja minhas histórias, viagens e momentos da minha vida.">Blog</a></li>
+            <li><a href="/learn" target="_blank" title="Veja minhas anotações e aprenda comigo.">Learn</a></li>
             <li><TranslationButton/></li>
         </ul>
         <div class="hamburguer" @onclick="() => UISwitcher = !UISwitcher">
@@ -27,8 +29,9 @@ For license information, please see the LICENSE file in the root directory.
         </div>
     </nav>
 </header>
-
 <script src="javascript/theme.js"></script>
+
+
 @code{
     private static bool UISwitcher;
 
