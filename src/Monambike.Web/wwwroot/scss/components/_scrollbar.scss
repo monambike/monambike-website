@@ -4,7 +4,7 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import "../base/_colors.scss";
+@use "../base/_colors.scss";
 
 // Scrollbar Width
 ::-webkit-scrollbar {
@@ -13,18 +13,18 @@ For license information, please see the LICENSE file in the root directory.
 
 // Scrollbar Track
 ::-webkit-scrollbar-track {
-  background: $purple-light;
+  background: colors.$purple-light;
 }
 
 // Scrollbar Handle
 ::-webkit-scrollbar-thumb {
-  background: $purple-medium;
+  background: colors.$purple-medium;
   
   &:hover {
-    background: $purple-dark;
+    background: colors.$purple-dark;
   }
 
   &:active {
-    background: $purple-deep;
+    background: colors.$purple-deep;
   }
 }

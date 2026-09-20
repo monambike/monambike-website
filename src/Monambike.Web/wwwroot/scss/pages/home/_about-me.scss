@@ -4,7 +4,7 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import '../../base/_colors.scss';
+@use '../../base/_colors.scss';
 
 // Styles for About Section
 .section--about {
@@ -58,7 +58,7 @@ For license information, please see the LICENSE file in the root directory.
 
   // Shared Styles for Headings and List Items
   &__title, li {
-    border: 1.82px solid $gray-dark;
+    border: 1.82px solid colors.$gray-dark;
     border-radius: 2px;
     font-weight: 600;
     padding: 5px;
@@ -67,8 +67,8 @@ For license information, please see the LICENSE file in the root directory.
 
   // Heading Styles
   &__title {
-    background-color: $purple-dark;
-    color: $white;
+    background-color: colors.$purple-dark;
+    color: colors.$white;
     display: block;
     padding: 5px;
     font-weight: bold;
@@ -84,14 +84,14 @@ For license information, please see the LICENSE file in the root directory.
   }
   // Styles for Even List Items
   li:nth-child(even) {
-    background: $purple-medium;
-    border-color: $purple-deep;
-    color: $white;
+    background: colors.$purple-medium;
+    border-color: colors.$purple-deep;
+    color: colors.$white;
   }
   // Styles for Odd List Items
   li:nth-child(odd) {
-    background: $purple-light;
-    border-color: $gray-dark;
+    background: colors.$purple-light;
+    border-color: colors.$gray-dark;
   }
 }
 
@@ -121,7 +121,7 @@ For license information, please see the LICENSE file in the root directory.
 
 // Gradient Text Effect
 .highlight-purple {
-  background: -webkit-linear-gradient($purple-dark, $purple-medium);
+  background: -webkit-linear-gradient(colors.$purple-dark, colors.$purple-medium);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

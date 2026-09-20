@@ -4,26 +4,26 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import "../../base/_colors.scss";
+@use "../../base/_colors.scss";
 
 .section {
   &--social-media {
     height: 130vh !important;
 
-    background-color: $purple-dark;
-    color: $secondary-color;
+    background-color: colors.$purple-dark;
+    color: colors.$secondary-color;
     height: auto;
 
     &--containers {
       padding: 20px;
       margin-bottom: 20px;
-      background-color: $primary-color;
+      background-color: colors.$primary-color;
       text-align: right;
     }
 
     &--containers:nth-child(odd) {
-      color: $primary-color;
-      background-color: $purple-medium;
+      color: colors.$primary-color;
+      background-color: colors.$purple-medium;
       text-align: left;
     }
   }

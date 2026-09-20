@@ -4,12 +4,12 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import "../../base/_colors.scss";
+@use "../../base/_colors.scss";
 
 .section--presentation {
   align-items: center;
-  color: $white;
-  background: -webkit-linear-gradient($purple-deep, $purple-dark);
+  color: colors.$white;
+  background: -webkit-linear-gradient(colors.$purple-deep, colors.$purple-dark);
   display: flex;
   padding-left: 2.5%;
   text-transform: uppercase;
@@ -20,13 +20,13 @@ For license information, please see the LICENSE file in the root directory.
   &__name {
     align-self: flex-end;
     text-align: left;
-    text-shadow: 5px 5px $purple-dark;
+    text-shadow: 5px 5px colors.$purple-dark;
     text-wrap: balance;
     word-break: break-all;
   }
 
   &__profession {
-    text-shadow: 5px 5px $purple-dark;
+    text-shadow: 5px 5px colors.$purple-dark;
     text-wrap: balance;
     word-break: break-all;
   }
@@ -34,6 +34,6 @@ For license information, please see the LICENSE file in the root directory.
   &__skill {
     display: flex;
     font-size: 3rem;
-    color: $gray-light-dark;
+    color: colors.$gray-light-dark;
   }
 }

@@ -4,9 +4,9 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import "../base/_colors.scss";
+@use "../base/_colors.scss";
 
-$link-color: $purple-medium;
+$link-color: colors.$purple-medium;
 $link-underline-color: $link-color;
 $link-underline-thickness: 0.15em;
 
@@ -14,13 +14,13 @@ $link-underline-thickness: 0.15em;
 a {
   padding-bottom: var($link-underline-thickness);
 
-  color: $white;
+  color: colors.$white;
   background:
     // Hover Text Color Layer
     linear-gradient(
       90deg, /* Gradient Direction */
       $link-underline-color 50%,
-      $primary-color 0
+      colors.$primary-color 0
     )
     calc(100% - var(--underline-size, 0%)) /* Gradient Position */ / 200% 100%,
 

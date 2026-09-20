@@ -4,7 +4,7 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import "../base/_colors.scss";
+@use "../base/_colors.scss";
 
 // Select Box
 select{
@@ -12,23 +12,23 @@ select{
 
   padding: 5px;
 
-  background-color: $gray-dark;
-  color: $white;
+  background-color: colors.$gray-dark;
+  color: colors.$white;
 
   transition: 0.1s;
 
   &:hover {
-    background-color: $gray-dark-light;
+    background-color: colors.$gray-dark-light;
   }
 
   &:active {
-    background-color: $gray-dark;
+    background-color: colors.$gray-dark;
   }
 
   // Select Box Options
   option{
-    background-color: $purple-dark;
-    color: rgba(255,255,255,1);
+    background-color: colors.$purple-dark;
+    color: colors.$white;
 
     transition: 2s;
   }

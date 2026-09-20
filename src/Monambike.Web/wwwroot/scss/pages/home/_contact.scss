@@ -4,14 +4,14 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import '../../base/_colors.scss';
+@use '../../base/_colors.scss';
 
 // Styles for Contact Section
 .section--contact {
-  background-color: $primary-color;
+  background-color: colors.$primary-color;
 
   // Title
   .section__title {
-    color: $gray-light;
+    color: colors.$gray-light;
   }
 }

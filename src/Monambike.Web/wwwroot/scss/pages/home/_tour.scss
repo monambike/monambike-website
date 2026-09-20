@@ -4,11 +4,11 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import '../../base/_colors.scss';
-@import '../../base/_fonts.scss';
+@use '../../base/_colors.scss';
+@use '../../base/_fonts.scss';
 
 .section--tour {
-  background-color: $purple-deep;
+  background-color: colors.$purple-deep;
 }
 
 .tour-card-container {
@@ -26,8 +26,8 @@ For license information, please see the LICENSE file in the root directory.
   height: 600px;
   width: 400px;
 
-  box-shadow: 5px 5px $purple-medium;
-  background-color: $purple-dark;
+  box-shadow: 5px 5px colors.$purple-medium;
+  background-color: colors.$purple-dark;
   transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
 
   &:hover {
@@ -44,9 +44,9 @@ For license information, please see the LICENSE file in the root directory.
   }
 
   &__title {
-    background-color: $primary-color;
-    color: $purple-deep;
-    font-size: $font-size-h3;
+    background-color: colors.$primary-color;
+    color: colors.$purple-deep;
+    font-size: fonts.$font-size-h3;
     padding: 20px 0px 20px 0px;
     text-align: center;
   }
@@ -55,7 +55,7 @@ For license information, please see the LICENSE file in the root directory.
     align-items: center;
     display: flex;
     
-    color: $white;
+    color: colors.$white;
     justify-content: center;
   }
 
@@ -71,8 +71,8 @@ For license information, please see the LICENSE file in the root directory.
   }
 
   & div {
-    background-color: $purple-dark;
-    box-shadow: 5px 5px $purple-light;
+    background-color: colors.$purple-dark;
+    box-shadow: 5px 5px colors.$purple-light;
   }
 
   // Adjust layout for smaller devices

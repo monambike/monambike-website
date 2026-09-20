@@ -4,10 +4,10 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import "../base/_colors.scss";
+@use "../base/_colors.scss";
 
 .round-purple-button {
-  background-color: $purple-deep;
+  background-color: colors.$purple-deep;
   border-radius: 5px;
   display: inline-block; /* Make the link behave like a block-level element */
   margin: auto;
@@ -20,6 +20,6 @@ For license information, please see the LICENSE file in the root directory.
 
   // Hovering The Button
   &:hover {
-    background-color: $primary-color;
+    background-color: colors.$primary-color;
   }
 }

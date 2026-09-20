@@ -83,10 +83,19 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
+.reveal-animation {
+  position: relative;
+}
+.reveal-animation.reveal--fade-up {
+  transform: translateY(144px);
+  opacity: 0;
+  transition: transform 1s ease, opacity 1s ease;
+}
+.reveal-animation.reveal--fade-up.is-revealed {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 /**************************************************************************
 Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
@@ -157,11 +166,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
 * {
   font-family: "Segoe UI", Arial, sans-serif;
 }
@@ -186,15 +190,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 .round-purple-button {
   background-color: rgb(77, 18, 161);
   border-radius: 5px;
@@ -229,15 +224,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 a {
   padding-bottom: var(0.15em);
   color: rgb(250, 250, 250);
@@ -261,15 +247,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -293,15 +270,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 select {
   cursor: pointer;
   padding: 5px;
@@ -317,7 +285,7 @@ select:active {
 }
 select option {
   background-color: rgb(95, 50, 155);
-  color: rgb(255, 255, 255);
+  color: rgb(250, 250, 250);
   transition: 2s;
 }
 
@@ -326,15 +294,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 ::selection {
   background: rgb(95, 50, 155);
   color: rgb(250, 250, 250);
@@ -350,33 +309,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-.reveal-animation {
-  position: relative;
-}
-.reveal-animation.reveal--fade-up {
-  transform: translateY(144px);
-  opacity: 0;
-  transition: transform 1s ease, opacity 1s ease;
-}
-.reveal-animation.reveal--fade-up.is-revealed {
-  transform: translateY(0);
-  opacity: 1;
-}
-
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 .section--about__container {
   padding: 0px 15% 0px 15%;
 }
@@ -473,15 +405,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 .section--contact {
   background-color: rgb(250, 250, 250);
 }
@@ -489,20 +412,6 @@ $secondary-gray-color: $gray-dark-light;*/
   color: rgb(245, 245, 245);
 }
 
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 /**************************************************************************
 Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
@@ -551,15 +460,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 .section--presentation {
   align-items: center;
   color: rgb(250, 250, 250);
@@ -592,15 +492,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 .section--social-media {
   height: 130vh !important;
   background-color: rgb(95, 50, 155);
@@ -619,20 +510,6 @@ $secondary-gray-color: $gray-dark-light;*/
   text-align: left;
 }
 
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 /**************************************************************************
 Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
@@ -716,15 +593,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 .warning {
   background-color: rgb(200, 20, 20);
   color: rgb(250, 250, 250);
@@ -737,15 +605,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 .footer {
   background-color: rgb(30, 30, 30);
   display: flex;
@@ -797,15 +656,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 .header {
   background-color: rgb(25, 25, 25);
   display: flex;
@@ -892,15 +742,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-/*$primary-color: $black;
-$secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
 .loading {
   background: url("../../images/karen-kujou/determined.gif") no-repeat;
   background-size: cover;

@@ -4,11 +4,11 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import '../../base/_colors.scss';
-@import '../../base/_fonts.scss';
+@use '../../base/_colors.scss';
+@use '../../base/_fonts.scss';
 
 html body {
-  background-color: $primary-color;
+  background-color: colors.$primary-color;
 }
 
 * {
@@ -31,22 +31,22 @@ html body {
 
   // Section Title
   &__title {
-    color: $white;
-    font-size: $font-size-h2;
+    color: colors.$white;
+    font-size: fonts.$font-size-h2;
     padding: 20px;
     text-align: center;
-    text-shadow: 1px 1px 1px $black;
+    text-shadow: 1px 1px 1px colors.$black;
   }
 }
 
 // Paragraph Block
 .paragraph-block {
-  background-color: $secondary-gray-color;
-  color: $secondary-color;
+  background-color: colors.$secondary-gray-color;
+  color: colors.$secondary-color;
   padding: 20px;
 
   // Paragraph Block Links
   a {
-    color: $purple-deep;
+    color: colors.$purple-deep;
   }
 }

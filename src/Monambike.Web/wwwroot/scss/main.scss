@@ -5,38 +5,38 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 // animations
-@import "animation/_rainstorm.scss";
+@use "animation/_rainstorm.scss";
+@use "animation/_reveal.scss";
 
 // base
-@import "base/_colors.scss";
-@import "base/_fonts.scss";
-@import "base/_mixins.scss";
-@import "base/_reset.scss";
-@import "base/_typography.scss";
+@use "base/_colors.scss";
+@use "base/_fonts.scss";
+@use "base/_mixins.scss";
+@use "base/_reset.scss";
+@use "base/_typography.scss";
 
 // components
-@import "components/_button.scss";
-@import "components/_images.scss";
-@import "components/_links.scss";
-@import "components/_scrollbar.scss";
-@import "components/_select.scss";
-@import "components/_selection.scss";
-@import "components/_text.scss";
+@use "components/_button.scss";
+@use "components/_images.scss";
+@use "components/_links.scss";
+@use "components/_scrollbar.scss";
+@use "components/_select.scss";
+@use "components/_selection.scss";
 
 // pages
 // pages/about
-@import "pages/about/_about.scss";
+@use "pages/about/_about.scss";
 // pages/home
-@import "pages/home/_about-me.scss";
-@import "pages/home/_contact.scss";
-@import "pages/home/_home.scss";
-@import "pages/home/_presentation.scss";
-@import "pages/home/_social-media.scss";
-@import "pages/home/_tour.scss";
-@import "pages/home/_warning.scss";
+@use "pages/home/_about-me.scss";
+@use "pages/home/_contact.scss";
+@use "pages/home/_home.scss";
+@use "pages/home/_presentation.scss";
+@use "pages/home/_social-media.scss";
+@use "pages/home/_tour.scss";
+@use "pages/home/_warning.scss";
 
 // shared
-@import "shared/_footer.scss";
-@import "shared/_header.scss";
-@import "shared/_loading.scss";
-@import "shared/_navigation.scss";
+@use "shared/_footer.scss";
+@use "shared/_header.scss";
+@use "shared/_loading.scss";
+@use "shared/_navigation.scss";

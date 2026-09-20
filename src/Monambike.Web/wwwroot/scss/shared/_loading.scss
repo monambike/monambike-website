@@ -4,7 +4,7 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import '../base/_colors.scss';
+@use '../base/_colors.scss';
 
 .loading {
   background: url("../../images/karen-kujou/determined.gif") no-repeat;
@@ -23,7 +23,7 @@ For license information, please see the LICENSE file in the root directory.
     vertical-align: middle;
 
     &--background-filter {
-      background-color: $primary-color;
+      background-color: colors.$primary-color;
     }
 
     &--image {
@@ -31,7 +31,7 @@ For license information, please see the LICENSE file in the root directory.
       text-align: center;
 
       img {
-        border: 5px solid $purple-dark;
+        border: 5px solid colors.$purple-dark;
         border-radius: 5px;
       }
     }
@@ -44,15 +44,15 @@ For license information, please see the LICENSE file in the root directory.
     }
 
     &--title {
-      background-color: $purple-deep;
+      background-color: colors.$purple-deep;
     }
 
     &--body {
-      background-color: $purple-dark;
+      background-color: colors.$purple-dark;
     }
 
     &--curiosity {
-      background-color: $primary-color;
+      background-color: colors.$primary-color;
       /*background-color: black;*/
       padding: 10px;
       font-size: 12pt;

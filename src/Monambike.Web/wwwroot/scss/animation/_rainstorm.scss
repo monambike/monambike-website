@@ -6,13 +6,13 @@ For license information, please see the LICENSE file in the root directory.
 
 // Source: https://codepen.io/datCloud/pen/BaKEEqq
 
-@import "../base/_colors.scss";
+@use "../base/_colors.scss";
 
 // Rainstorm Animation
 .rainstorm-animation,
 .rainstorm-animation-hover {
   align-items: center;
-  background-color: $black;
+  background-color: colors.$black;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -56,7 +56,7 @@ For license information, please see the LICENSE file in the root directory.
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    background-color: $white;
+    background-color: colors.$white;
     border-color: transparent;
     border-right-color: rgba(255, 255, 255, 0.7);
     border-right-width: 50px;

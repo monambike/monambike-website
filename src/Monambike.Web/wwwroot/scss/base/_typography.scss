@@ -4,20 +4,20 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@import "_fonts.scss";
+@use "_fonts.scss";
 
 // All Elements Typography
 * {
-  font-family: $font-family-default;
+  font-family: fonts.$font-family-default;
 }
 
 // Text Headers Typography
 h1 {
-  font-size: $font-size-h1;
+  font-size: fonts.$font-size-h1;
 }
 
 h2 {
-  font-size: $font-size-h2;
+  font-size: fonts.$font-size-h2;
 }
 
 // Text Paragraphs Typography
