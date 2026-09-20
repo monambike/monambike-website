@@ -3,13 +3,15 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************@
+
 @inherits LayoutComponentBase
 @using Monambike.Core.Data;
 
 <footer class="footer">
-    <div class="footer--links">
-        <div class="footer--links--three-columns">
-            <div class="three-columns three-columns--extern-columns">
+    <div class="footer__navigation">
+        <div class="footer__columns">
+            <div class="footer__column">
+                <!-- Social Media Professional Links -->
                 <span><b>LINKS PROFISSIONAIS</b></span>
                 <ul>
                     <li><a target="_blank" rel="nofollow" href="@Links.LinkedIn">Linkedin</a></li>
@@ -19,7 +21,9 @@ For license information, please see the LICENSE file in the root directory.
                     <li><a target="_blank" rel="nofollow" href="@Links.ItchIo">Itch.Io</a></li>
                 </ul>
             </div>
-            <div class="three-columns three-columns--intern-column">
+
+            <!-- Social Media Personal Links -->
+            <div class="footer__column">
                 <span><b>ME ENCONTRE AQUI TAMBÉM</b></span>
                 <ul>
                     <li><a target="_blank" rel="nofollow" href="@Links.YouTubeMonambike">YouTube (Principal)</a></li>
@@ -28,7 +32,9 @@ For license information, please see the LICENSE file in the root directory.
                     <li><a target="_blank" rel="nofollow" href="@Links.Spotify">Meu Spotify</a></li>
                 </ul>
             </div>
-            <div class="three-columns three-columns--extern-columns">
+
+            <!-- Featured GitHub Project Links -->
+            <div class="footer__column">
                 <span><b>PROJETOS EM DESTAQUE</b></span>
                 <ul>
                     <li><a target="_blank" rel="nofollow" href="https://github.com/monambike/kwijisho-discord-bot">KWIJisho</a></li>
@@ -42,10 +48,13 @@ For license information, please see the LICENSE file in the root directory.
         </div>
     </div>
 
-    <div class="footer--copyright-and-translate">
-        <div class="footer--copyright-and-translate--copyright">
+    <div class="footer__bottom">
+        <!-- Copyright Note -->
+        <div class="footer__copyright-note">
             <small>Copyright&nbsp;&copy;&nbsp;2024&nbsp;Vinícius&nbsp;Gabriel</small>
         </div>
+
+        <!-- Translation Button -->
         <TranslationButton/>
     </div>
 </footer>

@@ -7,12 +7,14 @@ For license information, please see the LICENSE file in the root directory.
 @use "../base/_colors.scss";
 
 .round-purple-button {
-  background-color: colors.$purple-deep;
-  border-radius: 5px;
-  display: inline-block; /* Make the link behave like a block-level element */
+  position: relative;
   margin: auto;
   padding: 10px;
-  position: relative;
+  display: inline-block; /* Make the link behave like a block-level element */
+  
+  background-color: colors.$purple-deep;
+  border-radius: 5px;
+
   overflow: hidden; /* Hide any overflow text that doesn't fit */
   text-align: center;
   text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */

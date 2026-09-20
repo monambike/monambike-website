@@ -14,12 +14,13 @@ For license information, please see the LICENSE file in the root directory.
 .tour-card-container {
   align-items: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 
   // Style for Content Wrapping
   align-content: space-evenly;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 100px;
+  padding: 20px;
 }
 
 .tour-card {
@@ -44,14 +45,15 @@ For license information, please see the LICENSE file in the root directory.
   }
 
   &__title {
+    padding: 20px 0px 20px 0px;
+
     background-color: colors.$primary-color;
     color: colors.$purple-deep;
     font-size: fonts.$font-size-h3;
-    padding: 20px 0px 20px 0px;
     text-align: center;
   }
 
-  &__content {
+  &__description {
     align-items: center;
     display: flex;
     
@@ -78,11 +80,11 @@ For license information, please see the LICENSE file in the root directory.
   // Adjust layout for smaller devices
   @media(max-width:800px) {
     // Removing animation
-    &:hover .three-columns {
+    &:hover .footer__column {
       transform: scale(1);
     }
 
-    .three-columns {
+    .footer__column {
       margin: 15px 0px;
       width: 100%;
 

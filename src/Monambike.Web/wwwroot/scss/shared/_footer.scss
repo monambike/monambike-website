@@ -5,50 +5,58 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 @use "../base/_colors.scss";
+@use "../base/fonts";
 
 .footer {
-  background-color: colors.$gray-dark;
   display: flex;
   flex-direction: column;
 
-  &--links {
-    padding: 5% 0% 5% 0%;
+  background-color: colors.$gray-dark;
+  font-size: fonts.$font-size-p;
 
-    &--three-columns {
-      border-top: 6px solid colors.$gray-dark-light;
-      margin: 0px 10% 0px 10%;
-      padding: 20px;
-      /* Footer Links */
-      /* Container List Title */
-      span {
-        color: colors.$purple-medium;
-      }
-      /* Container List */
-      ul {
-        margin-top: 8%;
-      }
-      /* Every Item on the Container List */
-      li {
-        margin: 5% 0% 5% 0%;
-      }
+  // Social Media Links and Featured GitHub Projects
+  &__navigation {
+    padding: 5% 0% 5% 0%;
+  }
+
+  &__columns {
+    margin: 0px 10% 0px 10%;
+    padding: 20px;
+
+    border-top: 6px solid colors.$gray-dark-light;
+
+    span {
+      color: colors.$purple-medium;
     }
-    // Adjust layout for smaller devices
-    @media(max-width:800px) {
-      .three-columns {
-        margin: 15px 0px;
-        width: 100%;
-      }
+
+    ul {
+      margin-top: 8%;
+    }
+
+    li {
+      margin: 5% 0% 5% 0%;
     }
   }
 
-  &--copyright-and-translate {
-    background-color: colors.$black;
+  // Adjust layout for smaller devices
+  @media(max-width:800px) {
+    .footer__column {
+      width: 100%;
+      margin: 15px 0px;
+    }
+  }
+
+  // Copyright Note and Translation Button
+  &__bottom {
     padding: 2.5%;
     text-align: center;
 
-    &--copyright {
-      color: colors.$white;
-      margin: 2.5% 0% 2.5% 0%;
-    }
+    background-color: colors.$black;
+
+  }
+
+  &__copyright-note {
+    margin: 2.5% 0% 2.5% 0%;
+    color: colors.$white;
   }
 }
