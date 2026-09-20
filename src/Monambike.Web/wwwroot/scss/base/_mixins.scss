@@ -5,7 +5,7 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 /* Actually being used on Footer and "Tour" Index Page Section, it
-  makes possible to have three columns */
+  makes possible to have three equal columns */
 .three-columns {
   float: left;
   width: 30%;
@@ -15,10 +15,10 @@ For license information, please see the LICENSE file in the root directory.
   }
 }
 
-/* The component with this class cannot be selected */
+// The component with this class cannot be selected
 .not-selectable {
   -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE10+/Edge */
+  -ms-user-select: none; /* IE10+ / Edge */
   -moz-user-select: none; /* Firefox */
   user-select: none; /* Standard */
 }

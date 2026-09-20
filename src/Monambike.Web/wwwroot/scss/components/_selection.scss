@@ -6,13 +6,13 @@ For license information, please see the LICENSE file in the root directory.
 
 @import '../base/_colors.scss';
 
-// Change website selection color (when you select a text)
+// Change website text selection color
 ::selection {
   background: $selection-color;
   color: $primary-color;
 }
 
-// For Firefox
+// Change website text selection color (For Firefox)
 ::-moz-selection {
   background: $purple-medium;
   color: $primary-color;

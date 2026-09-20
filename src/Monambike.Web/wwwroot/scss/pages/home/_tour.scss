@@ -11,30 +11,33 @@ For license information, please see the LICENSE file in the root directory.
   background-color: $purple-deep;
 }
 
-.card-container {
+.tour-card-container {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
+
   // Style for Content Wrapping
   align-content: space-evenly;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.card {
-  box-shadow: 5px 5px $purple-medium;
+.tour-card {
   height: 600px;
-  transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
   width: 400px;
 
+  box-shadow: 5px 5px $purple-medium;
+  background-color: $purple-dark;
+  transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
+
   &:hover {
-    animation-name: example;
+    animation-name: shake;
     animation-duration: 0.5s;
     transform: scale(1.05);
     transition-delay: 1;
     transition-duration: 1s;
     
-    @keyframes example {
+    @keyframes shake {
       25% { transform: rotate(0.005turn); }
       75% { transform: rotate(-0.005turn); }
     }
@@ -49,17 +52,18 @@ For license information, please see the LICENSE file in the root directory.
   }
 
   &__content {
-    color: $white;
-    height: 30%;
-    display: flex;
     align-items: center;
-    height: 100%;
+    display: flex;
+    
+    color: $white;
     justify-content: center;
   }
 
   &__image {
     min-height: 300px;
+    max-height: 300px;
     width: 100%;
+
     // Removing default image hover animation
     &:hover {
       transform: scale(1) !important;
@@ -82,10 +86,10 @@ For license information, please see the LICENSE file in the root directory.
       margin: 15px 0px;
       width: 100%;
 
+      // Making text aligned to middle
       p {
         text-align: center;
       }
-      // Making text aligned to middle
     }
   }
 }

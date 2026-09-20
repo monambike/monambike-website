@@ -36,10 +36,10 @@ function checkAndApplyRevealEffect() {
         // Checks if the element is within the reveal range for revealing it
         if (elementTop > 0 && elementTop < windowHeight - elementVisible) {
             // Makes the element revealed
-            revealClass.classList.add('revealed');
+            revealClass.classList.add('is-revealed');
         } else {
-            // Removes revealed from elemenet
-            revealClass.classList.remove('revealed'); // Make the effect inactive
+            // Removes revealed from element
+            revealClass.classList.remove('is-revealed'); // Make the effect inactive
         }
     });
 }

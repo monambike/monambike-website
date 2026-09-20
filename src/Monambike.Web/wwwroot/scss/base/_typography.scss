@@ -6,11 +6,12 @@ For license information, please see the LICENSE file in the root directory.
 
 @import "_fonts.scss";
 
-// Style for All Elements
+// All Elements Typography
 * {
   font-family: $font-family-default;
 }
 
+// Text Headers Typography
 h1 {
   font-size: $font-size-h1;
 }
@@ -19,7 +20,7 @@ h2 {
   font-size: $font-size-h2;
 }
 
-// Style for Paragraph
+// Text Paragraphs Typography
 p {
   font-size: 1.5rem;
   margin: 10px;

@@ -7,27 +7,42 @@ For license information, please see the LICENSE file in the root directory.
 @import "../base/_colors.scss";
 
 $link-color: $purple-medium;
+$link-underline-color: $link-color;
+$link-underline-thickness: 0.15em;
 
+// Links
 a {
-  /* Variables that hold values from the line under links when hovered */
-  $line-thickness: 0.15em;
-  $line-color: $link-color;
-  /* Link attributes */
+  padding-bottom: var($link-underline-thickness);
+
   color: $white;
-  padding-bottom: var($line-thickness);
-  background: linear-gradient(90deg,$line-color 50%, $primary-color 0) calc(100% - var(--_p,0%)) / 200% 100%, linear-gradient($line-color 0 0) 0% 100%/var(--_p,0%) $line-thickness no-repeat;
+  background:
+    // Hover Text Color Layer
+    linear-gradient(
+      90deg, /* Gradient Direction */
+      $link-underline-color 50%,
+      $primary-color 0
+    )
+    calc(100% - var(--underline-size, 0%)) /* Gradient Position */ / 200% 100%,
+
+    // Hover Text Underline Layer
+    linear-gradient($link-underline-color 0 0) 0% 100% / var(--underline-size, 0%) $link-underline-thickness no-repeat;
   -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+
   transition: 0.5s;
-  // Links text color
+
   &:hover {
-    --_p: 100%;
+    // Reveal text color and underline layers
+    --underline-size: 100%;
+
     color: $link-color
   }
 }
 
+// Links Target Blank inside Paragraphs or Navbar List Items (Suffix)
 p, li {
-  a[target=_blank]:after {
-    content: "↗"; // Represents a diagonal up arrow symbol
+  a[target=_blank]::after {
+    content: "↗";
     margin-left: 5px;
   }
 }

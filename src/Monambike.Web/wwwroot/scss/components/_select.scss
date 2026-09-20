@@ -6,22 +6,30 @@ For license information, please see the LICENSE file in the root directory.
 
 @import "../base/_colors.scss";
 
+// Select Box
 select{
+  cursor: pointer;
+
+  padding: 5px;
+
   background-color: $gray-dark;
   color: $white;
-  cursor: pointer;
-  padding: 5px;
+
   transition: 0.1s;
+
   &:hover {
     background-color: $gray-dark-light;
   }
+
   &:active {
     background-color: $gray-dark;
   }
-  
+
+  // Select Box Options
   option{
     background-color: $purple-dark;
     color: rgba(255,255,255,1);
+
     transition: 2s;
   }
 }

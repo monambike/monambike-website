@@ -69,7 +69,7 @@ For license information, please see the LICENSE file in the root directory.
     opacity: 0;
   }
   .hamburguer.active .bar:nth-child(2) {
-    transform:translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
   }
   .hamburguer.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);

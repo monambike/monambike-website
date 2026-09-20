@@ -6,26 +6,24 @@ For license information, please see the LICENSE file in the root directory.
 
 @import "../base/_colors.scss";
 
-/* Scrollbar Width */
+// Scrollbar Width
 ::-webkit-scrollbar {
   width: 14px;
 }
 
-/* Scrollbar Track */
+// Scrollbar Track
 ::-webkit-scrollbar-track {
   background: $purple-light;
 }
 
-/* Handle */
+// Scrollbar Handle
 ::-webkit-scrollbar-thumb {
   background: $purple-medium;
   
-  /* Handle on hover */
   &:hover {
     background: $purple-dark;
   }
 
-  /* Handle when dragged */
   &:active {
     background: $purple-deep;
   }

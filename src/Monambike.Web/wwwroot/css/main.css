@@ -98,7 +98,7 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 /* Actually being used on Footer and "Tour" Index Page Section, it
-  makes possible to have three columns */
+  makes possible to have three equal columns */
 .three-columns {
   float: left;
   width: 30%;
@@ -107,24 +107,25 @@ For license information, please see the LICENSE file in the root directory.
   margin: 0px 1% 0px 1%;
 }
 
-/* The component with this class cannot be selected */
 .not-selectable {
   -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE10+/Edge */
+  -ms-user-select: none; /* IE10+ / Edge */
   -moz-user-select: none; /* Firefox */
   user-select: none; /* Standard */
 }
 
-/**
-  * Vinicius Gabriel Personal Website
-  * Author: Vinicius Gabriel
-  * Contact: contact@monambike.com
-  * Copyright (c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-  * This website and its contents are protected by copyright law. Unauthorized
-  * reproduction or distribution of this material without express and written
-  * permission from the author is strictly prohibited.
-**/
-h1, h2, h3, h4, h5, h6, p {
+/**********************************************************************
+Copyright(c) 2026 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: @monambike for more information.
+For license information, please see the LICENSE file in the root directory.
+**********************************************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0px;
 }
 
@@ -219,7 +220,6 @@ img {
   max-width: 100%;
   transition: 0.5s;
 }
-
 img:hover + figcaption {
   opacity: 0;
 }
@@ -239,20 +239,19 @@ $secondary-color: $white;
 $primary-gray-color: $gray-dark;
 $secondary-gray-color: $gray-dark-light;*/
 a {
-  /* Variables that hold values from the line under links when hovered */
-  /* Link attributes */
-  color: rgb(250, 250, 250);
   padding-bottom: var(0.15em);
-  background: linear-gradient(90deg, rgb(144, 100, 202) 50%, rgb(250, 250, 250) 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(rgb(144, 100, 202) 0 0) 0% 100%/var(--_p, 0%) 0.15em no-repeat;
+  color: rgb(250, 250, 250);
+  background: linear-gradient(90deg, rgb(144, 100, 202) 50%, rgb(250, 250, 250) 0) calc(100% - var(--underline-size, 0%))/200% 100%, linear-gradient(rgb(144, 100, 202) 0 0) 0% 100%/var(--underline-size, 0%) 0.15em no-repeat;
   -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
   transition: 0.5s;
 }
 a:hover {
-  --_p: 100%;
+  --underline-size: 100%;
   color: rgb(144, 100, 202);
 }
 
-p a[target=_blank]:after, li a[target=_blank]:after {
+p a[target=_blank]::after, li a[target=_blank]::after {
   content: "↗";
   margin-left: 5px;
 }
@@ -271,26 +270,19 @@ For license information, please see the LICENSE file in the root directory.
 $secondary-color: $white;
 $primary-gray-color: $gray-dark;
 $secondary-gray-color: $gray-dark-light;*/
-/* Scrollbar Width */
 ::-webkit-scrollbar {
   width: 14px;
 }
 
-/* Scrollbar Track */
 ::-webkit-scrollbar-track {
   background: rgb(227, 222, 236);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(144, 100, 202);
-  /* Handle on hover */
 }
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(95, 50, 155);
-}
-::-webkit-scrollbar-thumb {
-  /* Handle when dragged */
 }
 ::-webkit-scrollbar-thumb:active {
   background: rgb(77, 18, 161);
@@ -311,10 +303,10 @@ $secondary-color: $white;
 $primary-gray-color: $gray-dark;
 $secondary-gray-color: $gray-dark-light;*/
 select {
-  background-color: rgb(30, 30, 30);
-  color: rgb(250, 250, 250);
   cursor: pointer;
   padding: 5px;
+  background-color: rgb(30, 30, 30);
+  color: rgb(250, 250, 250);
   transition: 0.1s;
 }
 select:hover {
@@ -361,12 +353,12 @@ For license information, please see the LICENSE file in the root directory.
 .reveal-animation {
   position: relative;
 }
-.reveal-animation.translateY {
-  opacity: 0;
+.reveal-animation.reveal--fade-up {
   transform: translateY(144px);
+  opacity: 0;
   transition: transform 1s ease, opacity 1s ease;
 }
-.reveal-animation.translateY.revealed {
+.reveal-animation.reveal--fade-up.is-revealed {
   transform: translateY(0);
   opacity: 1;
 }
@@ -650,7 +642,7 @@ For license information, please see the LICENSE file in the root directory.
   background-color: rgb(77, 18, 161);
 }
 
-.card-container {
+.tour-card-container {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
@@ -659,20 +651,21 @@ For license information, please see the LICENSE file in the root directory.
   gap: 30px;
 }
 
-.card {
-  box-shadow: 5px 5px rgb(144, 100, 202);
+.tour-card {
   height: 600px;
-  transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
   width: 400px;
+  box-shadow: 5px 5px rgb(144, 100, 202);
+  background-color: rgb(95, 50, 155);
+  transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
 }
-.card:hover {
-  animation-name: example;
+.tour-card:hover {
+  animation-name: shake;
   animation-duration: 0.5s;
   transform: scale(1.05);
   transition-delay: 1;
   transition-duration: 1s;
 }
-@keyframes example {
+@keyframes shake {
   25% {
     transform: rotate(0.005turn);
   }
@@ -680,41 +673,40 @@ For license information, please see the LICENSE file in the root directory.
     transform: rotate(-0.005turn);
   }
 }
-.card__title {
+.tour-card__title {
   background-color: rgb(250, 250, 250);
   color: rgb(77, 18, 161);
   font-size: 2rem;
   padding: 20px 0px 20px 0px;
   text-align: center;
 }
-.card__content {
-  color: rgb(250, 250, 250);
-  height: 30%;
-  display: flex;
+.tour-card__content {
   align-items: center;
-  height: 100%;
+  display: flex;
+  color: rgb(250, 250, 250);
   justify-content: center;
 }
-.card__image {
+.tour-card__image {
   min-height: 300px;
+  max-height: 300px;
   width: 100%;
 }
-.card__image:hover {
+.tour-card__image:hover {
   transform: scale(1) !important;
 }
-.card div {
+.tour-card div {
   background-color: rgb(95, 50, 155);
   box-shadow: 5px 5px rgb(227, 222, 236);
 }
 @media (max-width: 800px) {
-  .card:hover .three-columns {
+  .tour-card:hover .three-columns {
     transform: scale(1);
   }
-  .card .three-columns {
+  .tour-card .three-columns {
     margin: 15px 0px;
     width: 100%;
   }
-  .card .three-columns p {
+  .tour-card .three-columns p {
     text-align: center;
   }
 }
