@@ -16,8 +16,8 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 /*$primary-color: $black;
 $secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
+$primary-gray-color: $gray-darkest;
+$secondary-gray-color: $gray-dark;*/
 .rainstorm-animation,
 .rainstorm-animation-hover {
   align-items: center;
@@ -178,7 +178,7 @@ For license information, please see the LICENSE file in the root directory.
   margin: auto;
   padding: 10px;
   display: inline-block; /* Make the link behave like a block-level element */
-  background-color: rgb(77, 18, 161);
+  background-color: rgb(62, 13, 130);
   border-radius: 5px;
   overflow: hidden; /* Hide any overflow text that doesn't fit */
   text-align: center;
@@ -211,13 +211,13 @@ a {
   color: rgb(250, 250, 250);
 }
 a:hover {
-  color: rgb(144, 100, 202);
+  color: rgb(147, 94, 228);
 }
 
 p a,
 li a {
   padding-bottom: var(0.15em);
-  background: linear-gradient(90deg, rgb(144, 100, 202) 50%, rgb(250, 250, 250) 0) calc(100% - var(--underline-size, 0%))/200% 100%, linear-gradient(rgb(144, 100, 202) 0 0) 0% 100%/var(--underline-size, 0%) 0.15em no-repeat;
+  background: linear-gradient(90deg, rgb(147, 94, 228) 50%, rgb(250, 250, 250) 0) calc(100% - var(--underline-size, 0%))/200% 100%, linear-gradient(rgb(147, 94, 228) 0 0) 0% 100%/var(--underline-size, 0%) 0.15em no-repeat;
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
   transition: 0.5s;
@@ -246,13 +246,13 @@ For license information, please see the LICENSE file in the root directory.
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(144, 100, 202);
+  background: rgb(147, 94, 228);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(95, 50, 155);
+  background: rgb(87, 24, 176);
 }
 ::-webkit-scrollbar-thumb:active {
-  background: rgb(77, 18, 161);
+  background: rgb(62, 13, 130);
 }
 
 /**************************************************************************
@@ -274,7 +274,7 @@ select:active {
   background-color: rgb(30, 30, 30);
 }
 select option {
-  background-color: rgb(95, 50, 155);
+  background-color: rgb(87, 24, 176);
   color: rgb(250, 250, 250);
   transition: 2s;
 }
@@ -285,12 +285,12 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 ::selection {
-  background: rgb(95, 50, 155);
+  background: rgb(87, 24, 176);
   color: rgb(250, 250, 250);
 }
 
 ::-moz-selection {
-  background: rgb(144, 100, 202);
+  background: rgb(147, 94, 228);
   color: rgb(250, 250, 250);
 }
 
@@ -342,7 +342,7 @@ For license information, please see the LICENSE file in the root directory.
   margin: 2px 0px 2px 0px;
 }
 .interests-list__title {
-  background-color: rgb(95, 50, 155);
+  background-color: rgb(87, 24, 176);
   color: rgb(250, 250, 250);
   display: block;
   padding: 5px;
@@ -355,8 +355,8 @@ For license information, please see the LICENSE file in the root directory.
   transform: scale(1.05);
 }
 .interests-list li:nth-child(even) {
-  background: rgb(144, 100, 202);
-  border-color: rgb(77, 18, 161);
+  background: rgb(147, 94, 228);
+  border-color: rgb(62, 13, 130);
   color: rgb(250, 250, 250);
 }
 .interests-list li:nth-child(odd) {
@@ -385,7 +385,7 @@ For license information, please see the LICENSE file in the root directory.
 }
 
 .highlight-purple {
-  background: -webkit-linear-gradient(rgb(95, 50, 155), rgb(144, 100, 202));
+  background: -webkit-linear-gradient(rgb(87, 24, 176), rgb(147, 94, 228));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -442,7 +442,7 @@ html body {
   padding: 20px;
 }
 .paragraph-block a {
-  color: rgb(77, 18, 161);
+  color: rgb(62, 13, 130);
 }
 
 /**************************************************************************
@@ -453,7 +453,7 @@ For license information, please see the LICENSE file in the root directory.
 .section--presentation {
   align-items: center;
   color: rgb(250, 250, 250);
-  background: -webkit-linear-gradient(rgb(77, 18, 161), rgb(95, 50, 155));
+  background: -webkit-linear-gradient(rgb(62, 13, 130), rgb(87, 24, 176));
   display: flex;
   padding-left: 2.5%;
   text-transform: uppercase;
@@ -468,12 +468,12 @@ For license information, please see the LICENSE file in the root directory.
 .presentation__name {
   align-self: flex-end;
   text-align: left;
-  text-shadow: 5px 5px rgb(95, 50, 155);
+  text-shadow: 5px 5px rgb(87, 24, 176);
   text-wrap: balance;
   word-break: break-all;
 }
 .presentation__profession {
-  text-shadow: 5px 5px rgb(95, 50, 155);
+  text-shadow: 5px 5px rgb(87, 24, 176);
   text-wrap: balance;
   word-break: break-all;
 }
@@ -490,7 +490,7 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 .section--social-media {
   height: 130vh !important;
-  background-color: rgb(95, 50, 155);
+  background-color: rgb(87, 24, 176);
   color: rgb(25, 25, 25);
   height: auto;
 }
@@ -502,7 +502,7 @@ For license information, please see the LICENSE file in the root directory.
 }
 .section--social-media--containers:nth-child(odd) {
   color: rgb(250, 250, 250);
-  background-color: rgb(144, 100, 202);
+  background-color: rgb(147, 94, 228);
   text-align: left;
 }
 
@@ -512,7 +512,7 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 .section--tour {
-  background-color: rgb(77, 18, 161);
+  background-color: rgb(62, 13, 130);
 }
 
 .tour-cards {
@@ -530,8 +530,8 @@ For license information, please see the LICENSE file in the root directory.
   width: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
-  box-shadow: 5px 5px rgb(144, 100, 202);
-  background-color: rgb(95, 50, 155);
+  box-shadow: 5px 5px rgb(147, 94, 228);
+  background-color: rgb(87, 24, 176);
   transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
 }
 @media (hover: hover) {
@@ -554,7 +554,7 @@ For license information, please see the LICENSE file in the root directory.
 .tour-card__title {
   padding: 20px 0px 20px 0px;
   background-color: rgb(250, 250, 250);
-  color: rgb(77, 18, 161);
+  color: rgb(62, 13, 130);
   font-size: 2rem;
   text-align: center;
 }
@@ -573,7 +573,7 @@ For license information, please see the LICENSE file in the root directory.
   transform: scale(1) !important;
 }
 .tour-card div {
-  background-color: rgb(95, 50, 155);
+  background-color: rgb(87, 24, 176);
   box-shadow: 5px 5px rgb(227, 222, 236);
 }
 
@@ -612,7 +612,7 @@ For license information, please see the LICENSE file in the root directory.
   border-top: 6px solid rgb(40, 40, 40);
 }
 .footer__columns span {
-  color: rgb(144, 100, 202);
+  color: rgb(147, 94, 228);
 }
 .footer__columns ul {
   margin-top: 8%;
@@ -727,50 +727,48 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-.loading {
+.loading__content {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: url("../../images/karen-kujou/determined.gif") no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.9);
-  display: table;
-  position: absolute;
-  height: 100%;
-  width: 100%;
 }
-.loading .loading {
-  display: table-cell;
-  vertical-align: middle;
-}
-.loading .loading--background-filter {
+.loading__background-filter {
   background-color: rgb(250, 250, 250);
 }
-.loading .loading--image {
+.loading__image {
   padding: 2% 0;
   text-align: center;
 }
-.loading .loading--image img {
-  border: 5px solid rgb(95, 50, 155);
+.loading__image img {
+  border: 5px solid rgb(87, 24, 176);
   border-radius: 5px;
+  max-height: 300px;
 }
-.loading .loading--title, .loading .loading--body {
+.loading__title, .loading__body {
   padding: 20px;
   font-size: 16pt;
   color: white;
   font-weight: bold;
 }
-.loading .loading--title {
-  background-color: rgb(77, 18, 161);
+.loading__title {
+  background-color: rgb(62, 13, 130);
 }
-.loading .loading--body {
-  background-color: rgb(95, 50, 155);
+.loading__body {
+  background-color: rgb(87, 24, 176);
 }
-.loading .loading--curiosity {
+.loading__curiosity {
   background-color: rgb(250, 250, 250);
   /*background-color: black;*/
   padding: 10px;
   font-size: 12pt;
   text-align: center;
 }
-.loading .loading p, .loading .loading img {
+.loading p, .loading img {
   margin: 0;
   padding: 0;
   display: inline-block;

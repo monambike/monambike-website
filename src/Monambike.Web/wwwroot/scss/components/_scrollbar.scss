@@ -18,13 +18,13 @@ For license information, please see the LICENSE file in the root directory.
 
 // Scrollbar Handle
 ::-webkit-scrollbar-thumb {
-  background: colors.$purple-medium;
+  background: colors.$purple;
   
   &:hover {
     background: colors.$purple-dark;
   }
 
   &:active {
-    background: colors.$purple-deep;
+    background: colors.$purple-darkest;
   }
 }

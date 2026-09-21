@@ -6,17 +6,17 @@ For license information, please see the LICENSE file in the root directory.
 
 // Neutral Colors
 $black: rgba(25, 25, 25, 1);
-$gray-dark: rgba(30, 30, 30, 1);
-$gray-dark-light: rgba(40, 40, 40, 1);
-$gray-light: rgba(245, 245, 245, 1);
-$gray-light-dark: rgba(235, 235, 235, 1);
+$gray-darkest: rgba(30, 30, 30, 1);
+$gray-dark: rgba(40, 40, 40, 1);
+$gray-light: rgba(235, 235, 235, 1);
+$gray-lightest: rgba(245, 245, 245, 1);
 $white: rgba(250, 250, 250, 1);
 
 // Purple Colors
 $purple-light: rgba(227, 222, 236);
-$purple-medium: rgba(144, 100, 202);
-$purple-dark: rgba(95, 50, 155);
-$purple-deep: rgba(77, 18, 161);
+$purple: rgb(147, 94, 228);
+$purple-dark: rgb(87, 24, 176);
+$purple-darkest: rgb(62, 13, 130);
 
 // Warning Color
 $red: rgba(200, 20, 20);
@@ -27,11 +27,11 @@ $selection-color: $purple-dark;
 // Elements Colors
 $primary-color: $white;
 $secondary-color: $black;
-$primary-gray-color: $gray-light;
-$secondary-gray-color: $gray-light-dark;
+$primary-gray-color: $gray-lightest;
+$secondary-gray-color: $gray-light;
 
 // Dark Mode Elements Colors
 /*$primary-color: $black;
 $secondary-color: $white;
-$primary-gray-color: $gray-dark;
-$secondary-gray-color: $gray-dark-light;*/
+$primary-gray-color: $gray-darkest;
+$secondary-gray-color: $gray-dark;*/

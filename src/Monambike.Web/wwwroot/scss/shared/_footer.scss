@@ -11,7 +11,7 @@ For license information, please see the LICENSE file in the root directory.
   display: flex;
   flex-direction: column;
 
-  background-color: colors.$gray-dark;
+  background-color: colors.$gray-darkest;
   font-size: fonts.$font-size-p;
 
   // Social Media Links and Featured GitHub Projects
@@ -27,10 +27,10 @@ For license information, please see the LICENSE file in the root directory.
     margin: 0px 10% 0px 10%;
     padding: 20px;
 
-    border-top: 6px solid colors.$gray-dark-light;
+    border-top: 6px solid colors.$gray-dark;
 
     span {
-      color: colors.$purple-medium;
+      color: colors.$purple;
     }
 
     ul {

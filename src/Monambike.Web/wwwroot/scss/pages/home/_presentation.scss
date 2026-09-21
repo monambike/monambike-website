@@ -10,7 +10,7 @@ For license information, please see the LICENSE file in the root directory.
 .section--presentation {
   align-items: center;
   color: colors.$white;
-  background: -webkit-linear-gradient(colors.$purple-deep, colors.$purple-dark);
+  background: -webkit-linear-gradient(colors.$purple-darkest, colors.$purple-dark);
   display: flex;
   padding-left: 2.5%;
   text-transform: uppercase;
@@ -36,6 +36,6 @@ For license information, please see the LICENSE file in the root directory.
   &__skill {
     display: flex;
     font-size: 3rem;
-    color: colors.$gray-light-dark;
+    color: colors.$gray-light;
   }
 }

@@ -12,17 +12,17 @@ select{
 
   padding: 5px;
 
-  background-color: colors.$gray-dark;
+  background-color: colors.$gray-darkest;
   color: colors.$white;
 
   transition: 0.1s;
 
   &:hover {
-    background-color: colors.$gray-dark-light;
+    background-color: colors.$gray-dark;
   }
 
   &:active {
-    background-color: colors.$gray-dark;
+    background-color: colors.$gray-darkest;
   }
 
   // Select Box Options

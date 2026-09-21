@@ -58,7 +58,7 @@ For license information, please see the LICENSE file in the root directory.
 
   // Shared Styles for Headings and List Items
   &__title, li {
-    border: 1.82px solid colors.$gray-dark;
+    border: 1.82px solid colors.$gray-darkest;
     border-radius: 2px;
     font-weight: 600;
     padding: 5px;
@@ -84,14 +84,14 @@ For license information, please see the LICENSE file in the root directory.
   }
   // Styles for Even List Items
   li:nth-child(even) {
-    background: colors.$purple-medium;
-    border-color: colors.$purple-deep;
+    background: colors.$purple;
+    border-color: colors.$purple-darkest;
     color: colors.$white;
   }
   // Styles for Odd List Items
   li:nth-child(odd) {
     background: colors.$purple-light;
-    border-color: colors.$gray-dark;
+    border-color: colors.$gray-darkest;
   }
 }
 
@@ -121,7 +121,7 @@ For license information, please see the LICENSE file in the root directory.
 
 // Gradient Text Effect
 .highlight-purple {
-  background: -webkit-linear-gradient(colors.$purple-dark, colors.$purple-medium);
+  background: -webkit-linear-gradient(colors.$purple-dark, colors.$purple);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

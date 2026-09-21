@@ -9,7 +9,7 @@ For license information, please see the LICENSE file in the root directory.
 @use "../../abstracts/mixins";
 
 .section--tour {
-  background-color: colors.$purple-deep;
+  background-color: colors.$purple-darkest;
 }
 
 .tour-cards {
@@ -30,7 +30,7 @@ For license information, please see the LICENSE file in the root directory.
   margin-top: 20px;
   margin-bottom: 20px;
 
-  box-shadow: 5px 5px colors.$purple-medium;
+  box-shadow: 5px 5px colors.$purple;
   background-color: colors.$purple-dark;
   transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
 
@@ -51,7 +51,7 @@ For license information, please see the LICENSE file in the root directory.
     padding: 20px 0px 20px 0px;
 
     background-color: colors.$primary-color;
-    color: colors.$purple-deep;
+    color: colors.$purple-darkest;
     font-size: fonts.$font-size-h3;
     text-align: center;
   }
