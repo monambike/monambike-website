@@ -5,38 +5,38 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 // animations
-@use "animation/_rainstorm.scss";
-@use "animation/_reveal.scss";
+@use "animation/rainstorm";
+@use "animation/reveal";
 
 // base
-@use "base/_colors.scss";
-@use "base/_fonts.scss";
-@use "base/_mixins.scss";
-@use "base/_reset.scss";
-@use "base/_typography.scss";
+@use "abstracts/colors";
+@use "abstracts/fonts";
+@use "abstracts/mixins";
+@use "base/reset";
+@use "base/typography";
 
 // components
-@use "components/_button.scss";
-@use "components/_images.scss";
-@use "components/_links.scss";
-@use "components/_scrollbar.scss";
-@use "components/_select.scss";
-@use "components/_selection.scss";
+@use "components/button";
+@use "components/images";
+@use "components/links";
+@use "components/scrollbar";
+@use "components/select";
+@use "components/selection";
 
 // pages
 // pages/about
-@use "pages/about/_about.scss";
+@use "pages/about/about";
 // pages/home
-@use "pages/home/_about-me.scss";
-@use "pages/home/_contact.scss";
-@use "pages/home/_home.scss";
-@use "pages/home/_presentation.scss";
-@use "pages/home/_social-media.scss";
-@use "pages/home/_tour.scss";
-@use "pages/home/_warning.scss";
+@use "pages/home/about-me";
+@use "pages/home/contact";
+@use "pages/home/home";
+@use "pages/home/presentation";
+@use "pages/home/social-media";
+@use "pages/home/tour";
+@use "pages/home/warning";
 
 // shared
-@use "shared/_footer.scss";
-@use "shared/_header.scss";
-@use "shared/_loading.scss";
-@use "shared/_navigation.scss";
+@use "shared/footer";
+@use "shared/header";
+@use "shared/loading";
+@use "shared/navigation";

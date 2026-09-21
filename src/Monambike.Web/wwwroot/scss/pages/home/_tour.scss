@@ -4,8 +4,9 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-@use '../../base/_colors.scss';
-@use '../../base/_fonts.scss';
+@use "../../abstracts/colors";
+@use "../../abstracts/fonts";
+@use "../../abstracts/mixins";
 
 .section--tour {
   background-color: colors.$purple-deep;
@@ -33,7 +34,7 @@ For license information, please see the LICENSE file in the root directory.
   background-color: colors.$purple-dark;
   transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
 
-  &:hover {
+  @include mixins.hover {
     animation-name: shake;
     animation-duration: 0.5s;
     transform: scale(1.05);
@@ -77,23 +78,5 @@ For license information, please see the LICENSE file in the root directory.
   & div {
     background-color: colors.$purple-dark;
     box-shadow: 5px 5px colors.$purple-light;
-  }
-
-  // Adjust layout for smaller devices
-  @media(max-width:800px) {
-    // Removing animation
-    &:hover .footer__column {
-      transform: scale(1);
-    }
-
-    .footer__column {
-      margin: 15px 0px;
-      width: 100%;
-
-      // Making text aligned to middle
-      p {
-        text-align: center;
-      }
-    }
   }
 }

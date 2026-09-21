@@ -534,19 +534,21 @@ For license information, please see the LICENSE file in the root directory.
   background-color: rgb(95, 50, 155);
   transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
 }
-.tour-card:hover {
-  animation-name: shake;
-  animation-duration: 0.5s;
-  transform: scale(1.05);
-  transition-delay: 1;
-  transition-duration: 1s;
-}
-@keyframes shake {
-  25% {
-    transform: rotate(0.005turn);
+@media (hover: hover) {
+  .tour-card:hover {
+    animation-name: shake;
+    animation-duration: 0.5s;
+    transform: scale(1.05);
+    transition-delay: 1;
+    transition-duration: 1s;
   }
-  75% {
-    transform: rotate(-0.005turn);
+  @keyframes shake {
+    25% {
+      transform: rotate(0.005turn);
+    }
+    75% {
+      transform: rotate(-0.005turn);
+    }
   }
 }
 .tour-card__title {
@@ -573,18 +575,6 @@ For license information, please see the LICENSE file in the root directory.
 .tour-card div {
   background-color: rgb(95, 50, 155);
   box-shadow: 5px 5px rgb(227, 222, 236);
-}
-@media (max-width: 800px) {
-  .tour-card:hover .footer__column {
-    transform: scale(1);
-  }
-  .tour-card .footer__column {
-    margin: 15px 0px;
-    width: 100%;
-  }
-  .tour-card .footer__column p {
-    text-align: center;
-  }
 }
 
 /**************************************************************************
