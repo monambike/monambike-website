@@ -20,6 +20,10 @@ For license information, please see the LICENSE file in the root directory.
   }
 
   &__columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+
     margin: 0px 10% 0px 10%;
     padding: 20px;
 

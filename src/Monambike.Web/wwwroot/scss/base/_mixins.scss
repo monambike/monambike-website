@@ -4,19 +4,8 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
-/* Actually being used on Footer and "Tour" Index Page Section, it
-  makes possible to have three equal columns */
-.footer__column {
-  float: left;
-  width: 30%;
-
-  &:nth-child(odd) { /* Left and Right Column */
-    margin: 0px 1% 0px 1%;
-  }
-}
-
 // The component with this class cannot be selected
-.not-selectable {
+@mixin not-selectable {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE10+ / Edge */
   -moz-user-select: none; /* Firefox */

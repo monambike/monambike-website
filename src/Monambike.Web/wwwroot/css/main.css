@@ -106,23 +106,6 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/* Actually being used on Footer and "Tour" Index Page Section, it
-  makes possible to have three equal columns */
-.footer__column {
-  float: left;
-  width: 30%;
-}
-.footer__column:nth-child(odd) { /* Left and Right Column */
-  margin: 0px 1% 0px 1%;
-}
-
-.not-selectable {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE10+ / Edge */
-  -moz-user-select: none; /* Firefox */
-  user-select: none; /* Standard */
-}
-
 /**********************************************************************
 Copyright(c) 2026 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: @monambike for more information.
@@ -190,7 +173,7 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-.round-purple-button {
+.button--round-purple {
   position: relative;
   margin: auto;
   padding: 10px;
@@ -202,7 +185,7 @@ For license information, please see the LICENSE file in the root directory.
   text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */
   white-space: nowrap; /* Prevent text from wrapping to the next line */
 }
-.round-purple-button:hover {
+.button--round-purple:hover {
   background-color: rgb(250, 250, 250);
 }
 
@@ -225,21 +208,28 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 a {
-  padding-bottom: var(0.15em);
   color: rgb(250, 250, 250);
+}
+a:hover {
+  color: rgb(144, 100, 202);
+}
+
+p a,
+li a {
+  padding-bottom: var(0.15em);
   background: linear-gradient(90deg, rgb(144, 100, 202) 50%, rgb(250, 250, 250) 0) calc(100% - var(--underline-size, 0%))/200% 100%, linear-gradient(rgb(144, 100, 202) 0 0) 0% 100%/var(--underline-size, 0%) 0.15em no-repeat;
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
   transition: 0.5s;
 }
-a:hover {
-  --underline-size: 100%;
-  color: rgb(144, 100, 202);
-}
-
-p a[target=_blank]::after, li a[target=_blank]::after {
+p a[target=_blank]::after,
+li a[target=_blank]::after {
   content: "↗";
   margin-left: 5px;
+}
+p a:hover,
+li a:hover {
+  --underline-size: 100%;
 }
 
 /**************************************************************************
@@ -469,6 +459,12 @@ For license information, please see the LICENSE file in the root directory.
   text-transform: uppercase;
 }
 
+.presentation {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE10+ / Edge */
+  -moz-user-select: none; /* Firefox */
+  user-select: none; /* Standard */
+}
 .presentation__name {
   align-self: flex-end;
   text-align: left;
@@ -519,19 +515,21 @@ For license information, please see the LICENSE file in the root directory.
   background-color: rgb(77, 18, 161);
 }
 
-.tour-card-container {
+.tour-cards {
   align-items: center;
   display: flex;
   justify-content: center;
   align-content: space-evenly;
   flex-wrap: wrap;
-  gap: 100px;
   padding: 20px;
 }
 
 .tour-card {
   height: 600px;
+  max-width: 90%;
   width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   box-shadow: 5px 5px rgb(144, 100, 202);
   background-color: rgb(95, 50, 155);
   transition: transform 0.35s ease-out; /* Apply transition to 'transform' property with 'ease-out' timing function */
@@ -616,6 +614,9 @@ For license information, please see the LICENSE file in the root directory.
   padding: 5% 0% 5% 0%;
 }
 .footer__columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
   margin: 0px 10% 0px 10%;
   padding: 20px;
   border-top: 6px solid rgb(40, 40, 40);

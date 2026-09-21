@@ -5,6 +5,7 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 @use "../../base/_colors.scss";
+@use "../../base/mixins";
 
 .section--presentation {
   align-items: center;
@@ -16,7 +17,8 @@ For license information, please see the LICENSE file in the root directory.
 }
 
 .presentation {
-  
+  @include mixins.not-selectable;
+
   &__name {
     align-self: flex-end;
     text-align: left;

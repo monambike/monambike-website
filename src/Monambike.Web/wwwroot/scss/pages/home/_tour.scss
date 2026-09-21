@@ -11,7 +11,7 @@ For license information, please see the LICENSE file in the root directory.
   background-color: colors.$purple-deep;
 }
 
-.tour-card-container {
+.tour-cards {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -19,13 +19,15 @@ For license information, please see the LICENSE file in the root directory.
   // Style for Content Wrapping
   align-content: space-evenly;
   flex-wrap: wrap;
-  gap: 100px;
   padding: 20px;
 }
 
 .tour-card {
   height: 600px;
+  max-width: 90%;
   width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   box-shadow: 5px 5px colors.$purple-medium;
   background-color: colors.$purple-dark;
