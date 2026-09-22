@@ -154,11 +154,11 @@ For license information, please see the LICENSE file in the root directory.
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: clamp(5rem, 8vw, 6rem);
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: clamp(4rem, 8vw, 5rem);
 }
 
 p {
@@ -474,7 +474,7 @@ For license information, please see the LICENSE file in the root directory.
   word-break: normal;
 }
 .presentation__profession {
-  font-weight: 400;
+  font-weight: 450;
   text-shadow: 5px 5px rgb(87, 24, 176);
   overflow-wrap: normal;
   word-break: normal;
