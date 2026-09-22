@@ -11,10 +11,11 @@
 
 Project containing my personal website which contains some brief information about myself. Give me a chance, [check it out!](https://monambike.github.io) 🥺💜
 
-![Captura de tela 2023-05-31 102819](https://github.com/monambike/monambike-website/assets/35270174/ebdbe06e-e61d-4048-8775-aa4255dd05ec)
-![image](https://github.com/monambike/monambike-website/assets/35270174/7f532d41-bdeb-40a7-af23-f4faef80b42f)
-![image](https://github.com/monambike/monambike-website/assets/35270174/b628d6f3-5166-4c6c-8c8e-f3c5a6028377)
-![image](https://github.com/monambike/monambike-website/assets/35270174/b43a46a6-ac1f-4a1f-a74c-928dc797858c)
+<img width="960" height="540" alt="スクリーンショット 2026-09-21 231522" src="https://github.com/user-attachments/assets/9c7c13bf-d132-4d49-99ac-b2fbf531a9f6" />
+<img width="960" height="540" alt="スクリーンショット 2026-09-21 231533" src="https://github.com/user-attachments/assets/74705d25-1562-4319-8c5a-6d8c00c11613" />
+<img width="960" height="540" alt="スクリーンショット 2026-09-21 231541" src="https://github.com/user-attachments/assets/ce85c5c4-eff1-43a3-b343-7c6a378c0e2d" />
+<img width="960" height="540" alt="スクリーンショット 2026-09-21 231726" src="https://github.com/user-attachments/assets/84190681-2817-4664-aa66-5f29ff401bef" />
+<img width="960" height="540" alt="スクリーンショット 2026-09-21 231734" src="https://github.com/user-attachments/assets/239b6106-3e37-4eaf-a24b-0dbd5ca31e2b" />
 
 # Blog Website
 
