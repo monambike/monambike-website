@@ -6,16 +6,31 @@ For license information, please see the LICENSE file in the root directory.
 
 @use "../../abstracts/colors";
 
-.warning {
-  background-color: colors.$red;
-  color: colors.$white;
+.notice {
   padding: 5px;
-  text-align: center;
-}
 
-.tip {
-  background-color: colors.$purple;
   color: colors.$white;
-  padding: 5px;
   text-align: center;
+
+  // Tip Transition Animation
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+
+  &--warning {
+    background-color: colors.$red;
+  }
+
+  &--tip {
+    background-color: colors.$white;
+    color: colors.$purple;
+  }
+
+  // Tip Transition Animation
+  &--hidden {
+    opacity: 0;
+    transform: translateY(10px);
+  }
 }

@@ -2,17 +2,17 @@
 // Contact: contact@monambike.com for more information.
 // For license information, please see the LICENSE file in the root directory.
 
-namespace Monambike.Web.Models
+namespace Monambike.Web.Entities
 {
-    public class Phrase
+    public class Tip
     {
         private readonly List<string> _phrases;
 
-        public Phrase(List<string> phrases)
+        public Tip(List<string> phrases)
         {
             _phrases = phrases;
         }
 
-        public string GetRandomPhrase() => _phrases[new Random().Next(_phrases.Count)];
+        public string GetRandomTip() => _phrases[new Random().Next(_phrases.Count)];
     }
 }

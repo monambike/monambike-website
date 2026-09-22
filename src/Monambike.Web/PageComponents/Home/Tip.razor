@@ -1,0 +1,56 @@
+﻿@**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************@
+
+@inject HttpClient Http
+
+<h3 class="notice notice--tip @(IsHidden ? "notice--hidden" : "")">
+    @Text
+</h3>
+
+@code {
+    private string Text = "(˶˃ ᵕ ˂˶)/  eaeee :DD";
+
+    private bool IsHidden;
+
+    /// <summary>
+    /// Needs to match the animation transition in CSS.
+    /// </summary>
+    private const int AnimationDurationMs = 500;
+
+    protected override async Task OnInitializedAsync()
+    {
+        IsHidden = true;
+        await InvokeAsync(StateHasChanged);
+
+        var content = await Http.GetStringAsync("data/tips.txt");
+
+        var fileTips = content
+            .Split('\n', StringSplitOptions.RemoveEmptyEntries)
+            .Select(x => x.Trim())
+            .ToList();
+
+        var tip = new Entities.Tip(fileTips);
+
+        var timer = new PeriodicTimer(TimeSpan.FromSeconds(5));
+
+        Text = tip.GetRandomTip();
+        IsHidden = false;
+        await InvokeAsync(StateHasChanged);
+
+        while (await timer.WaitForNextTickAsync())
+        {
+            IsHidden = true;
+            await InvokeAsync(StateHasChanged);
+
+            await Task.Delay(AnimationDurationMs);
+
+            Text = tip.GetRandomTip();
+
+            IsHidden = false;
+            await InvokeAsync(StateHasChanged);
+        }
+    }
+}
