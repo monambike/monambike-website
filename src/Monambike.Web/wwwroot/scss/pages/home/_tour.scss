@@ -21,6 +21,10 @@ For license information, please see the LICENSE file in the root directory.
   align-content: space-evenly;
   flex-wrap: wrap;
   padding: 20px;
+
+  @include mixins.mobile {
+    justify-content: unset;
+  }
 }
 
 .tour-card {

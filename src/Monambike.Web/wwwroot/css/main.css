@@ -552,6 +552,11 @@ For license information, please see the LICENSE file in the root directory.
   flex-wrap: wrap;
   padding: 20px;
 }
+@media (max-width: 800px) {
+  .tour-cards {
+    justify-content: unset;
+  }
+}
 
 .tour-card {
   height: 600px;
