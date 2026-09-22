@@ -8,11 +8,12 @@ For license information, please see the LICENSE file in the root directory.
 @use "../../abstracts/mixins";
 
 .section--presentation {
+  padding-left: 2.5%;
   align-items: center;
+  display: flex;
+
   color: colors.$white;
   background: -webkit-linear-gradient(colors.$purple-darkest, colors.$purple-dark);
-  display: flex;
-  padding-left: 2.5%;
   text-transform: uppercase;
 }
 
@@ -21,21 +22,28 @@ For license information, please see the LICENSE file in the root directory.
 
   &__name {
     align-self: flex-end;
+
+    font-weight: 500;
     text-align: left;
     text-shadow: 5px 5px colors.$purple-dark;
-    text-wrap: balance;
-    word-break: break-all;
+    overflow-wrap: normal;
+    word-break: normal;
   }
 
   &__profession {
+    font-weight: 400;
     text-shadow: 5px 5px colors.$purple-dark;
-    text-wrap: balance;
-    word-break: break-all;
+    overflow-wrap: normal;
+    word-break: normal;
   }
 
   &__skill {
     display: flex;
-    font-size: 3rem;
+
     color: colors.$gray-light;
+
+    font-size: 3rem;
+    overflow-wrap: normal;
+    word-break: normal;
   }
 }
