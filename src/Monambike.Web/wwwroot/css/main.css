@@ -299,6 +299,23 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.error__tip {
+  background-color: rgb(147, 94, 228);
+  color: rgb(227, 222, 236);
+  padding: 10px;
+}
+
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
 .section--about__container {
   padding: 0px 15% 0px 15%;
 }

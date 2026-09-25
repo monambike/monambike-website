@@ -23,6 +23,9 @@ For license information, please see the LICENSE file in the root directory.
 @use "components/select";
 @use "components/selection";
 
+// pageerrors
+@use "pageerrors/error404-not-found.scss";
+
 // pages
 // pages/about
 @use "pages/about/about";

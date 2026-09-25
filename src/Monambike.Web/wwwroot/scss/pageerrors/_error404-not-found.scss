@@ -1,0 +1,20 @@
+/**************************************************************************
+Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: contact@monambike.com for more information.
+For license information, please see the LICENSE file in the root directory.
+**************************************************************************/
+
+@use "../abstracts/colors";
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__tip {
+    background-color: colors.$purple;
+    color: colors.$purple-light;
+    padding: 10px;
+  }
+}
