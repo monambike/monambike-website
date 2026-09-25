@@ -7,6 +7,7 @@ For license information, please see the LICENSE file in the root directory.
 @inherits LayoutComponentBase
 @using Monambike.Web.PageErrors
 
+<Monambike.Web.Shared.Loading/>
 <Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />

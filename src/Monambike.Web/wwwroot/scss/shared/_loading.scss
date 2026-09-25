@@ -7,7 +7,23 @@ For license information, please see the LICENSE file in the root directory.
 @use "../abstracts/colors";
 
 .loading {
-  &__content {
+  &::after {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      circle,
+      transparent 50%,
+      rgba(187, 143, 240, 0.4) 100%
+    );
+  }
+
+  &__background {
     position: fixed;
     inset: 0;
 
@@ -21,33 +37,50 @@ For license information, please see the LICENSE file in the root directory.
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.90);
   }
 
-  &__background-filter {
+  &__body {
     background-color: colors.$primary-color;
-  }
+    opacity: 0.85;
 
-  &__image {
-    padding: 2% 0;
-    text-align: center;
-
-    img {
-      border: 5px solid colors.$purple-dark;
-      border-radius: 5px;
-      max-height: 300px;
+      &:hover {
+      animation-name: shake;
+      animation-duration: 0.5s;
+      transition-delay: 1;
+      transition-duration: 1s;
+      opacity: 1;
+      transition: opacity 0.6s;
+      
+      @keyframes shake {
+        25% { transform: rotate(0.005turn); }
+        75% { transform: rotate(-0.005turn); }
+      }
     }
   }
 
-  &__title, &__body {
+  &__title, &__description {
     padding: 20px;
     font-size: 16pt;
     color: white;
     font-weight: bold;
   }
 
+  &__dots::after {
+    content: "...";
+    animation: blink-dots 1.5s infinite;
+
+    @keyframes blink-dots {
+      0%   { content: ""; }
+      25%  { content: "."; }
+      50%  { content: ".."; }
+      75%  { content: "..."; }
+      100% { content: ""; }
+    }
+  }
+
   &__title {
     background-color: colors.$purple-darkest;
   }
 
-  &__body {
+  &__description {
     background-color: colors.$purple-dark;
   }
 
@@ -63,5 +96,18 @@ For license information, please see the LICENSE file in the root directory.
     margin: 0;
     padding: 0;
     display: inline-block;
+  }
+
+  &__image {
+    padding: 2% 0;
+    text-align: center;
+
+    img {
+      border-width: 5px 0;
+      border-style: solid;
+      border-color: colors.$purple-dark;
+      border-radius: 5px;
+      max-height: 300px;
+    }
   }
 }
