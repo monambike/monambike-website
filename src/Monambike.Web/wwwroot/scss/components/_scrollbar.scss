@@ -5,6 +5,7 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 @use "../abstracts/colors";
+@use "../abstracts/mixins";
 
 // Scrollbar Width
 ::-webkit-scrollbar {
@@ -20,7 +21,7 @@ For license information, please see the LICENSE file in the root directory.
 ::-webkit-scrollbar-thumb {
   background: colors.$purple;
   
-  &:hover {
+  @include mixins.hover {
     background: colors.$purple-dark;
   }
 

@@ -74,7 +74,7 @@ For license information, please see the LICENSE file in the root directory.
     width: 100%;
 
     // Removing default image hover animation
-    &:hover {
+    @include mixins.hover {
       transform: scale(1) !important;
     }
   }

@@ -5,6 +5,7 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 @use "../abstracts/colors";
+@use "../abstracts/mixins";
 
 .loading {
   &::after {
@@ -41,7 +42,7 @@ For license information, please see the LICENSE file in the root directory.
     background-color: colors.$primary-color;
     opacity: 0.85;
 
-      &:hover {
+      @include mixins.hover {
       animation-name: shake;
       animation-duration: 0.5s;
       transition-delay: 1;

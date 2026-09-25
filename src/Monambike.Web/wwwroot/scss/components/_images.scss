@@ -4,11 +4,15 @@ Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
+@use "../abstracts/mixins";
+
 img {
   max-width: 100%;
   transition: 0.5s;
 
-  &:hover + figcaption {
-    opacity: 0;
+  @include mixins.hover {
+    + figcaption {
+      opacity: 0;
+    }
   }
 }

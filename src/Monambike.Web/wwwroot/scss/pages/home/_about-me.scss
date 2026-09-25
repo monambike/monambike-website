@@ -5,6 +5,7 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 @use "../../abstracts/colors";
+@use "../../abstracts/mixins";
 
 // Styles for About Section
 .section--about {
@@ -78,7 +79,7 @@ For license information, please see the LICENSE file in the root directory.
   li {
     transition: 0.5s;
 
-    &:hover {
+    @include mixins.hover {
       transform: scale(1.050);
     }
   }
@@ -109,8 +110,10 @@ For license information, please see the LICENSE file in the root directory.
     transition: 0.25s;
   }
 
-  &__image:hover {
-    transform: scale(1.050);
+  &__image {
+    @include mixins.hover {
+      transform: scale(1.050);
+    }
   }
 }
 

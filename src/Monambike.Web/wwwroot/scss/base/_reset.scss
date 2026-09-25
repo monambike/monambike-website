@@ -4,6 +4,8 @@ Contact: @monambike for more information.
 For license information, please see the LICENSE file in the root directory.
 **********************************************************************/
 
+@use "../abstracts/colors";
+
 // Typography
 h1,
 h2,
@@ -23,7 +25,12 @@ html, body {
 
 // Links
 a {
+  color: colors.$white;
   text-decoration: none;
+
+  &:hover {
+    color: colors.$white;
+  }
 }
 
 // IFrames

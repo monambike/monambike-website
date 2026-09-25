@@ -5,6 +5,7 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 @use "../abstracts/colors";
+@use "../abstracts/mixins";
 
 $link-color: colors.$purple;
 $link-underline-color: $link-color;
@@ -12,11 +13,11 @@ $link-underline-thickness: 0.15em;
 
 // Base Links
 a {
-    color: colors.$white;
+  color: colors.$white;
 
-    &:hover {
-      color: $link-color
-    }
+  @include mixins.hover {
+    color: $link-color
+  }
 }
 
 // Text Links
@@ -48,7 +49,7 @@ li
       margin-left: 5px;
     }
   
-    &:hover {
+    @include mixins.hover {
       --underline-size: 100%; // Reveal text color and underline layers 
     }
   }

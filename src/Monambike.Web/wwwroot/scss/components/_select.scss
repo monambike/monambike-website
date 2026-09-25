@@ -5,6 +5,7 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 
 @use "../abstracts/colors";
+@use "../abstracts/mixins";
 
 // Select Box
 select{
@@ -17,7 +18,7 @@ select{
 
   transition: 0.1s;
 
-  &:hover {
+  @include mixins.hover {
     background-color: colors.$gray-dark;
   }
 
