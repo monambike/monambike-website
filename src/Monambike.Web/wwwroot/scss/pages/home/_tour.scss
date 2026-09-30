@@ -10,27 +10,34 @@ For license information, please see the LICENSE file in the root directory.
 
 .section--tour {
   background-color: colors.$purple-darkest;
+  padding-bottom: 100px; // Adjust cards
 }
 
 .tour-cards {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
 
   // Style for Content Wrapping
   align-content: space-evenly;
   flex-wrap: wrap;
   padding: 20px;
+  width: 100%;
 
   @include mixins.mobile {
-    justify-content: unset;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    // justify-content: unset;
   }
 }
 
 .tour-card {
-  height: 600px;
-  max-width: 90%;
-  width: 400px;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 600px;;
+  max-width: 400px;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -72,6 +79,7 @@ For license information, please see the LICENSE file in the root directory.
     min-height: 300px;
     max-height: 300px;
     width: 100%;
+    margin-top: auto;
 
     // Removing default image hover animation
     @include mixins.hover {
@@ -80,7 +88,11 @@ For license information, please see the LICENSE file in the root directory.
   }
 
   & div {
+    height: 100%;
+    padding: 20px;
+    align-items: start;
+
     background-color: colors.$purple-dark;
-    box-shadow: 5px 5px colors.$purple-light;
+    box-shadow: 5px 0px colors.$purple-light;
   }
 }

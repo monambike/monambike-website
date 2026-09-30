@@ -24,16 +24,19 @@ html body {
 // Styles for Sections
 .section {
   display: block;
-  height: 100% !important;
-  min-height: 50vh;
-  overflow: hidden; // Hide scrollbars for text animation
-  padding: 10px 0px 10px 0px;
+  height: 100%;
+
+  // display: block;
+  // overflow: hidden; // Hide scrollbars for text animation
+  // height: 100%;
+  // min-height: 100vh;
 
   // Section Title
   &__title {
+    padding: 20px;
+
     color: colors.$white;
     font-size: fonts.$font-size-h2;
-    padding: 20px;
     text-align: center;
     text-shadow: 1px 1px 1px colors.$black;
   }

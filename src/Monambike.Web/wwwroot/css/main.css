@@ -460,15 +460,12 @@ html body {
 
 .section {
   display: block;
-  height: 100% !important;
-  min-height: 50vh;
-  overflow: hidden;
-  padding: 10px 0px 10px 0px;
+  height: 100%;
 }
 .section__title {
+  padding: 20px;
   color: rgb(250, 250, 250);
   font-size: 5rem;
-  padding: 20px;
   text-align: center;
   text-shadow: 1px 1px 1px rgb(25, 25, 25);
 }
@@ -579,26 +576,31 @@ For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
 .section--tour {
   background-color: rgb(62, 13, 130);
+  padding-bottom: 100px;
 }
 
 .tour-cards {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
   align-content: space-evenly;
   flex-wrap: wrap;
   padding: 20px;
+  width: 100%;
 }
 @media (max-width: 800px) {
   .tour-cards {
-    justify-content: unset;
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 }
 
 .tour-card {
-  height: 600px;
-  max-width: 90%;
-  width: 400px;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  max-width: 400px;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 5px 5px rgb(147, 94, 228);
@@ -639,6 +641,7 @@ For license information, please see the LICENSE file in the root directory.
   min-height: 300px;
   max-height: 300px;
   width: 100%;
+  margin-top: auto;
 }
 @media (hover: hover) {
   .tour-card__image:hover {
@@ -646,8 +649,11 @@ For license information, please see the LICENSE file in the root directory.
   }
 }
 .tour-card div {
+  height: 100%;
+  padding: 20px;
+  align-items: start;
   background-color: rgb(87, 24, 176);
-  box-shadow: 5px 5px rgb(227, 222, 236);
+  box-shadow: 5px 0px rgb(227, 222, 236);
 }
 
 /**************************************************************************
@@ -671,6 +677,12 @@ For license information, please see the LICENSE file in the root directory.
   margin: 0px 10% 0px 10%;
   padding: 20px;
   border-top: 6px solid rgb(40, 40, 40);
+}
+@media (max-width: 800px) {
+  .footer__columns {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 }
 .footer__columns span {
   color: rgb(147, 94, 228);
