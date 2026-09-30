@@ -8,10 +8,11 @@ For license information, please see the LICENSE file in the root directory.
 @use "../../abstracts/mixins";
 
 // Styles for About Section
-.section--about {
-
+.section {
   // Container Styling
   &__container {
+    display: flex;
+    flex-direction: column;
     padding: 0px 15% 0px 15%;
 
     // Remove Padding for Smaller Screens
@@ -19,43 +20,44 @@ For license information, please see the LICENSE file in the root directory.
       padding: 0;
     }
   }
-  
-  // Styles for Button Container
-  .button-container {
-    padding: 20px 0px;
-    text-align: center;
-  }
 
-  // Animated Purple Cross Background
-  @keyframes animatedBackground {
-    from {
-      background-position: 0 0;
+  &--about {
+    .button {
+      margin: 50px auto;
     }
 
-    to {
-      background-position: -10000px 0;
+    // Animated Purple Cross Background
+    @keyframes animatedBackground {
+      from {
+        background-position: 0 0;
+      }
+
+      to {
+        background-position: -10000px 0;
+      }
+
     }
 
+    // About Section Pseudo-Element for Animated Background
+    &::before {
+      content: "";
+      height: 100%;
+      opacity: 1;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      // Creates a radial gradient with an animated cross pattern on top
+      background: radial-gradient(circle, transparent 20%, rgba(30,30,30,1) 20%, rgba(30,30,30,1) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgba(30,30,30,1) 20%, rgba(30,30,30,1) 80%, transparent 80%, transparent) 80px 80px, linear-gradient(rgba(95,50,155,1) 6.4px, transparent 6.4px) 0 -3.2px, linear-gradient(90deg, rgba(95,50,155,1) 6.4px, rgba(30,30,30,1) 6.4px) -3.2px 0;
+      background-size: 160px 160px, 160px 160px, 80px 80px, 80px 80px;
+      animation: animatedBackground 75s linear infinite;
+    }
   }
 
-  // About Section Pseudo-Element for Animated Background
-  &::before {
-    content: "";
-    height: 100%;
-    opacity: 1;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    // Creates a radial gradient with an animated cross pattern on top
-    background: radial-gradient(circle, transparent 20%, rgba(30,30,30,1) 20%, rgba(30,30,30,1) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgba(30,30,30,1) 20%, rgba(30,30,30,1) 80%, transparent 80%, transparent) 80px 80px, linear-gradient(rgba(95,50,155,1) 6.4px, transparent 6.4px) 0 -3.2px, linear-gradient(90deg, rgba(95,50,155,1) 6.4px, rgba(30,30,30,1) 6.4px) -3.2px 0;
-    background-size: 160px 160px, 160px 160px, 80px 80px, 80px 80px;
-    animation: animatedBackground 75s linear infinite;
-  }
 }
 
 // Styles for Interest Lists
 .interests-list {
-  margin: 30px 10px 30px 10px;
+  margin: 30px 10px;
 
   // Shared Styles for Headings and List Items
   &__title, li {

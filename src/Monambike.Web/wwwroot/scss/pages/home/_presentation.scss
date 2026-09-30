@@ -18,6 +18,7 @@ For license information, please see the LICENSE file in the root directory.
 }
 
 .presentation {
+  margin: 2rem 0;
   @include mixins.not-selectable;
 
   &__name {

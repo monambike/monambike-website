@@ -332,17 +332,18 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-.section--about__container {
+.section__container {
+  display: flex;
+  flex-direction: column;
   padding: 0px 15% 0px 15%;
 }
 @media (max-width: 800px) {
-  .section--about__container {
+  .section__container {
     padding: 0;
   }
 }
-.section--about .button-container {
-  padding: 20px 0px;
-  text-align: center;
+.section--about .button {
+  margin: 50px auto;
 }
 @keyframes animatedBackground {
   from {
@@ -365,7 +366,7 @@ For license information, please see the LICENSE file in the root directory.
 }
 
 .interests-list {
-  margin: 30px 10px 30px 10px;
+  margin: 30px 10px;
 }
 .interests-list__title, .interests-list li {
   border: 1.82px solid rgb(30, 30, 30);
@@ -494,6 +495,7 @@ For license information, please see the LICENSE file in the root directory.
 }
 
 .presentation {
+  margin: 2rem 0;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE10+ / Edge */
   -moz-user-select: none; /* Firefox */
