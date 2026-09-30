@@ -13,6 +13,7 @@ For license information, please see the LICENSE file in the root directory.
   padding-bottom: 100px; // Adjust cards
 }
 
+// Tour Card Group
 .tour-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -27,10 +28,10 @@ For license information, please see the LICENSE file in the root directory.
   @include mixins.mobile {
     grid-template-columns: 1fr;
     justify-items: center;
-    // justify-content: unset;
   }
 }
 
+// Tour Individual Cards
 .tour-card {
   display: flex;
   flex-direction: column;
